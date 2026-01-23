@@ -30,12 +30,24 @@ The following statistics are scraped from SofaScore/WhoScored and used in the sc
 - **Passes Attempted** (`Passes_Att`)
 - **Fouls Committed** (`Performance_Fls`)
 
-## 4. Goalkeeping & Discipline
+## 4. Discipline
 - **Yellow Card**: -5 points
 - **Red Card**: -5 points
 - **Penalty Won**: +6.4 points (if not taken by player)
 - **Penalty Conceded**: -5 points
 - **Penalty Missed**: -5 points
+
+## 5. Goalkeeper Specifics (New Formula)
+- **Saves**: +1.3 points
+- **High Claims**: +1.0 points
+- **Punches**: +0.5 points
+- **Runs Out (Sweeper)**: +1.5 points
+- **Penalty Save**: +7.0 points
+- **Distribution**: +0.1 per completed pass
+- **Clean Sheet / Conceded**:
+  - Base: +10 points (0 conceded)
+  - Conceded Penalty: -5 points per goal conceded (Linear)
+  - Example: 0 goals = +10, 1 goal = +5, 2 goals = 0, 3 goals = -5
 
 ## 5. Contextual Stats (impact score)
 - **Minutes Played**: (must be >0 for points)

@@ -75,201 +75,110 @@ def fwd_score_calc (df, team_score,team_conc):
     
     return round(score,0)
 
-def calc_score (link, name, pos, team_score, team_conc):
-    url = pd.read_html(link)
-    cols_to_keep_summary = ['Unnamed: 0_level_0_Player','Unnamed: 5_level_0_Min', 'Performance_Gls',
-    'Performance_Ast', 'Performance_PK', 'Performance_PKatt',
-    'Performance_Sh', 'Performance_SoT', 'Performance_CrdY',
-    'Performance_CrdR','Performance_Tkl',
-    'Performance_Int','Passes_Cmp', 'Passes_Att', 
-    'Take-Ons_Att', 'Take-Ons_Succ']
+def gk_score_calc(df, team_score, team_conc):
+    # Comprehensive Goalkeeper Formula (Refined by User Request)
+    # Weights based on frequency/difficulty:
+    # - Run Out (Sweeper): +1.5 (Rarest)
+    # - High Claims: +1.0
+    # - Punches: +0.5
+    # - Saves: +1.3
+    # - Distribution: +0.1 per completed pass
+    
+    # Clean Sheet / Conceded Logic:
+    # Base +10 for Clean Sheet (0 conceded)
+    # Tiered penalty: -5 per goal conceded
+    # 0 conceded = 10
+    # 1 conceded = 5 (10 - 5)
+    # 2 conceded = 0 (10 - 10)
+    # 3 conceded = -5 (10 - 15)
+    
+    # Calculate Conceded Points (starts at +10, subtracts 5 per goal)
+    conceded_points = 10 - (5 * df['Performance_GK_GoalsConceded'])
+    
+    score = (
+        # Defensive Base (Aerials/Tackles/Ints/Clearances)
+        1.9 * df['Aerial Duels_Won'] 
+        - 1.5 * df['Aerial Duels_Lost']
+        + 1.5 * df['Performance_Tkl']
+        - 1.0 * df['Challenges_Lost'] 
+        + 1.5 * df['Performance_Int']
+        + 1.5 * df['Unnamed: 20_level_0_Clr']
+        
+        # GK Specific Actions (Weighted by Rarity)
+        + 0.5 * df['Performance_Punches']
+        + 1.0 * df['Performance_HighClaims']
+        + 1.5 * df['Performance_RunsOut']
+        
+        # Saves (Enhanced Value)
+        + 1.3 * df['Performance_Saves']
+        
+        # Big Moments
+        + 7.0 * df['Performance_PKSaved']
+        
+        # Goals Conceded / Clean Sheet
+        + conceded_points
+        
+        # Distribution (Volume based reward)
+        + (df['Passes_Cmp'] * 0.1)
+        
+        # Mistakes
+        - (3.5 * df['Performance_OG'])
+        - (5 * df['Unnamed: 21_level_0_Err'])
+        
+        # Attacking (Rare but huge bonus triggers)
+        + 10 * df['Performance_Gls']
+        + 8 * df['Performance_Ast']
+        
+        # Discipline
+        - 5 * df['Performance_CrdR']
+        - 3 * df['Performance_CrdY']
+        - 5 * df['Performance_PKcon']
+    )
+    
+    pk_won = df['Performance_PKwon'].values[0]
+    pk_scored = df['Performance_PK'].values[0]
+    
+    if (pk_won == 1) and (pk_scored != 1):
+        score += 6.4
 
-    cols_to_keep_passing = ['Unnamed: 0_level_0_Player','Unnamed: 23_level_0_KP']
-    cols_to_keep_def = ['Unnamed: 0_level_0_Player','Challenges_Lost', 'Unnamed: 20_level_0_Clr',
-                        'Unnamed: 21_level_0_Err', 'Blocks_Sh']
-    cols_to_keep_poss = ['Unnamed: 0_level_0_Player', 'Carries_Dis']
-    cols_to_keep_misc = ['Unnamed: 0_level_0_Player','Performance_Fls',
-                         'Performance_Off','Performance_Crs','Performance_OG',
-                         'Aerial Duels_Won', 'Aerial Duels_Lost', 'Performance_PKwon', 'Performance_PKcon']
+    minutes_played = df['Unnamed: 5_level_0_Min'].values[0]
+    
+    # Participation score
+    score += minutes_played / 30
 
-    df_summary = url[3]
-    df_summary.columns =  ['_'.join(col) for col in df_summary.columns.values]
-    df_summary = df_summary.loc[:,cols_to_keep_summary]
-    df_passing = url[4]
-    df_passing.columns =  ['_'.join(col) for col in df_passing.columns.values]
-    df_passing = df_passing.loc[:,cols_to_keep_passing]
-    df_def = url[6]
-    df_def.columns =  ['_'.join(col) for col in df_def.columns.values]
-    df_def = df_def.loc[:,cols_to_keep_def]
-    df_poss = url[7]
-    df_poss.columns =  ['_'.join(col) for col in df_poss.columns.values]
-    df_poss= df_poss.loc[:,cols_to_keep_poss]
-    df_misc = url[8]
-    df_misc.columns =  ['_'.join(col) for col in df_misc.columns.values]
-    df_misc = df_misc.loc[:,cols_to_keep_misc]
+    if (minutes_played <= 45) and (team_conc == 0):
+        # Clean sheet correction if played < 45? (Already handled by conceded_points logic mostly? 
+        # Logic: If played < 45, usually don't get full Clean Sheet bonus.
+        # Existing logic subtracts 5.
+        score -= 5
+    
+    return round(score, 0)
 
-    df_home = df_summary.merge(df_passing, on = 'Unnamed: 0_level_0_Player', how = 'inner')
-    df_home = df_home.merge(df_def, on = 'Unnamed: 0_level_0_Player', how = 'inner')
-    df_home = df_home.merge(df_misc, on = 'Unnamed: 0_level_0_Player', how = 'inner')
-    df_home = df_home.merge(df_poss,on= 'Unnamed: 0_level_0_Player', how = 'inner')
-    
-    df_summary = url[10]
-    df_summary.columns =  ['_'.join(col) for col in df_summary.columns.values]
-    df_summary = df_summary.loc[:,cols_to_keep_summary]
-    df_passing = url[11]
-    df_passing.columns =  ['_'.join(col) for col in df_passing.columns.values]
-    df_passing = df_passing.loc[:,cols_to_keep_passing]
-    df_def = url[13]
-    df_def.columns =  ['_'.join(col) for col in df_def.columns.values]
-    df_def = df_def.loc[:,cols_to_keep_def]
-    df_poss = url[14]
-    df_poss.columns =  ['_'.join(col) for col in df_poss.columns.values]
-    df_poss= df_poss.loc[:,cols_to_keep_poss]
-    df_misc = url[15]
-    df_misc.columns =  ['_'.join(col) for col in df_misc.columns.values]
-    df_misc = df_misc.loc[:,cols_to_keep_misc]
-
-    df_away = df_summary.merge(df_passing, on = 'Unnamed: 0_level_0_Player', how = 'inner')
-    df_away = df_away.merge(df_def, on = 'Unnamed: 0_level_0_Player', how = 'inner')
-    df_away = df_away.merge(df_misc, on = 'Unnamed: 0_level_0_Player', how = 'inner')
-    df_away = df_away.merge(df_poss,on= 'Unnamed: 0_level_0_Player', how = 'inner')
-    
-    stacked_df = pd.concat([df_home,df_away],axis=0)
-    stacked_df.reset_index(drop=True, inplace=True)
-    
-    df = stacked_df[stacked_df['Unnamed: 0_level_0_Player'] == name]
-    
-    team_score = team_score
-    team_conc =  team_conc
-    
+def score_calc_wrapper(pos, df, team_score, team_conc):
     if pos == "FWD":
-        score = fwd_score_calc(df, team_score, team_conc)
-    elif pos =="MID":
-        score = mid_score_calc(df, team_score, team_conc)
-    elif pos =="DEF":
-        score = def_score_calc(df, team_score, team_conc)
-        
-    return score
-
-
-def get_match_events(link):
-    # Fetch the page content
-    headers = {
-        "User-Agent": "Mozilla/5.0 (compatible; Bot/0.1)"
-    }
-    response = requests.get(link, headers=headers)
-    if response.status_code != 200:
-        raise ValueError(f"Failed to fetch the page: Status code {response.status_code}")
-
-    # Parse the content using BeautifulSoup
-    soup = BeautifulSoup(response.content, 'html.parser')
-
-    # Find the div with id "events_wrap"
-    events_wrap_div = soup.find('div', id='events_wrap')
-
-    if not events_wrap_div:
-        raise ValueError("Could not find 'events_wrap' div.")
-
-    # Create a list to store events
-    match_events = []
-
-    # Iterate through each event div
-    event_divs = events_wrap_div.find_all('div', class_='event')
-    
-    for event_div in event_divs:
-        # Time of the event (e.g., 27', 33')
-        time_div = event_div.find('div')
-        time = time_div.get_text(strip=True).split("'")[0] if time_div else None
-
-        # Find the event type (goal, card, substitution, etc.)
-        event_type_div = event_div.find('div', class_='event_icon')
-        if event_type_div:
-            event_classes = event_type_div.get('class', [])
-            if 'goal' in event_classes:
-                event_kind = 'Goal'
-            elif 'penalty_goal' in event_classes:
-                event_kind = 'Goal'
-            elif 'yellow_card' in event_classes:
-                event_kind = 'Yellow Card'
-            elif 'substitute_in' in event_classes:
-                event_kind = 'Substitution'
-            else:
-                event_kind = 'Unknown Event'
-        
-            if event_kind == 'Substitution':
-                # Extract player coming in (player_on)
-                player_on_tag = event_div.find('a')
-                player_on = player_on_tag.get_text(strip=True) if player_on_tag else None
-                
-                player_info_div = event_type_div.find_next_sibling('div')
-
-                small_tags = player_info_div.find_all('small')
-                player_off = None
-                for small_tag in small_tags:
-                    if 'for' in small_tag.get_text(strip=True):
-                        player_off_tag = small_tag.find('a')
-                        player_off = player_off_tag.get_text(strip=True) if player_off_tag else None
-                        break  # Found the correct small tag
-
-                # Append the substitution event to the match events list
-                match_events.append({
-                    'time': time,
-                    'event_kind': event_kind,
-                    'player_on': player_on,
-                    'player_off': player_off,
-                })
-            else:
-                # Get the player involved in the event
-                player_tag = event_div.find('a')
-                player = player_tag.get_text(strip=True) if player_tag else None
-                
-                # Get the scoreline after the event (if available)
-                scoreline_tag = event_div.find('small')
-                scoreline = scoreline_tag.get_text(strip=True) if scoreline_tag else None
-
-                # Append the event to the match events list
-                match_events.append({
-                    'time': time,
-                    'event_kind': event_kind,
-                    'player': player,
-                    'scoreline': scoreline
-                })
-
-    return match_events
-
-
-def position_calcul(pos):
-    if len(pos) > 2 :
-        final_pos = pos.split(",")[0]
+        return fwd_score_calc(df, team_score, team_conc)
+    elif pos == "MID":
+        return mid_score_calc(df, team_score, team_conc)
+    elif pos == "DEF":
+        return def_score_calc(df, team_score, team_conc)
+    elif pos == "GK":
+        return gk_score_calc(df, team_score, team_conc)
     else:
-        final_pos = pos
-    
-    if final_pos.endswith("W"):
-        return "FWD"
-    elif final_pos.endswith ("M"):
-        return "MID"
-    elif final_pos.endswith ("B"):
-        return "DEF"
-    
-
+        return mid_score_calc(df, team_score, team_conc)
 
 def process_match_events(match_events, df_home, df_away):
     """
     Processes match events and returns a DataFrame with player statistics.
-
-    Parameters:
-    - match_events (list of dict): List of match events.
-    - df_home (pd.DataFrame): DataFrame containing home team player data.
-    - df_away (pd.DataFrame): DataFrame containing away team player data.
-
-    Returns:
-    - pd.DataFrame: DataFrame with player statistics including minutes played, goals scored, and goals conceded.
+    Fixed to handle 0-minute bench players correctly.
     """
-    import pandas as pd
-
     # Combine home and away players into sets for team assignments
     team_home_players = set(df_home['Unnamed: 0_level_0_Player'].str.strip())
     team_away_players = set(df_away['Unnamed: 0_level_0_Player'].str.strip())
+    
+    # Create lookups for substitute status
+    home_subs = set(df_home[df_home['is_sub'] == True]['Unnamed: 0_level_0_Player'].str.strip())
+    away_subs = set(df_away[df_away['is_sub'] == True]['Unnamed: 0_level_0_Player'].str.strip())
+    all_subs = home_subs.union(away_subs)
 
     def get_team(player_name):
         if player_name in team_home_players:
@@ -356,15 +265,26 @@ def process_match_events(match_events, df_home, df_away):
                     'off_time': minute
                 }
 
-    # Add players who played full match
+    # Add players who played full match OR sat on bench (need to distinguish)
     all_players = set(df_home['Unnamed: 0_level_0_Player'].tolist() + df_away['Unnamed: 0_level_0_Player'].tolist())
+    
     for player in all_players:
         if player not in players:
-            players[player] = {
-                'team': get_team(player),
-                'on_time': 0,
-                'off_time': match_end_time
-            }
+            # FIX: Check if they are a substitute
+            if player in all_subs:
+                # Unused substitute
+                players[player] = {
+                    'team': get_team(player),
+                    'on_time': 0,
+                    'off_time': 0 # Played 0 minutes
+                }
+            else:
+                # Starter who played full game
+                players[player] = {
+                    'team': get_team(player),
+                    'on_time': 0,
+                    'off_time': match_end_time
+                }
 
     # Calculate goals scored and conceded for each player
     player_stats = []
@@ -376,26 +296,30 @@ def process_match_events(match_events, df_home, df_away):
         off_time = data['off_time']
         minutes_played = off_time - on_time
 
-        # Get scoreline before on_time and off_time
-        scoreline_before_on = get_scoreline_before_minute(on_time)
-        scoreline_before_off = get_scoreline_before_minute(off_time)
+        goals_scored = 0
+        goals_conceded = 0
+        
+        if minutes_played > 0:
+            # Get scoreline before on_time and off_time
+            scoreline_before_on = get_scoreline_before_minute(on_time)
+            scoreline_before_off = get_scoreline_before_minute(off_time)
 
-        if on_time == 0 and off_time == match_end_time:
-            # Played full match
-            goals_scored = final_scoreline['home_goals'] if team == 'Home' else final_scoreline['away_goals']
-            goals_conceded = final_scoreline['away_goals'] if team == 'Home' else final_scoreline['home_goals']
-        elif on_time == 0:
-            # Subbed off
-            goals_scored = scoreline_before_off['home_goals'] if team == 'Home' else scoreline_before_off['away_goals']
-            goals_conceded = scoreline_before_off['away_goals'] if team == 'Home' else scoreline_before_off['home_goals']
-        elif off_time == match_end_time:
-            # Subbed on
-            goals_scored = (final_scoreline['home_goals'] - scoreline_before_on['home_goals']) if team == 'Home' else (final_scoreline['away_goals'] - scoreline_before_on['away_goals'])
-            goals_conceded = (final_scoreline['away_goals'] - scoreline_before_on['away_goals']) if team == 'Home' else (final_scoreline['home_goals'] - scoreline_before_on['home_goals'])
-        else:
-            # Subbed on and off (unlikely but handled)
-            goals_scored = (scoreline_before_off['home_goals'] - scoreline_before_on['home_goals']) if team == 'Home' else (scoreline_before_off['away_goals'] - scoreline_before_on['away_goals'])
-            goals_conceded = (scoreline_before_off['away_goals'] - scoreline_before_on['away_goals']) if team == 'Home' else (scoreline_before_off['home_goals'] - scoreline_before_on['home_goals'])
+            if on_time == 0 and off_time == match_end_time:
+                # Played full match
+                goals_scored = final_scoreline['home_goals'] if team == 'Home' else final_scoreline['away_goals']
+                goals_conceded = final_scoreline['away_goals'] if team == 'Home' else final_scoreline['home_goals']
+            elif on_time == 0:
+                # Subbed off
+                goals_scored = scoreline_before_off['home_goals'] if team == 'Home' else scoreline_before_off['away_goals']
+                goals_conceded = scoreline_before_off['away_goals'] if team == 'Home' else scoreline_before_off['home_goals']
+            elif off_time == match_end_time:
+                # Subbed on
+                goals_scored = (final_scoreline['home_goals'] - scoreline_before_on['home_goals']) if team == 'Home' else (final_scoreline['away_goals'] - scoreline_before_on['away_goals'])
+                goals_conceded = (final_scoreline['away_goals'] - scoreline_before_on['away_goals']) if team == 'Home' else (final_scoreline['home_goals'] - scoreline_before_on['home_goals'])
+            else:
+                # Subbed on and off
+                goals_scored = (scoreline_before_off['home_goals'] - scoreline_before_on['home_goals']) if team == 'Home' else (scoreline_before_off['away_goals'] - scoreline_before_on['away_goals'])
+                goals_conceded = (scoreline_before_off['away_goals'] - scoreline_before_on['away_goals']) if team == 'Home' else (scoreline_before_off['home_goals'] - scoreline_before_on['home_goals'])
 
         player_stats.append({
             'Unnamed: 0_level_0_Player': player,
@@ -415,14 +339,15 @@ def process_match_events(match_events, df_home, df_away):
     final_df = pd.concat([df_home, df_away], ignore_index=True)
 
     # Fill NaN values in statistics with defaults
-    final_df['minutes_played'] = final_df['minutes_played'].fillna(90)
+    # Important: If a player was not in 'players' map (shouldn't happen with logic above), default to 0
+    final_df['minutes_played'] = final_df['minutes_played'].fillna(0)
     final_df['goals_scored'] = final_df['goals_scored'].fillna(0)
     final_df['goals_conceded'] = final_df['goals_conceded'].fillna(0)
 
     return final_df
 
 
-def calc_all_players (link, whoscored_url: str = None):
+def calc_all_players(link, whoscored_url: str = None):
     """Calculate fantasy scores for all players in a match.
     
     Args:
@@ -454,12 +379,10 @@ def calc_all_players (link, whoscored_url: str = None):
     # Iterate through all players to calculate scores
     for index, row in final_df_with_plus_minus.iterrows():
         name = row['Unnamed: 0_level_0_Player']
-        # Adapter maps position to "FWD", "MID", "DEF". 
-        # Existing logic used 'position_calcul' on raw string. We use the mapped one.
-        pos = row['Pos'] 
+        # Adapter maps position to "FWD", "MID", "DEF", "GK". 
+        pos = row['Pos']
         
         # Get the specific rows for this player (should be 1 row)
-        # We need a DataFrame to pass to the score functions as they use df['Col'] syntax
         df = final_df_with_plus_minus[final_df_with_plus_minus['Unnamed: 0_level_0_Player'] == name]
         
         if df.empty:
@@ -467,39 +390,26 @@ def calc_all_players (link, whoscored_url: str = None):
             
         minutes_played = df['minutes_played'].values[0]
         
-        # User Rule: Unused subs (0 minutes) get 0 points
+        # User Rule: unused subs (0 minutes) don't even show up
         if minutes_played == 0:
-            score = 0
-        else:
-            t_score = df['goals_scored'].values[0]
-            t_conc = df['goals_conceded'].values[0]
+            continue # Skip adding to scores list
             
+        t_score = df['goals_scored'].values[0]
+        t_conc = df['goals_conceded'].values[0]
+        
+        score = 0
+        try:
+            score = score_calc_wrapper(pos, df, t_score, t_conc)
+        except Exception as e:
+            print(f"Error calculating score for {name} ({pos}): {e}")
             score = 0
-            # Ensure position is valid
-            if pos == "FWD":
-                score = fwd_score_calc(df, t_score, t_conc)
-            elif pos == "MID":
-                score = mid_score_calc(df, t_score, t_conc)
-            elif pos == "DEF":
-                score = def_score_calc(df, t_score, t_conc)
-            elif pos == "GK":
-                # Fallback for GK if needed or treat as DEF? 
-                # Excel usually treats GK same as DEF for clean sheets but different for saves.
-                # Assuming DEF formula for now or need GK specific?
-                # The provided code doesn't have gk_score_calc. 
-                # Let's map GK to DEF for now or check previous implementation.
-                score = def_score_calc(df, t_score, t_conc)
-            else:
-                # Default to MID if unknown position
-                score = mid_score_calc(df, t_score, t_conc)
             
         scores.append([name, score, pos])
     
     # Create final result DataFrame
-    # stacked_df = pd.DataFrame(scores, columns=["name", "score", "pos"])
-    # REFACTOR: Return full detailed stats for verification website
-    
-    # "scores" is a list of [name, score, pos]. We want to merge "score" back into the main DF.
+    if not scores:
+        return pd.DataFrame(columns=["name", "score", "pos"])
+
     # Convert scores to DF
     scores_df = pd.DataFrame(scores, columns=["name", "score", "pos"])
     
@@ -513,3 +423,4 @@ def calc_all_players (link, whoscored_url: str = None):
     stacked_df['score'] = stacked_df['score'].astype(int)
     
     return stacked_df
+

@@ -248,8 +248,19 @@ def map_player_stats(player_data):
     mapped['Performance_CrdY'] = get('yellowCards') if 'yellowCards' in stats else (1 if get('yellowCard') else 0)
     mapped['Performance_CrdR'] = get('redCards') if 'redCards' in stats else (1 if get('redCard') else 0)
     
+    # Goalkeeping
+    mapped['Performance_Saves'] = get('saves')
+    mapped['Performance_Punches'] = get('punches')
+    mapped['Performance_HighClaims'] = get('goodHighClaim')
+    mapped['Performance_RunsOut'] = get('totalKeeperSweeper') # or runsOut?
+    mapped['Performance_PKSaved'] = get('penaltySave')
+    mapped['Performance_GK_GoalsConceded'] = get('goalsConceded')
+    
     # Misc
     mapped['Hit_Woodwork'] = get('hitWoodwork')
+    
+    # Metadata
+    mapped['is_sub'] = player_data.get('substitute', False)
 
     # Return as a Series-compatible dict
     return mapped
