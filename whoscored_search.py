@@ -84,9 +84,14 @@ def cleanup_bing_url(url):
 def find_match_url(home_team, away_team):
     """
     Find WhoScored match URL using multiple strategies.
-    Now with English Name Mapping.
+    Now matches generic "Team Fixtures" regardless of league.
+    Returns (url, log_messages) tuple.
     """
-    
+    logs = []
+    def log(msg):
+        print(msg)
+        logs.append(msg)
+
     # 1. Prepare standardized names
     h_eng = clean_team_name(home_team)
     a_eng = clean_team_name(away_team)
@@ -97,7 +102,7 @@ def find_match_url(home_team, away_team):
         f"whoscored {h_eng} {a_eng}"
     ]
     
-    print(f"Searching match for {home_team} ({h_eng}) vs {away_team} ({a_eng})")
+    log(f"Searching match for {home_team} ({h_eng}) vs {away_team} ({a_eng})")
     
     def validate_url(url):
         if not url: return False
@@ -105,14 +110,14 @@ def find_match_url(home_team, away_team):
         if "/Matches/" not in url: return False
         return True
 
-    # Strategy 1: DDG Lite (Custom Scraper) - proven to work in restricted envs
-    print("Strategy 1: DDG Lite HTML Scrape")
+    # Strategy 1: DDG Lite HTML Scrape
+    log("Strategy 1: DDG Lite HTML Scrape")
     from bs4 import BeautifulSoup
     from curl_cffi import requests
     
     for q in queries:
         try:
-            print(f"  DDG Lite Query: {q}")
+            log(f"  DDG Lite Query: {q}")
             url = "https://lite.duckduckgo.com/lite/"
             data = {"q": q, "kl": "us-en"}
             
@@ -129,13 +134,14 @@ def find_match_url(home_team, away_team):
                 for a in soup.find_all('a', class_='result-link'):
                     href = a['href']
                     if validate_url(href):
-                        print(f"FOUND via DDG Lite: {href}")
-                        return href
+                        log(f"FOUND via DDG Lite: {href}")
+                        return href, logs
         except Exception as e:
-            print(f"DDG Lite error: {e}")
+            log(f"DDG Lite error: {e}")
+
     # Strategy 2: Google Search (googlesearch-python)
     if google_search:
-        print("Strategy 2: Google")
+        log("Strategy 2: Google")
         for q in queries:
             try:
                 # advanced=True returns objects with .url
@@ -143,22 +149,20 @@ def find_match_url(home_team, away_team):
                 for r in results:
                     url = r.url
                     if validate_url(url):
-                        print(f"FOUND via Google: {url}")
-                        return url
+                        log(f"FOUND via Google: {url}")
+                        return url, logs
             except Exception as e:
                 pass
                 
     # Strategy 3: Raw Bing HTML Scrape (Fallback)
-    print("Strategy 3: Raw Bing Scrape")
-    from bs4 import BeautifulSoup
-    from curl_cffi import requests
+    log("Strategy 3: Raw Bing Scrape")
     import urllib.parse
     
     for q in queries:
         try:
             url_enc = urllib.parse.quote(q)
             b_url = f"https://www.bing.com/search?q={url_enc}"
-            print(f"  Bing scraping: {b_url}")
+            log(f"  Bing scraping: {b_url}")
             
             resp = requests.get(b_url, impersonate="chrome120")
             if resp.status_code == 200:
@@ -168,20 +172,20 @@ def find_match_url(home_team, away_team):
                     href = a['href']
                     # Log potentially relevant links
                     if "whoscored" in href:
-                        print(f"    Bing Candidate: {href}")
+                         pass
                         
                     if validate_url(href):
-                         print(f"FOUND via Bing Raw: {href}")
-                         return href
+                          log(f"FOUND via Bing Raw: {href}")
+                          return href, logs
         except Exception as e:
-             print(f"Bing Error: {e}")
+              log(f"Bing Error: {e}")
     
     # Strategy 4: Team Fixtures Lookup (The "Nuclear Option")
-    print("Strategy 4: Team Fixtures Page Lookup")
+    log("Strategy 4: Team Fixtures Page Lookup")
     # 1. Find Home Team Fixtures URL
     fixtures_url = None
     q_fixtures = f"WhoScored {h_eng} Fixtures"
-    print(f"  Searching for fixtures: {q_fixtures}")
+    log(f"  Searching for fixtures: {q_fixtures}")
     
     try:
         # Reuse DDG Lite logic for fixtures
@@ -207,15 +211,15 @@ def find_match_url(home_team, away_team):
                     # "https://www.whoscored.com/Teams/{id}/Fixtures"
                     # We can leave the final slug empty or putting "Team" works
                     fixtures_url = f"https://www.whoscored.com/Teams/{tid}/Fixtures"
-                    print(f"  Found Team ID: {tid} -> {fixtures_url}")
+                    log(f"  Found Team ID: {tid} -> {fixtures_url}")
                     break
     except Exception as e:
-        print(f"  Fixtures search error: {e}")
+        log(f"  Fixtures search error: {e}")
         
     if fixtures_url:
         # 2. Scrape Fixtures Page for Opponent
         try:
-             print(f"  Scraping fixtures page: {fixtures_url}")
+             log(f"  Scraping fixtures page: {fixtures_url}")
              f_resp = requests.get(fixtures_url, impersonate="chrome120", headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"})
              if f_resp.status_code == 200:
                  # Regex for match data: [12345, ... 'OpponentName', ...]
@@ -237,17 +241,17 @@ def find_match_url(home_team, away_team):
                                  match = re.search(r',\[(\d+),', line)
                                  if match:
                                      found_id = match.group(1)
-                                     print(f"  Found Match ID in fixtures: {found_id} (Matched '{term}')")
+                                     log(f"  Found Match ID in fixtures: {found_id} (Matched '{term}')")
                                      break
                      if found_id: break
                 
                  if found_id:
                      final_url = f"https://www.whoscored.com/Matches/{found_id}/Live"
-                     print(f"FOUND via Team Fixtures: {final_url}")
-                     return final_url
+                     log(f"FOUND via Team Fixtures: {final_url}")
+                     return final_url, logs
                      
         except Exception as e:
-            print(f"  Fixtures page scrape error: {e}")
+            log(f"  Fixtures page scrape error: {e}")
 
-    print("All search strategies failed.")
-    return None
+    log("All search strategies failed.")
+    return None, logs

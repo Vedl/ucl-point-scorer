@@ -48,12 +48,14 @@ if st.button("Calculate Scores", type="primary"):
                 
                 if not whoscored_url:
                     st.write("🕵️‍♂️ Searching for WhoScored data...")
-                    whoscored_url = whoscored_search.find_match_url(home_team, away_team)
+                    whoscored_url, search_logs = whoscored_search.find_match_url(home_team, away_team)
                 
                 if whoscored_url:
                     st.success(f"Using WhoScored Data: {whoscored_url}")
                 else:
                     st.warning("WhoScored match not found automatically. Using SofaScore positions (less accurate for Wing-Backs).")
+                    with st.expander("Search Debug Logs (for troubleshooting)"):
+                        st.code("\n".join(search_logs))
                 
                 # 3. Calculate Scores
                 st.write("📊 Calculating points...")
