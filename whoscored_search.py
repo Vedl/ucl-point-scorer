@@ -133,6 +133,7 @@ def find_match_url(home_team, away_team):
                 soup = BeautifulSoup(resp.text, 'lxml')
                 for a in soup.find_all('a', class_='result-link'):
                     href = a['href']
+                    log(f"    Candidate: {href}")
                     if validate_url(href):
                         log(f"FOUND via DDG Lite: {href}")
                         return href, logs
@@ -145,9 +146,11 @@ def find_match_url(home_team, away_team):
         for q in queries:
             try:
                 # advanced=True returns objects with .url
+                # Standard google search might block cloud IPs
                 results = google_search(q, num_results=5, advanced=True)
                 for r in results:
                     url = r.url
+                    log(f"    Google Candidate: {url}")
                     if validate_url(url):
                         log(f"FOUND via Google: {url}")
                         return url, logs
@@ -170,9 +173,8 @@ def find_match_url(home_team, away_team):
                 # Find links
                 for a in soup.find_all('a', href=True):
                     href = a['href']
-                    # Log potentially relevant links
                     if "whoscored" in href:
-                         pass
+                         log(f"    Bing Candidate: {href}")
                         
                     if validate_url(href):
                           log(f"FOUND via Bing Raw: {href}")
@@ -195,7 +197,7 @@ def find_match_url(home_team, away_team):
             url_lite, 
             data=data, 
             impersonate="chrome120",
-            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"},
+            headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"},
             timeout=10
         )
         if resp.status_code == 200:
@@ -207,9 +209,6 @@ def find_match_url(home_team, away_team):
                 match = re.search(r'/Teams/(\d+)/', href)
                 if match:
                     tid = match.group(1)
-                    # Construct generic fixtures URL to avoid language/slug issues
-                    # "https://www.whoscored.com/Teams/{id}/Fixtures"
-                    # We can leave the final slug empty or putting "Team" works
                     fixtures_url = f"https://www.whoscored.com/Teams/{tid}/Fixtures"
                     log(f"  Found Team ID: {tid} -> {fixtures_url}")
                     break
@@ -220,8 +219,22 @@ def find_match_url(home_team, away_team):
         # 2. Scrape Fixtures Page for Opponent
         try:
              log(f"  Scraping fixtures page: {fixtures_url}")
-             f_resp = requests.get(fixtures_url, impersonate="chrome120", headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"})
-             log(f"  Fixtures Page Status: {f_resp.status_code}")
+             
+             # Attempt 1: curl_cffi with Linux UA
+             ua_linux = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+             f_resp = requests.get(fixtures_url, impersonate="chrome120", headers={"User-Agent": ua_linux})
+             log(f"  Fixtures Page Status (curl_cffi): {f_resp.status_code}")
+             
+             content = f_resp.text
+             
+             # Attempt 2: Standard requests (Fallback if 403)
+             if f_resp.status_code == 403:
+                 log("  Retrying with standard requests lib...")
+                 import requests as std_requests
+                 f_resp = std_requests.get(fixtures_url, headers={"User-Agent": ua_linux}, timeout=10)
+                 log(f"  Fixtures Page Status (std requests): {f_resp.status_code}")
+                 content = f_resp.text
+             
              if f_resp.status_code == 200:
                  # Regex for match data: [12345, ... 'OpponentName', ...]
                  
