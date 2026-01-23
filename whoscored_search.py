@@ -221,10 +221,13 @@ def find_match_url(home_team, away_team):
         try:
              log(f"  Scraping fixtures page: {fixtures_url}")
              f_resp = requests.get(fixtures_url, impersonate="chrome120", headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"})
+             log(f"  Fixtures Page Status: {f_resp.status_code}")
              if f_resp.status_code == 200:
                  # Regex for match data: [12345, ... 'OpponentName', ...]
                  
                  lines = f_resp.text.split('\n')
+                 log(f"  Page content length: {len(f_resp.text)}")
+                 log(f"  First 100 chars: {f_resp.text[:100]}")
                  # Search terms
                  search_terms = [a_eng, away_team, "Union", "St. Gilloise", "Union SG", "Pafos", "Pafos FC"]
                  
