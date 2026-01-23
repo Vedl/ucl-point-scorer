@@ -3,5 +3,6 @@ __pycache__/
 .DS_Store
 .env
 venv/
-.streamlit/
+.streamlit/secrets.toml
+# .streamlit/config.toml is allowed
 *.log
