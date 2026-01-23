@@ -1,0 +1,453 @@
+Unnamed: 0_level_0_Player,Unnamed: 5_level_0_Min,Pos,Performance_Gls,Performance_Ast,Performance_Sh,Performance_SoT,Passes_Cmp,Passes_Att,Unnamed: 23_level_0_KP,Performance_Crs,Take-Ons_Succ,Take-Ons_Att,Carries_Dis,Performance_Fls,Performance_Off,Performance_Tkl,Performance_Int,Unnamed: 20_level_0_Clr,Blocks_Sh,Challenges_Lost,Unnamed: 21_level_0_Err,Performance_OG,Aerial Duels_Won,Aerial Duels_Lost,Performance_PKwon,Performance_PKcon,Performance_PK,Performance_PKatt,Performance_CrdY,Performance_CrdR,Team,minutes_played,goals_scored,goals_conceded,name,score_calc,pos_calc,match,name_lower,score_excel,pos_excel,diff,pos_match,abs_diff
+Giovanni Di Lorenzo,90,DEF,0,0,0,0,71,79,1,2,0,1,1,0,0,1,1,2,2,1,0,0,3,2,0,0,0,0,0,0,Home,90,0,0,Giovanni Di Lorenzo,36,DEF,Napoli vs Eintracht Frankfurt,giovanni di lorenzo,37,DEF,-1,True,1
+Amir Rrahmani,90,DEF,0,0,0,0,101,109,0,0,0,0,0,1,0,1,2,5,1,1,0,0,4,1,0,0,0,0,0,0,Home,90,0,0,Amir Rrahmani,44,DEF,Napoli vs Eintracht Frankfurt,amir rrahmani,43,DEF,1,True,1
+Alessandro Buongiorno,90,DEF,0,0,0,0,76,84,0,0,0,0,1,5,0,4,1,3,0,0,0,0,1,0,0,0,0,0,0,0,Home,90,0,0,Alessandro Buongiorno,37,DEF,Napoli vs Eintracht Frankfurt,alessandro buongiorno,37,DEF,0,True,0
+Miguel Gutiérrez,90,DEF,0,0,0,0,68,71,2,6,0,2,1,1,0,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,Home,90,0,0,Miguel Gutiérrez,45,DEF,Napoli vs Eintracht Frankfurt,miguel gutiérrez,46,DEF,-1,True,1
+Stanislav Lobotka,73,MID,0,0,0,0,57,59,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Home,73,0,0,Stanislav Lobotka,26,MID,Napoli vs Eintracht Frankfurt,stanislav lobotka,27,MID,-1,True,1
+Scott McTominay,90,MID,0,0,0,0,37,42,1,0,0,2,1,1,0,4,0,1,1,0,0,0,1,0,0,0,0,0,0,0,Home,90,0,0,Scott McTominay,28,MID,Napoli vs Eintracht Frankfurt,scott mctominay,26,MID,2,True,2
+Matteo Politano,65,FWD,0,0,0,0,30,33,1,5,0,2,1,1,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Home,65,0,0,Matteo Politano,17,FWD,Napoli vs Eintracht Frankfurt,matteo politano,17,FWD,0,True,0
+Rasmus Højlund,90,FWD,0,0,0,1,17,19,0,0,0,0,4,1,0,0,0,1,1,0,0,0,1,4,0,0,0,0,0,0,Home,90,0,0,Rasmus Højlund,11,FWD,Napoli vs Eintracht Frankfurt,rasmus højlund,10,FWD,1,True,1
+David Neres,25,FWD,0,0,0,0,13,16,1,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,25,0,0,David Neres,7,FWD,Napoli vs Eintracht Frankfurt,david neres,7,FWD,0,True,0
+Noa Lang,17,FWD,0,0,0,0,7,7,1,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,17,0,0,Noa Lang,15,FWD,Napoli vs Eintracht Frankfurt,noa lang,14,FWD,1,True,1
+Rasmus Kristensen,90,DEF,0,0,0,0,34,40,1,2,0,2,2,4,0,4,1,2,1,3,0,0,0,1,0,0,0,0,0,0,Away,90,0,0,Rasmus Kristensen,27,DEF,Napoli vs Eintracht Frankfurt,rasmus kristensen,27,DEF,0,True,0
+Nnamdi Collins,90,DEF,0,0,0,0,42,47,0,0,0,0,0,1,0,1,3,3,0,0,0,0,1,1,0,0,0,0,0,0,Away,90,0,0,Nnamdi Collins,33,DEF,Napoli vs Eintracht Frankfurt,nnamdi collins,35,DEF,-2,True,2
+Robin Koch,90,DEF,0,0,0,0,29,34,0,0,0,0,0,0,0,1,1,13,0,0,0,0,1,1,0,0,0,0,0,0,Away,90,0,0,Robin Koch,38,DEF,Napoli vs Eintracht Frankfurt,robin koch,40,DEF,-2,True,2
+Arthur Theate,90,DEF,0,0,0,0,35,45,0,0,0,0,0,0,0,2,1,6,0,1,0,0,1,2,0,0,0,0,0,0,Away,90,0,0,Arthur Theate,30,DEF,Napoli vs Eintracht Frankfurt,arthur theate,31,DEF,-1,True,1
+Nathaniel Brown,89,DEF,0,0,0,0,17,23,0,2,2,2,1,1,0,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Away,90,0,0,Nathaniel Brown,45,DEF,Napoli vs Eintracht Frankfurt,nathaniel brown,46,DEF,-1,True,1
+Mario Götze,90,MID,0,0,0,0,30,32,1,1,0,1,5,1,0,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,Away,90,0,0,Mario Götze,22,MID,Napoli vs Eintracht Frankfurt,mario götze,22,MID,0,True,0
+Hugo Larsson,79,MID,0,0,0,0,31,38,0,0,0,0,0,1,0,1,0,6,0,0,0,0,0,3,0,0,0,0,0,0,Away,79,0,0,Hugo Larsson,16,MID,Napoli vs Eintracht Frankfurt,hugo larsson,16,MID,0,True,0
+Jonathan Burkardt,90,FWD,0,0,0,0,17,19,2,1,1,2,1,0,0,0,1,1,0,0,0,0,0,4,0,0,0,0,0,0,Away,90,0,0,Jonathan Burkardt,20,FWD,Napoli vs Eintracht Frankfurt,jonathan burkardt,21,FWD,-1,True,1
+Ansgar Knauff,25,FWD,0,0,0,1,4,6,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,2,0,0,0,0,0,0,Away,25,0,0,Ansgar Knauff,11,FWD,Napoli vs Eintracht Frankfurt,ansgar knauff,11,FWD,0,True,0
+Ellyes Skhiri,11,MID,0,0,0,0,4,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Away,11,0,0,Ellyes Skhiri,9,MID,Napoli vs Eintracht Frankfurt,ellyes skhiri,9,MID,0,True,0
+Mahmoud Dahoud,1,MID,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,0,0,0,Mahmoud Dahoud,6,MID,Napoli vs Eintracht Frankfurt,mahmoud dahoud,6,MID,0,True,0
+Tomáš Vlček,70,DEF,0,0,0,0,10,17,0,0,0,0,0,2,0,1,2,1,0,0,0,0,0,1,0,0,0,0,0,0,Home,70,0,3,Tomáš Vlček,6,DEF,Slavia Praha vs Arsenal,tomáš vlček,6,DEF,0,True,0
+Štěpán Chaloupek,90,DEF,0,0,0,0,19,27,0,0,0,0,0,1,0,2,0,10,0,1,0,0,2,1,0,0,0,0,0,0,Home,90,0,3,Štěpán Chaloupek,18,DEF,Slavia Praha vs Arsenal,štěpán chaloupek,18,DEF,0,True,0
+David Zima,90,DEF,0,0,0,0,24,27,1,0,0,0,0,1,0,0,0,3,0,0,0,0,5,3,0,0,0,0,0,0,Home,90,0,3,David Zima,13,DEF,Slavia Praha vs Arsenal,david zima,14,DEF,-1,True,1
+David Moses,74,MID,0,0,0,0,9,13,1,0,0,2,0,2,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Home,74,0,3,David Moses,11,MID,Slavia Praha vs Arsenal,david moses,11,MID,0,True,0
+Christos Zafeiris,70,MID,0,0,0,0,9,11,0,1,0,1,1,2,0,2,0,3,0,1,0,0,0,0,0,0,0,0,0,0,Home,70,0,3,Christos Zafeiris,9,MID,Slavia Praha vs Arsenal,christos zafeiris,10,MID,-1,True,1
+Michal Sadílek,90,MID,0,0,0,0,21,23,3,3,0,0,0,1,0,2,1,0,0,1,0,0,2,0,0,0,0,0,0,0,Home,90,0,3,Michal Sadílek,27,MID,Slavia Praha vs Arsenal,michal sadílek,25,MID,2,True,2
+Youssoupha Mbodji,90,MID,0,0,0,1,11,13,1,4,1,1,1,3,0,3,1,6,0,0,0,0,2,0,0,0,0,0,0,0,Home,90,0,3,Youssoupha Mbodji,35,MID,Slavia Praha vs Arsenal,youssoupha mbodji,34,MID,1,True,1
+Lukáš Provod,90,FWD,0,0,0,0,21,31,0,3,0,0,1,3,0,0,0,0,1,1,0,0,2,2,0,1,0,0,0,0,Home,90,0,3,Lukáš Provod,8,FWD,Slavia Praha vs Arsenal,lukáš provod,7,FWD,1,True,1
+Tomáš Chorý,49,FWD,0,0,0,0,4,7,1,1,0,0,1,4,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Home,49,0,2,Tomáš Chorý,9,FWD,Slavia Praha vs Arsenal,tomáš chorý,8,FWD,1,True,1
+Youssoupha Sanyang,74,FWD,0,0,0,0,11,18,0,1,1,3,1,0,0,6,0,5,1,0,0,0,2,0,0,0,0,0,0,0,Home,74,0,3,Youssoupha Sanyang,33,FWD,Slavia Praha vs Arsenal,youssoupha sanyang,30,FWD,3,True,3
+Daiki Hashioka,16,DEF,0,0,0,0,3,7,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,16,0,0,Daiki Hashioka,7,DEF,Slavia Praha vs Arsenal,daiki hashioka,8,DEF,-1,True,1
+Vasil Kušej,16,FWD,0,0,0,0,5,7,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,16,0,0,Vasil Kušej,7,FWD,Slavia Praha vs Arsenal,vasil kušej,7,FWD,0,True,0
+Jurriën Timber,73,DEF,0,0,0,0,15,18,0,0,1,4,1,1,0,1,1,2,0,0,0,0,1,0,0,0,0,0,0,0,Away,73,3,0,Jurriën Timber,24,DEF,Slavia Praha vs Arsenal,jurriën timber,27,DEF,-3,True,3
+William Saliba,90,DEF,0,0,0,0,28,32,0,0,0,1,1,2,0,1,2,5,0,0,0,0,1,3,0,0,0,0,0,0,Away,90,3,0,William Saliba,26,DEF,Slavia Praha vs Arsenal,william saliba,26,DEF,0,True,0
+Gabriel Magalhães,90,DEF,0,0,0,0,41,45,0,0,0,0,0,2,0,0,0,4,1,1,0,0,4,1,0,0,0,0,0,0,Away,90,3,0,Gabriel Magalhães,28,DEF,Slavia Praha vs Arsenal,gabriel magalhães,31,DEF,-3,True,3
+Piero Hincapié,73,DEF,0,0,0,0,14,19,0,2,1,1,0,0,0,2,1,1,0,0,0,0,2,0,0,0,0,0,0,0,Away,73,3,0,Piero Hincapié,34,DEF,Slavia Praha vs Arsenal,piero hincapié,34,DEF,0,True,0
+Ethan Nwaneri,65,MID,0,0,0,0,18,19,2,1,1,2,1,2,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,Away,65,2,0,Ethan Nwaneri,25,MID,Slavia Praha vs Arsenal,ethan nwaneri,24,MID,1,True,1
+Christian Nørgaard,90,MID,0,0,0,0,25,30,0,1,0,0,1,2,0,1,2,1,0,0,0,0,1,3,0,0,0,0,0,0,Away,90,3,0,Christian Nørgaard,23,MID,Slavia Praha vs Arsenal,christian nørgaard,22,MID,1,True,1
+Declan Rice,81,MID,0,1,0,0,50,52,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,81,3,0,Declan Rice,49,MID,Slavia Praha vs Arsenal,declan rice,48,MID,1,True,1
+Bukayo Saka,90,FWD,1,0,0,5,14,18,2,3,0,2,0,0,0,1,1,3,1,0,0,0,0,1,0,0,0,0,0,0,Away,90,3,0,Bukayo Saka,57,FWD,Slavia Praha vs Arsenal,bukayo saka,52,FWD,5,True,5
+Mikel Merino,90,FWD,2,0,0,2,22,30,1,0,0,1,0,1,0,1,3,2,0,1,0,0,3,7,0,0,0,0,0,0,Away,90,3,0,Mikel Merino,59,FWD,Slavia Praha vs Arsenal,mikel merino,59,FWD,0,True,0
+Leandro Trossard,72,FWD,0,1,0,1,5,9,2,3,0,3,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Away,72,3,0,Leandro Trossard,36,FWD,Slavia Praha vs Arsenal,leandro trossard,36,FWD,0,True,0
+Eberechi Eze,25,MID,0,0,0,0,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,25,1,0,Eberechi Eze,10,MID,Slavia Praha vs Arsenal,eberechi eze,10,MID,0,True,0
+Max Dowman,18,FWD,0,0,0,0,4,6,0,0,1,3,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,18,0,0,Max Dowman,9,FWD,Slavia Praha vs Arsenal,max dowman,9,FWD,0,True,0
+Ben White,17,DEF,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,17,0,0,Ben White,9,DEF,Slavia Praha vs Arsenal,ben white,10,DEF,-1,True,1
+Myles Lewis-Skelly,17,DEF,0,0,0,0,9,11,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Away,17,0,0,Myles Lewis-Skelly,8,DEF,Slavia Praha vs Arsenal,myles lewis-skelly,9,DEF,-1,True,1
+Nahuel Molina,90,DEF,0,0,0,0,56,71,0,0,0,0,0,2,0,2,0,3,0,0,0,0,0,2,0,0,0,0,0,0,Home,90,3,1,Nahuel Molina,18,DEF,Atletico Madrid vs Union SG,nahuel molina,20,DEF,-2,True,2
+Robin Le Normand,26,DEF,0,0,0,0,25,25,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Home,26,0,0,Robin Le Normand,15,DEF,Atletico Madrid vs Union SG,robin le normand,15,DEF,0,True,0
+Dávid Hancko,90,DEF,0,0,0,0,74,83,1,2,0,0,0,0,0,0,0,3,0,2,0,0,3,3,0,0,0,0,0,0,Home,90,3,1,Dávid Hancko,23,DEF,Atletico Madrid vs Union SG,dávid hancko,23,DEF,0,True,0
+Matteo Ruggeri,90,DEF,0,0,0,0,52,60,1,5,0,0,0,2,0,5,1,1,1,2,0,0,1,2,0,0,0,0,0,0,Home,90,3,1,Matteo Ruggeri,36,DEF,Atletico Madrid vs Union SG,matteo ruggeri,36,DEF,0,True,0
+Giuliano Simeone,88,MID,0,1,0,0,30,35,1,3,3,8,2,0,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,Home,88,2,1,Giuliano Simeone,26,MID,Atletico Madrid vs Union SG,giuliano simeone,25,MID,1,True,1
+Pablo Barrios,90,MID,0,0,0,0,77,81,0,0,3,5,1,0,0,1,2,0,0,0,0,0,2,0,0,0,0,0,0,0,Home,90,3,1,Pablo Barrios,41,MID,Atletico Madrid vs Union SG,pablo barrios,41,MID,0,True,0
+Koke,62,MID,0,0,0,0,67,68,0,0,0,1,2,0,0,2,0,0,0,1,0,0,1,0,0,0,0,0,0,0,Home,62,1,0,Koke,24,MID,Atletico Madrid vs Union SG,koke,24,MID,0,True,0
+Antoine Griezmann,62,FWD,0,0,0,0,33,38,1,1,1,1,2,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,Home,62,1,0,Antoine Griezmann,22,FWD,Atletico Madrid vs Union SG,antoine griezmann,21,FWD,1,True,1
+José María Giménez,64,DEF,0,0,0,0,46,47,0,0,1,1,0,0,0,0,3,1,0,1,0,0,6,1,0,0,0,0,0,0,Home,64,3,1,José María Giménez,35,DEF,Atletico Madrid vs Union SG,josé maría giménez,32,DEF,3,True,3
+Conor Gallagher,28,MID,1,0,0,1,15,15,1,0,0,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,28,2,1,Conor Gallagher,30,MID,Atletico Madrid vs Union SG,conor gallagher,30,MID,0,True,0
+Thiago Almada,28,MID,0,0,0,1,15,17,0,2,0,0,3,0,0,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,Home,28,2,1,Thiago Almada,14,MID,Atletico Madrid vs Union SG,thiago almada,14,MID,0,True,0
+Alexander Sørloth,28,FWD,0,0,0,0,5,8,1,0,0,2,1,0,0,0,0,0,1,0,0,0,3,2,0,0,0,0,0,0,Home,28,2,1,Alexander Sørloth,16,FWD,Atletico Madrid vs Union SG,alexander sørloth,15,FWD,1,True,1
+Marcos Llorente,9,DEF,1,0,0,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Home,2,1,0,Marcos Llorente,19,DEF,Atletico Madrid vs Union SG,marcos llorente,19,DEF,0,True,0
+Kevin Mac Allister,90,DEF,0,0,0,0,35,40,2,1,0,0,0,2,0,5,1,3,0,0,0,0,1,1,0,0,0,0,0,0,Away,90,1,3,Kevin Mac Allister,29,DEF,Atletico Madrid vs Union SG,kevin mac allister,29,DEF,0,True,0
+Christian Burgess,90,DEF,0,0,0,0,32,35,0,0,0,0,0,1,0,1,0,2,0,0,0,0,2,4,0,0,0,0,0,0,Away,90,1,3,Christian Burgess,6,DEF,Atletico Madrid vs Union SG,christian burgess,8,DEF,-2,True,2
+Ross Sykes,90,DEF,1,0,0,1,20,28,1,1,0,0,1,1,0,1,3,3,0,1,0,0,2,3,0,0,0,0,0,0,Away,90,1,3,Ross Sykes,27,DEF,Atletico Madrid vs Union SG,ross sykes,23,DEF,4,True,4
+Anan Khalaili,85,DEF,0,0,0,0,19,24,1,0,1,2,0,0,0,5,1,3,0,0,0,0,2,1,0,0,0,0,0,0,Away,85,1,2,Anan Khalaili,33,DEF,Atletico Madrid vs Union SG,anan khalaili,34,DEF,-1,True,1
+Adem Zorgane,90,MID,0,0,0,0,44,55,1,0,1,2,0,1,0,2,1,3,0,0,0,0,1,2,0,0,0,0,0,0,Away,90,1,3,Adem Zorgane,23,MID,Atletico Madrid vs Union SG,adem zorgane,23,MID,0,True,0
+Kamiel Van de Perre,74,MID,0,0,0,0,23,25,0,0,0,0,0,3,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Away,74,0,2,Kamiel Van de Perre,18,MID,Atletico Madrid vs Union SG,kamiel van de perre,19,MID,-1,True,1
+Rob Schoofs,60,MID,0,0,0,0,13,17,0,0,0,0,1,2,0,0,0,1,0,2,0,0,0,1,0,0,0,0,0,0,Away,60,0,1,Rob Schoofs,3,MID,Atletico Madrid vs Union SG,rob schoofs,3,MID,0,True,0
+Ousseynou Niang,90,DEF,0,0,0,0,9,14,0,4,2,4,1,1,0,2,0,1,0,4,0,0,0,0,0,0,0,0,0,0,Away,90,1,3,Ousseynou Niang,7,DEF,Atletico Madrid vs Union SG,ousseynou niang,7,DEF,0,True,0
+Anouar Ait El Hadj,74,FWD,0,0,0,0,13,17,0,3,2,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Away,74,0,2,Anouar Ait El Hadj,17,FWD,Atletico Madrid vs Union SG,anouar ait el hadj,16,FWD,1,True,1
+Promise David,30,FWD,0,0,0,1,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Away,30,1,2,Promise David,14,FWD,Atletico Madrid vs Union SG,promise david,15,FWD,-1,True,1
+Mathias Rasmussen,16,MID,0,0,0,0,9,10,0,2,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,Away,16,1,1,Mathias Rasmussen,16,MID,Atletico Madrid vs Union SG,mathias rasmussen,16,MID,0,True,0
+Marc Giger,16,FWD,0,0,0,0,4,6,0,1,1,2,2,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Away,16,1,1,Marc Giger,16,FWD,Atletico Madrid vs Union SG,marc giger,17,FWD,-1,True,1
+Sofiane Boufal,16,MID,0,1,0,0,6,7,1,1,0,0,1,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,16,1,1,Sofiane Boufal,23,MID,Atletico Madrid vs Union SG,sofiane boufal,24,MID,-1,True,1
+Louis Patris,12,DEF,0,0,0,1,0,2,0,1,0,0,0,0,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Away,5,0,1,Louis Patris,20,DEF,Atletico Madrid vs Union SG,louis patris,20,DEF,0,True,0
+Fredrik Sjøvold,90,DEF,0,0,0,0,73,83,0,1,0,1,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,Home,90,0,1,Fredrik Sjøvold,22,DEF,Bodo/Glimt vs Monaco,fredrik sjøvold,23,DEF,-1,True,1
+Brede Moe,45,DEF,0,0,0,0,30,32,0,0,0,0,0,3,0,2,0,3,0,0,0,0,0,1,0,0,0,0,0,0,Home,46,0,1,Brede Moe,18,DEF,Bodo/Glimt vs Monaco,brede moe,18,DEF,0,True,0
+Fredrik André Bjørkan,86,DEF,0,0,0,0,83,99,0,2,1,2,0,3,0,2,0,1,1,1,0,0,2,1,0,0,0,0,0,0,Home,86,0,1,Fredrik André Bjørkan,27,DEF,Bodo/Glimt vs Monaco,fredrik andré bjørkan,28,DEF,-1,True,1
+Håkon Evjen,90,MID,0,0,0,0,33,36,2,3,1,5,2,2,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,90,0,1,Håkon Evjen,32,MID,Bodo/Glimt vs Monaco,håkon evjen,33,MID,-1,True,1
+Patrick Berg,90,MID,0,0,0,1,70,74,3,6,0,1,2,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,Home,90,0,1,Patrick Berg,37,MID,Bodo/Glimt vs Monaco,patrick berg,37,MID,0,True,0
+Sondre Auklend,90,FWD,0,0,0,0,38,48,1,2,3,4,3,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,Home,90,0,1,Sondre Auklend,25,FWD,Bodo/Glimt vs Monaco,sondre auklend,23,FWD,2,True,2
+Jens Petter Hauge,86,FWD,0,0,0,1,56,66,5,4,7,11,1,0,0,1,0,0,0,2,0,0,0,1,0,0,0,0,0,0,Home,86,0,1,Jens Petter Hauge,52,FWD,Bodo/Glimt vs Monaco,jens petter hauge,53,FWD,-1,True,1
+Jostein Gundersen,37,DEF,0,0,0,0,36,38,0,0,1,1,0,2,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Home,44,0,0,Jostein Gundersen,18,DEF,Bodo/Glimt vs Monaco,jostein gundersen,13,DEF,5,True,5
+Ole Didrik Blomberg,17,FWD,0,0,0,0,3,5,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,Home,17,0,0,Ole Didrik Blomberg,4,FWD,Bodo/Glimt vs Monaco,ole didrik blomberg,4,FWD,0,True,0
+Andreas Helmersen,17,FWD,0,0,0,0,2,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Home,17,0,0,Andreas Helmersen,5,FWD,Bodo/Glimt vs Monaco,andreas helmersen,5,FWD,0,True,0
+Villads Nielsen,9,DEF,0,0,0,0,11,11,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,4,0,0,Villads Nielsen,12,DEF,Bodo/Glimt vs Monaco,villads nielsen,12,DEF,0,True,0
+Thilo Kehrer,90,DEF,0,0,0,0,41,51,0,0,0,0,0,2,0,4,2,1,0,1,0,0,2,1,0,0,0,0,0,0,Away,90,1,0,Thilo Kehrer,35,DEF,Bodo/Glimt vs Monaco,thilo kehrer,38,DEF,-3,True,3
+Mohammed Salisu,90,DEF,0,0,0,0,36,39,0,0,0,0,0,1,0,0,1,5,0,1,0,0,2,2,0,0,0,0,0,0,Away,90,1,0,Mohammed Salisu,26,DEF,Bodo/Glimt vs Monaco,mohammed salisu,27,DEF,-1,True,1
+Mamadou Coulibaly,90,MID,0,0,0,1,32,42,0,0,1,1,1,3,0,5,1,2,0,1,0,0,0,0,0,0,0,0,0,0,Away,90,1,0,Mamadou Coulibaly,32,MID,Bodo/Glimt vs Monaco,mamadou coulibaly,33,MID,-1,True,1
+Jordan Teze,90,FWD,0,0,0,0,28,38,2,3,0,1,1,1,0,3,0,2,0,4,0,0,0,0,0,0,0,0,0,0,Away,90,1,0,Jordan Teze,26,FWD,Bodo/Glimt vs Monaco,jordan teze,27,FWD,-1,True,1
+Takumi Minamino,64,MID,0,0,0,0,9,17,0,0,0,0,0,1,0,4,1,0,1,2,0,0,0,1,0,0,0,0,0,0,Away,64,1,0,Takumi Minamino,19,MID,Bodo/Glimt vs Monaco,takumi minamino,19,MID,0,True,0
+Aleksandr Golovin,90,MID,0,0,0,0,31,43,2,1,1,2,1,5,0,2,3,2,0,2,0,0,1,0,0,0,0,0,0,0,Away,90,1,0,Aleksandr Golovin,31,MID,Bodo/Glimt vs Monaco,aleksandr golovin,30,MID,1,True,1
+Kassoum Ouattara,90,FWD,0,0,0,0,24,29,1,6,0,0,2,1,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Away,90,1,0,Kassoum Ouattara,29,FWD,Bodo/Glimt vs Monaco,kassoum ouattara,30,FWD,-1,True,1
+Maghnes Akliouche,73,FWD,0,1,0,0,14,19,1,0,3,4,2,1,0,0,0,0,1,2,0,0,1,0,0,0,0,0,0,0,Away,73,1,0,Maghnes Akliouche,29,FWD,Bodo/Glimt vs Monaco,maghnes akliouche,27,FWD,2,True,2
+Folarin Balogun,90,FWD,1,0,0,1,17,20,2,0,0,3,1,0,0,0,1,2,0,1,0,0,0,0,0,0,0,0,0,0,Away,90,1,0,Folarin Balogun,31,FWD,Bodo/Glimt vs Monaco,folarin balogun,31,FWD,0,True,0
+Pape Cabral,26,MID,0,0,0,0,10,10,0,0,0,0,0,0,0,4,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Away,26,0,0,Pape Cabral,20,MID,Bodo/Glimt vs Monaco,pape cabral,20,MID,0,True,0
+Mika Biereth,17,FWD,0,0,0,0,3,3,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,Away,17,0,0,Mika Biereth,7,FWD,Bodo/Glimt vs Monaco,mika biereth,7,FWD,0,True,0
+Pierre Kalulu,90,DEF,0,0,0,0,51,55,3,3,0,0,0,3,0,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Home,90,1,1,Pierre Kalulu,35,DEF,Juventus vs Sporting CP,pierre kalulu,35,DEF,0,True,0
+Federico Gatti,90,DEF,0,0,0,0,40,46,0,0,0,0,0,2,0,1,0,2,0,0,0,0,2,0,0,0,0,0,0,0,Home,90,1,1,Federico Gatti,22,DEF,Juventus vs Sporting CP,federico gatti,22,DEF,0,True,0
+Teun Koopmeiners,90,DEF,0,0,0,0,55,63,0,1,0,0,1,0,0,2,1,0,0,0,0,0,0,1,0,0,0,0,0,0,Home,90,1,1,Teun Koopmeiners,22,DEF,Juventus vs Sporting CP,teun koopmeiners,22,DEF,0,True,0
+Weston McKennie,90,DEF,0,0,0,0,22,29,2,1,0,2,1,0,0,5,0,1,1,0,0,0,1,2,0,0,0,0,0,0,Home,90,1,1,Weston McKennie,30,DEF,Juventus vs Sporting CP,weston mckennie,30,DEF,0,True,0
+Manuel Locatelli,83,MID,0,0,0,0,55,63,0,0,0,0,1,2,0,2,3,0,1,2,0,0,2,0,0,0,0,0,0,0,Home,83,1,1,Manuel Locatelli,28,MID,Juventus vs Sporting CP,manuel locatelli,29,MID,-1,True,1
+Khéphren Thuram,72,MID,0,1,0,1,46,49,3,0,0,0,0,1,0,0,2,1,0,0,0,0,1,0,0,0,0,0,0,0,Home,72,1,1,Khéphren Thuram,40,MID,Juventus vs Sporting CP,khéphren thuram,42,MID,-2,True,2
+Andrea Cambiaso,90,DEF,0,0,0,0,40,48,2,2,0,0,1,0,0,1,0,0,1,0,0,0,2,0,0,0,0,0,0,0,Home,90,1,1,Andrea Cambiaso,27,DEF,Juventus vs Sporting CP,andrea cambiaso,27,DEF,0,True,0
+Francisco Conceição,72,MID,0,0,0,0,28,29,1,4,2,2,1,3,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,Home,72,1,1,Francisco Conceição,23,MID,Juventus vs Sporting CP,francisco conceição,22,MID,1,True,1
+Kenan Yıldız,87,MID,0,0,0,0,25,30,2,7,2,4,0,3,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,Home,87,1,1,Kenan Yıldız,32,MID,Juventus vs Sporting CP,kenan yıldız,29,MID,3,True,3
+Dušan Vlahović,83,FWD,1,0,0,6,14,21,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,4,0,0,0,0,0,0,Home,83,1,1,Dušan Vlahović,40,FWD,Juventus vs Sporting CP,dušan vlahović,42,FWD,-2,True,2
+Edon Zhegrova,18,MID,0,0,0,0,7,9,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,18,0,0,Edon Zhegrova,12,MID,Juventus vs Sporting CP,edon zhegrova,10,MID,2,True,2
+Filip Kostić,18,DEF,0,0,0,1,5,7,0,3,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Home,18,0,0,Filip Kostić,17,DEF,Juventus vs Sporting CP,filip kostić,16,DEF,1,True,1
+Vasilije Adžić,12,MID,0,0,0,0,8,9,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,2,0,0,0,0,0,0,Home,7,0,0,Vasilije Adžić,5,MID,Juventus vs Sporting CP,vasilije adžić,5,MID,0,True,0
+Fabio Miretti,12,MID,0,0,0,0,12,12,1,2,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Home,7,0,0,Fabio Miretti,16,MID,Juventus vs Sporting CP,fabio miretti,15,MID,1,True,1
+Jonathan David,8,FWD,0,0,0,1,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,3,0,0,Jonathan David,8,FWD,Juventus vs Sporting CP,jonathan david,9,FWD,-1,True,1
+Ousmane Diomande,90,DEF,0,0,0,0,79,83,0,0,0,0,1,0,0,1,1,3,0,0,0,0,4,1,0,0,0,0,0,0,Away,90,1,1,Ousmane Diomande,32,DEF,Juventus vs Sporting CP,ousmane diomande,32,DEF,0,True,0
+Gonçalo Inácio,90,DEF,0,0,0,0,63,76,0,0,0,0,0,1,0,0,1,4,0,0,0,0,3,0,0,0,0,0,0,0,Away,90,1,1,Gonçalo Inácio,27,DEF,Juventus vs Sporting CP,gonçalo inácio,28,DEF,-1,True,1
+Maximiliano Araújo,90,DEF,1,0,0,1,21,26,0,0,0,1,0,3,0,2,2,4,0,3,0,0,0,0,0,0,0,0,0,0,Away,90,1,1,Maximiliano Araújo,32,DEF,Juventus vs Sporting CP,maximiliano araújo,27,DEF,5,True,5
+Morten Hjulmand,90,MID,0,0,0,0,85,89,0,0,0,0,1,3,0,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,Away,90,1,1,Morten Hjulmand,25,MID,Juventus vs Sporting CP,morten hjulmand,26,MID,-1,True,1
+João Simões,82,MID,0,0,0,0,48,51,0,0,1,1,1,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,Away,82,1,1,João Simões,14,MID,Juventus vs Sporting CP,joão simões,14,MID,0,True,0
+Geovany Quenda,67,FWD,0,0,0,0,16,21,0,2,0,0,0,0,0,0,1,1,0,1,0,0,0,2,0,0,0,0,0,0,Away,67,1,1,Geovany Quenda,16,FWD,Juventus vs Sporting CP,geovany quenda,17,FWD,-1,True,1
+Francisco Trincão,90,MID,0,1,0,0,31,36,1,1,0,0,2,1,0,2,0,3,2,0,0,0,0,1,0,0,0,0,0,0,Away,90,1,1,Francisco Trincão,31,MID,Juventus vs Sporting CP,francisco trincão,30,MID,1,True,1
+Pedro Gonçalves,82,FWD,0,0,0,0,27,35,1,1,1,3,1,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,Away,82,1,1,Pedro Gonçalves,20,FWD,Juventus vs Sporting CP,pedro gonçalves,20,FWD,0,True,0
+Fotis Ioannidis,72,FWD,0,0,0,0,7,8,0,0,0,2,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Away,72,1,1,Fotis Ioannidis,9,FWD,Juventus vs Sporting CP,fotis ioannidis,9,FWD,0,True,0
+Eduardo Quaresma,23,DEF,0,0,0,0,13,13,0,0,0,1,0,1,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,Away,23,0,0,Eduardo Quaresma,13,DEF,Juventus vs Sporting CP,eduardo quaresma,13,DEF,0,True,0
+Geny Catamo,23,FWD,0,0,0,0,5,10,0,0,2,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Away,23,0,0,Geny Catamo,13,FWD,Juventus vs Sporting CP,geny catamo,13,FWD,0,True,0
+Luis Javier Suárez,18,FWD,0,0,0,0,6,7,1,0,2,2,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Away,18,0,0,Luis Javier Suárez,15,FWD,Juventus vs Sporting CP,luis javier suárez,16,FWD,-1,True,1
+Hidemasa Morita,8,MID,0,0,0,0,3,4,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Away,8,0,0,Hidemasa Morita,10,MID,Juventus vs Sporting CP,hidemasa morita,11,MID,-1,True,1
+Alisson Santos,8,FWD,0,0,0,0,1,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,8,0,0,Alisson Santos,3,FWD,Juventus vs Sporting CP,alisson santos,3,FWD,0,True,0
+Conor Bradley,90,DEF,0,0,0,0,22,32,1,1,3,4,0,1,0,3,1,2,0,2,0,0,1,1,0,0,0,0,0,0,Home,90,1,0,Conor Bradley,36,DEF,Liverpool vs Real Madrid,conor bradley,37,DEF,-1,True,1
+Ibrahima Konaté,90,DEF,0,0,0,0,23,30,0,0,1,2,0,1,0,0,2,3,0,1,0,0,1,0,0,0,0,0,0,0,Home,90,1,0,Ibrahima Konaté,27,DEF,Liverpool vs Real Madrid,ibrahima konaté,27,DEF,0,True,0
+Virgil van Dijk,90,DEF,0,0,0,1,29,36,0,0,0,0,0,3,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Home,90,1,0,Virgil van Dijk,21,DEF,Liverpool vs Real Madrid,virgil van dijk,22,DEF,-1,True,1
+Andrew Robertson,88,DEF,0,0,0,0,24,29,1,3,0,1,0,1,0,3,1,1,0,0,0,0,1,0,0,0,0,0,0,0,Home,88,1,0,Andrew Robertson,36,DEF,Liverpool vs Real Madrid,andrew robertson,37,DEF,-1,True,1
+Ryan Gravenberch,90,MID,0,0,0,0,25,29,0,0,0,0,0,1,0,0,4,1,0,1,0,0,0,1,0,0,0,0,0,0,Home,90,1,0,Ryan Gravenberch,22,MID,Liverpool vs Real Madrid,ryan gravenberch,23,MID,-1,True,1
+Alexis Mac Allister,79,MID,1,0,0,2,32,35,0,0,1,1,1,2,0,3,1,0,1,1,0,0,0,1,0,0,0,0,0,0,Home,79,1,0,Alexis Mac Allister,39,MID,Liverpool vs Real Madrid,alexis mac allister,39,MID,0,True,0
+Mohamed Salah,90,FWD,0,0,0,0,11,17,2,3,5,10,1,1,0,2,1,0,2,2,0,0,1,0,0,0,0,0,0,0,Home,90,1,0,Mohamed Salah,38,FWD,Liverpool vs Real Madrid,mohamed salah,37,FWD,1,True,1
+Dominik Szoboszlai,90,MID,0,1,0,4,30,39,3,3,0,0,1,2,0,0,1,0,1,2,0,0,1,2,0,0,0,0,0,0,Home,90,1,0,Dominik Szoboszlai,38,MID,Liverpool vs Real Madrid,dominik szoboszlai,39,MID,-1,True,1
+Florian Wirtz,88,FWD,0,0,0,0,31,36,5,2,2,2,1,1,0,1,1,0,0,2,0,0,0,0,0,0,0,0,0,0,Home,88,1,0,Florian Wirtz,38,FWD,Liverpool vs Real Madrid,florian wirtz,38,FWD,0,True,0
+Curtis Jones,11,MID,0,0,0,0,2,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Home,11,0,0,Curtis Jones,8,MID,Liverpool vs Real Madrid,curtis jones,8,MID,0,True,0
+Cody Gakpo,11,FWD,0,0,0,1,1,4,0,0,0,2,0,1,0,1,0,0,0,0,0,0,1,3,0,0,0,0,0,0,Home,11,0,0,Cody Gakpo,8,FWD,Liverpool vs Real Madrid,cody gakpo,8,FWD,0,True,0
+Federico Chiesa,8,FWD,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,2,0,0,Federico Chiesa,6,FWD,Liverpool vs Real Madrid,federico chiesa,5,FWD,1,True,1
+Federico Valverde,89,DEF,0,0,0,0,53,58,0,0,1,1,0,0,0,2,1,3,0,1,0,0,0,0,0,0,0,0,0,0,Away,90,0,1,Federico Valverde,28,DEF,Liverpool vs Real Madrid,federico valverde,28,DEF,0,True,0
+Éder Militão,90,DEF,0,0,0,0,51,53,1,0,1,1,0,1,0,1,1,9,1,1,0,0,2,2,0,0,0,0,0,0,Away,90,0,1,Éder Militão,36,DEF,Liverpool vs Real Madrid,éder militão,37,DEF,-1,True,1
+Dean Huijsen,90,DEF,0,0,0,0,56,70,0,0,0,0,1,1,0,2,1,5,0,0,0,0,2,2,0,0,0,0,0,0,Away,90,0,1,Dean Huijsen,27,DEF,Liverpool vs Real Madrid,dean huijsen,23,DEF,4,True,4
+Álvaro Carreras,90,DEF,0,0,0,0,43,49,0,0,1,1,0,2,0,6,0,3,0,3,0,0,0,3,0,0,0,0,0,0,Away,90,0,1,Álvaro Carreras,26,DEF,Liverpool vs Real Madrid,álvaro carreras,27,DEF,-1,True,1
+Aurélien Tchouaméni,90,MID,0,0,0,0,53,58,1,0,2,2,1,1,0,2,1,2,0,0,0,0,1,0,0,0,0,0,0,0,Away,90,0,1,Aurélien Tchouaméni,33,MID,Liverpool vs Real Madrid,aurélien tchouaméni,35,MID,-2,True,2
+Eduardo Camavinga,69,MID,0,0,0,0,31,34,0,0,0,1,1,1,0,2,0,1,0,1,0,0,0,1,0,0,0,0,0,0,Away,69,0,1,Eduardo Camavinga,12,MID,Liverpool vs Real Madrid,eduardo camavinga,11,MID,1,True,1
+Arda Güler,81,MID,0,0,0,1,45,51,0,1,0,0,1,0,0,1,0,2,0,0,0,0,2,1,0,0,0,0,0,0,Away,81,0,1,Arda Güler,21,MID,Liverpool vs Real Madrid,arda güler,21,MID,0,True,0
+Jude Bellingham,90,MID,0,0,0,1,36,38,2,0,1,3,0,3,0,2,2,1,0,2,0,0,0,1,0,0,0,0,0,0,Away,90,0,1,Jude Bellingham,27,MID,Liverpool vs Real Madrid,jude bellingham,27,MID,0,True,0
+Kylian Mbappé,90,FWD,0,0,0,0,26,30,0,1,5,5,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,Away,90,0,1,Kylian Mbappé,28,FWD,Liverpool vs Real Madrid,kylian mbappé,26,FWD,2,True,2
+Rodrygo,21,MID,0,0,0,0,9,13,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,21,0,0,Rodrygo,10,MID,Liverpool vs Real Madrid,rodrygo,10,MID,0,True,0
+Trent Alexander-Arnold,9,DEF,0,0,0,0,6,8,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Away,9,0,0,Trent Alexander-Arnold,11,DEF,Liverpool vs Real Madrid,trent alexander-arnold,11,DEF,0,True,0
+Brahim Díaz,1,MID,0,0,0,0,3,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,Away,0,0,0,Brahim Díaz,8,MID,Liverpool vs Real Madrid,brahim díaz,8,MID,0,True,0
+Rodinei,90,DEF,0,0,0,0,19,24,1,9,2,2,1,0,0,0,2,8,0,1,0,0,0,0,0,0,0,0,0,0,Home,90,1,1,Rodinei,42,DEF,Olympiacos vs PSV,rodinei,40,DEF,2,True,2
+Panagiotis Retsos,90,DEF,0,0,0,0,26,28,0,0,0,0,0,0,0,2,0,10,0,0,0,0,3,0,0,0,0,0,0,0,Home,90,1,1,Panagiotis Retsos,36,DEF,Olympiacos vs PSV,panagiotis retsos,36,DEF,0,True,0
+Lorenzo Pirola,90,DEF,0,0,0,0,32,37,0,0,0,0,0,1,0,3,2,8,0,0,0,0,2,2,0,0,0,0,0,0,Home,90,1,1,Lorenzo Pirola,36,DEF,Olympiacos vs PSV,lorenzo pirola,36,DEF,0,True,0
+Francisco Ortega,90,DEF,0,0,0,0,24,30,1,4,1,1,1,2,0,2,0,4,0,1,0,0,2,0,0,0,0,0,0,0,Home,90,1,1,Francisco Ortega,32,DEF,Olympiacos vs PSV,francisco ortega,34,DEF,-2,True,2
+Dani García,63,MID,0,0,0,0,13,14,0,0,0,0,0,0,0,1,0,2,2,1,0,0,0,0,0,0,0,0,0,0,Home,63,1,0,Dani García,19,MID,Olympiacos vs PSV,dani garcía,17,MID,2,True,2
+Christos Mouzakitis,90,MID,0,0,0,0,25,34,0,1,1,1,0,1,0,4,2,1,0,1,0,0,0,0,0,0,0,0,0,0,Home,90,1,1,Christos Mouzakitis,30,MID,Olympiacos vs PSV,christos mouzakitis,31,MID,-1,True,1
+Gelson Martins,90,FWD,1,0,0,1,23,28,0,3,5,6,3,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,Home,90,1,1,Gelson Martins,41,FWD,Olympiacos vs PSV,gelson martins,42,FWD,-1,True,1
+Chiquinho,74,MID,0,1,0,2,12,17,3,1,1,2,1,1,0,0,1,0,3,1,0,0,0,1,0,0,0,0,0,0,Home,74,1,0,Chiquinho,36,MID,Olympiacos vs PSV,chiquinho,34,MID,2,True,2
+Daniel Podence,84,FWD,0,0,0,1,16,26,2,1,3,3,2,0,0,8,2,0,0,1,0,0,0,0,0,0,0,0,0,0,Home,84,1,0,Daniel Podence,53,FWD,Olympiacos vs PSV,daniel podence,54,FWD,-1,True,1
+Ayoub El Kaabi,83,FWD,0,0,0,0,11,17,2,0,0,2,1,1,0,2,0,2,1,2,0,0,6,6,0,0,0,0,0,0,Home,83,1,0,Ayoub El Kaabi,25,FWD,Olympiacos vs PSV,ayoub el kaabi,24,FWD,1,True,1
+Diogo Nascimento,27,MID,0,0,0,0,6,6,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,27,0,1,Diogo Nascimento,12,MID,Olympiacos vs PSV,diogo nascimento,12,MID,0,True,0
+Mehdi Taremi,16,FWD,0,0,0,0,5,6,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Home,16,0,1,Mehdi Taremi,6,FWD,Olympiacos vs PSV,mehdi taremi,6,FWD,0,True,0
+Lorenzo Scipioni,11,MID,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,7,0,1,Lorenzo Scipioni,4,MID,Olympiacos vs PSV,lorenzo scipioni,4,MID,0,True,0
+Costinha,10,DEF,0,0,0,0,1,1,0,0,0,0,0,0,0,2,1,1,0,1,0,0,0,0,0,0,0,0,0,0,Home,6,0,1,Costinha,16,DEF,Olympiacos vs PSV,costinha,16,DEF,0,True,0
+Sergiño Dest,90,DEF,0,0,0,0,36,44,0,2,1,5,0,0,0,2,0,1,0,5,0,0,1,1,0,0,0,0,0,0,Away,90,1,1,Sergiño Dest,14,DEF,Olympiacos vs PSV,sergiño dest,13,DEF,1,True,1
+Jerdy Schouten,90,DEF,0,0,0,0,70,76,1,0,1,1,1,1,0,1,1,7,0,0,0,0,2,3,0,0,0,0,0,0,Away,90,1,1,Jerdy Schouten,33,DEF,Olympiacos vs PSV,jerdy schouten,34,DEF,-1,True,1
+Yarek Gasiorowski,90,DEF,0,0,0,0,30,33,0,0,0,0,0,0,0,2,3,16,0,0,0,0,2,4,0,0,0,0,0,0,Away,90,1,1,Yarek Gasiorowski,43,DEF,Olympiacos vs PSV,yarek gasiorowski,44,DEF,-1,True,1
+Anass Salah-Eddine,67,DEF,0,0,0,0,21,23,0,0,0,0,1,0,0,3,0,2,0,2,0,0,0,0,0,0,0,0,0,0,Away,67,0,1,Anass Salah-Eddine,18,DEF,Olympiacos vs PSV,anass salah-eddine,19,DEF,-1,True,1
+Mauro Júnior,90,MID,0,0,0,0,57,60,3,1,4,9,3,1,0,1,0,2,1,2,0,0,2,0,0,0,0,0,0,0,Away,90,1,1,Mauro Júnior,37,MID,Olympiacos vs PSV,mauro júnior,36,MID,1,True,1
+Joey Veerman,90,MID,0,0,0,0,63,73,0,7,0,0,1,1,0,2,1,0,1,0,0,0,1,1,0,0,0,0,0,0,Away,90,1,1,Joey Veerman,32,MID,Olympiacos vs PSV,joey veerman,31,MID,1,True,1
+Dennis Man,58,FWD,0,0,0,0,16,19,0,2,1,4,0,1,0,0,0,2,0,1,0,0,0,3,0,0,0,0,0,0,Away,58,0,1,Dennis Man,11,FWD,Olympiacos vs PSV,dennis man,10,FWD,1,True,1
+Ismael Saibari,84,MID,0,0,0,0,22,32,0,2,0,0,3,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Away,84,0,1,Ismael Saibari,4,MID,Olympiacos vs PSV,ismael saibari,-2,MID,6,True,6
+Ivan Perišić,68,FWD,0,0,0,0,18,25,0,2,0,0,0,2,0,0,0,1,0,3,0,0,0,0,0,0,0,0,0,0,Away,68,0,1,Ivan Perišić,9,FWD,Olympiacos vs PSV,ivan perišić,8,FWD,1,True,1
+Guus Til,58,FWD,0,0,0,0,11,13,0,0,0,0,1,0,0,1,0,2,0,0,0,0,1,1,0,0,0,0,0,0,Away,58,0,1,Guus Til,13,FWD,Olympiacos vs PSV,guus til,14,FWD,-1,True,1
+Ricardo Pepi,32,FWD,1,0,0,1,6,9,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Away,32,1,0,Ricardo Pepi,26,FWD,Olympiacos vs PSV,ricardo pepi,28,FWD,-2,True,2
+Couhaib Driouech,32,FWD,0,0,0,1,6,6,0,1,2,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,32,1,0,Couhaib Driouech,23,FWD,Olympiacos vs PSV,couhaib driouech,22,FWD,1,True,1
+Paul Wanner,23,MID,0,0,0,0,9,9,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,23,1,0,Paul Wanner,14,MID,Olympiacos vs PSV,paul wanner,14,MID,0,True,0
+Myron Boadu,10,MID,0,0,0,0,1,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,6,1,0,Myron Boadu,8,MID,Olympiacos vs PSV,myron boadu,8,MID,0,True,0
+Achraf Hakimi,44,DEF,0,0,0,0,28,34,2,1,0,0,1,0,0,1,2,0,0,0,0,0,1,0,0,0,0,0,0,0,Home,45,0,2,Achraf Hakimi,21,DEF,PSG vs Bayern Munich,achraf hakimi,16,DEF,5,True,5
+Marquinhos,90,DEF,0,0,0,0,73,80,1,0,0,0,1,0,0,2,1,2,0,1,0,0,3,2,0,0,0,0,0,0,Home,90,1,2,Marquinhos,25,DEF,PSG vs Bayern Munich,marquinhos,21,DEF,4,True,4
+Willian Pacho,90,DEF,0,0,0,0,57,64,0,0,0,0,0,0,0,1,1,1,0,2,0,0,0,3,0,0,0,0,0,0,Home,90,1,2,Willian Pacho,10,DEF,PSG vs Bayern Munich,willian pacho,11,DEF,-1,True,1
+Nuno Mendes,90,DEF,0,0,0,0,64,73,0,8,2,6,0,1,0,3,2,3,1,1,0,0,1,0,0,0,0,0,0,0,Home,90,1,2,Nuno Mendes,40,DEF,PSG vs Bayern Munich,nuno mendes,38,DEF,2,True,2
+Warren Zaïre-Emery,90,MID,0,0,0,1,64,65,2,1,0,1,2,1,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,90,1,2,Warren Zaïre-Emery,37,MID,PSG vs Bayern Munich,warren zaïre-emery,37,MID,0,True,0
+Vitinha,90,MID,0,0,0,3,116,123,2,1,0,0,1,1,0,2,0,0,3,1,0,0,0,0,0,0,0,0,0,0,Home,90,1,2,Vitinha,41,MID,PSG vs Bayern Munich,vitinha,39,MID,2,True,2
+Bradley Barcola,66,FWD,0,0,0,1,16,23,3,0,2,5,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Home,66,0,2,Bradley Barcola,23,FWD,PSG vs Bayern Munich,bradley barcola,18,FWD,5,True,5
+Ousmane Dembélé,25,FWD,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,25,0,1,Ousmane Dembélé,7,FWD,PSG vs Bayern Munich,ousmane dembélé,6,FWD,1,True,1
+Khvicha Kvaratskhelia,90,FWD,0,0,0,2,49,52,1,5,2,5,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Home,90,1,2,Khvicha Kvaratskhelia,35,FWD,PSG vs Bayern Munich,khvicha kvaratskhelia,35,FWD,0,True,0
+Senny Mayulu,46,MID,0,0,0,0,22,25,2,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Home,45,1,0,Senny Mayulu,19,MID,PSG vs Bayern Munich,senny mayulu,18,MID,1,True,1
+João Neves,24,MID,1,0,0,1,29,30,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Home,24,1,0,João Neves,26,MID,PSG vs Bayern Munich,joão neves,27,MID,-1,True,1
+Gonçalo Ramos,24,FWD,0,0,0,0,2,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,24,1,0,Gonçalo Ramos,12,FWD,PSG vs Bayern Munich,gonçalo ramos,12,FWD,0,True,0
+Konrad Laimer,90,DEF,0,0,0,0,23,26,0,0,1,2,2,0,0,6,3,5,0,3,0,0,1,0,0,0,0,0,0,0,Away,90,2,1,Konrad Laimer,39,DEF,PSG vs Bayern Munich,konrad laimer,39,DEF,0,True,0
+Jonathan Tah,90,DEF,0,0,0,0,21,22,0,0,0,0,0,2,0,2,2,8,0,0,0,0,0,1,0,0,0,0,0,0,Away,90,2,1,Jonathan Tah,30,DEF,PSG vs Bayern Munich,jonathan tah,31,DEF,-1,True,1
+Dayot Upamecano,90,DEF,0,0,0,0,25,33,0,0,0,0,1,1,0,2,1,6,0,0,0,0,2,0,0,0,0,0,0,0,Away,90,2,1,Dayot Upamecano,29,DEF,PSG vs Bayern Munich,dayot upamecano,30,DEF,-1,True,1
+Josip Stanišić,90,DEF,0,0,0,0,20,24,1,0,0,0,1,0,0,3,2,5,0,1,0,0,1,0,0,0,0,0,0,0,Away,90,2,1,Josip Stanišić,33,DEF,PSG vs Bayern Munich,josip stanišić,36,DEF,-3,True,3
+Joshua Kimmich,90,MID,0,0,0,0,22,32,1,1,1,1,1,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,90,2,1,Joshua Kimmich,28,MID,PSG vs Bayern Munich,joshua kimmich,30,MID,-2,True,2
+Michael Olise,81,FWD,0,0,0,2,20,25,1,0,2,4,1,1,0,3,2,1,0,0,0,0,1,1,0,0,0,0,0,0,Away,81,2,1,Michael Olise,42,FWD,PSG vs Bayern Munich,michael olise,42,FWD,0,True,0
+Serge Gnabry,45,MID,0,0,0,0,16,17,3,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Away,46,2,0,Serge Gnabry,22,MID,PSG vs Bayern Munich,serge gnabry,23,MID,-1,True,1
+Luis Díaz,52,FWD,2,0,0,2,18,21,1,0,1,2,1,2,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,Away,90,2,1,Luis Díaz,47,FWD,PSG vs Bayern Munich,luis díaz,43,FWD,4,True,4
+Harry Kane,88,FWD,0,0,0,1,12,24,1,0,2,6,2,0,0,0,0,0,0,0,0,0,3,2,0,0,0,0,0,0,Away,88,2,1,Harry Kane,23,FWD,PSG vs Bayern Munich,harry kane,23,FWD,0,True,0
+Tom Bischof,45,MID,0,0,0,0,4,6,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,44,0,1,Tom Bischof,5,MID,PSG vs Bayern Munich,tom bischof,5,MID,0,True,0
+Leon Goretzka,8,MID,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Away,2,0,0,Leon Goretzka,10,MID,PSG vs Bayern Munich,leon goretzka,9,MID,1,True,1
+Pedro Porro,90,DEF,0,0,0,0,60,66,2,7,2,3,0,0,0,3,1,1,0,0,0,0,0,1,0,0,0,0,0,0,Home,90,4,0,Pedro Porro,49,DEF,Copenhagen vs Tottenham,pedro porro,46,DEF,3,True,3
+Cristian Romero,73,DEF,0,1,0,0,69,74,1,0,1,1,0,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Home,73,4,0,Cristian Romero,39,DEF,Copenhagen vs Tottenham,cristian romero,34,DEF,5,True,5
+Micky van de Ven,90,DEF,1,0,0,1,67,72,0,0,1,1,0,2,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,Home,90,4,0,Micky van de Ven,40,DEF,Copenhagen vs Tottenham,micky van de ven,41,DEF,-1,True,1
+Destiny Udogie,73,DEF,0,0,0,1,32,39,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,Home,73,4,0,Destiny Udogie,28,DEF,Copenhagen vs Tottenham,destiny udogie,27,DEF,1,True,1
+Rodrigo Bentancur,90,MID,0,0,0,0,60,68,0,0,1,1,0,0,0,0,3,3,0,0,0,0,2,1,0,0,0,0,0,0,Home,90,4,0,Rodrigo Bentancur,40,MID,Copenhagen vs Tottenham,rodrigo bentancur,40,MID,0,True,0
+Pape Matar Sarr,90,MID,0,0,0,0,46,52,1,0,0,2,1,1,0,1,3,2,0,0,0,0,0,2,0,0,0,0,0,0,Home,90,4,0,Pape Matar Sarr,32,MID,Copenhagen vs Tottenham,pape matar sarr,32,MID,0,True,0
+Brennan Johnson,57,FWD,1,0,0,1,13,16,1,0,2,2,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Home,90,4,0,Brennan Johnson,40,FWD,Copenhagen vs Tottenham,brennan johnson,36,FWD,4,True,4
+Xavi Simons,61,MID,0,1,0,0,32,36,4,1,2,2,1,0,0,2,0,0,1,0,0,0,0,1,0,0,0,0,0,0,Home,61,2,0,Xavi Simons,45,MID,Copenhagen vs Tottenham,xavi simons,45,MID,0,True,0
+Wilson Odobert,80,FWD,1,0,0,1,22,25,0,1,3,6,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Home,80,4,0,Wilson Odobert,48,FWD,Copenhagen vs Tottenham,wilson odobert,42,FWD,6,True,6
+Randal Kolo Muani,72,FWD,0,1,0,1,9,14,1,0,3,5,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Home,72,4,0,Randal Kolo Muani,40,FWD,Copenhagen vs Tottenham,randal kolo muani,38,FWD,2,True,2
+João Palhinha,29,MID,1,1,0,1,16,17,1,0,1,2,1,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,29,2,0,João Palhinha,42,MID,Copenhagen vs Tottenham,joão palhinha,37,MID,5,True,5
+Richarlison,18,FWD,0,0,0,0,1,2,0,0,0,0,4,1,0,0,0,1,0,0,0,0,3,1,0,0,0,0,0,0,Home,18,0,0,Richarlison,6,FWD,Copenhagen vs Tottenham,richarlison,2,FWD,4,True,4
+Kevin Danso,17,DEF,0,0,0,0,9,10,0,0,0,0,0,0,0,0,1,3,0,0,0,0,1,1,0,0,0,0,0,0,Home,17,0,0,Kevin Danso,16,DEF,Copenhagen vs Tottenham,kevin danso,16,DEF,0,True,0
+Djed Spence,17,DEF,0,0,0,0,2,2,0,1,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Home,17,0,0,Djed Spence,9,DEF,Copenhagen vs Tottenham,djed spence,9,DEF,0,True,0
+Dane Scarlett,10,MID,0,0,0,0,3,3,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,Home,10,0,0,Dane Scarlett,13,MID,Copenhagen vs Tottenham,dane scarlett,13,MID,0,True,0
+Junnosuke Suzuki,90,DEF,0,0,0,0,16,18,1,3,0,0,1,4,0,4,1,2,0,3,0,0,1,2,0,1,0,0,0,0,Away,90,0,4,Junnosuke Suzuki,5,DEF,Copenhagen vs Tottenham,junnosuke suzuki,6,DEF,-1,True,1
+Gabriel Pereira,72,DEF,0,0,0,0,28,33,0,0,0,0,1,1,0,1,0,3,0,3,0,0,0,1,0,0,0,0,0,0,Away,72,0,4,Gabriel Pereira,-5,DEF,Copenhagen vs Tottenham,gabriel pereira,-5,DEF,0,True,0
+Pantelis Hatzidiakos,90,DEF,0,0,0,0,44,49,0,1,0,0,0,1,0,2,1,3,0,1,0,0,2,1,0,0,0,0,0,0,Away,90,0,4,Pantelis Hatzidiakos,12,DEF,Copenhagen vs Tottenham,pantelis hatzidiakos,13,DEF,-1,True,1
+Marcos López,90,DEF,0,0,0,0,26,32,1,4,0,1,0,1,0,1,2,3,0,1,0,0,3,0,0,0,0,0,0,0,Away,90,0,4,Marcos López,19,DEF,Copenhagen vs Tottenham,marcos lópez,14,DEF,5,True,5
+Jordan Larsson,45,MID,0,0,0,1,2,2,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Away,46,0,1,Jordan Larsson,12,MID,Copenhagen vs Tottenham,jordan larsson,12,MID,0,True,0
+Lukas Lerager,90,MID,0,0,0,0,24,29,1,0,0,0,0,1,0,1,2,1,0,2,0,0,1,2,0,0,0,0,0,0,Away,90,0,4,Lukas Lerager,11,MID,Copenhagen vs Tottenham,lukas lerager,11,MID,0,True,0
+William Clem,90,MID,0,0,0,0,38,46,1,0,0,0,0,1,0,1,0,4,0,1,0,0,2,0,0,0,0,0,0,0,Away,90,0,4,William Clem,16,MID,Copenhagen vs Tottenham,william clem,17,MID,-1,True,1
+Elias Achouri,76,MID,0,0,0,0,15,20,1,3,0,3,0,2,0,0,1,2,0,2,0,0,0,1,0,0,0,0,0,0,Away,76,0,4,Elias Achouri,6,MID,Copenhagen vs Tottenham,elias achouri,5,MID,1,True,1
+Youssoufa Moukoko,72,FWD,0,0,0,2,15,16,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,Away,72,0,4,Youssoufa Moukoko,19,FWD,Copenhagen vs Tottenham,youssoufa moukoko,18,FWD,1,True,1
+Mohamed Elyounoussi,72,FWD,0,0,0,0,17,25,1,4,0,0,2,0,0,0,0,0,0,1,0,0,2,1,0,0,0,0,0,0,Away,72,0,4,Mohamed Elyounoussi,16,FWD,Copenhagen vs Tottenham,mohamed elyounoussi,16,FWD,0,True,0
+Viktor Claesson,18,MID,0,0,0,0,6,6,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,18,0,0,Viktor Claesson,14,MID,Copenhagen vs Tottenham,viktor claesson,14,MID,0,True,0
+Andreas Cornelius,18,FWD,0,0,0,0,3,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Away,18,0,0,Andreas Cornelius,10,FWD,Copenhagen vs Tottenham,andreas cornelius,10,FWD,0,True,0
+Robert,14,MID,0,0,0,1,2,3,0,3,0,0,0,0,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Away,14,0,0,Robert,18,MID,Copenhagen vs Tottenham,robert,19,MID,-1,True,1
+Derrick Luckassen,90,DEF,1,0,0,1,33,46,0,0,0,0,0,2,0,0,3,12,0,1,0,0,3,2,0,0,0,0,0,0,Home,90,1,0,Derrick Luckassen,50,DEF,Pafos vs Villarreal,derrick luckassen,53,DEF,-3,True,3
+David Luiz,90,DEF,0,0,0,0,36,46,0,0,0,0,1,1,0,1,1,4,0,1,0,0,1,2,0,0,0,0,0,0,Home,90,1,0,David Luiz,23,DEF,Pafos vs Villarreal,david luiz,26,DEF,-3,True,3
+David Goldar,90,DEF,0,0,0,0,33,38,0,0,0,0,0,0,0,1,1,6,0,1,0,0,3,4,0,0,0,0,0,0,Home,90,1,0,David Goldar,29,DEF,Pafos vs Villarreal,david goldar,26,DEF,3,True,3
+Ken Sema,72,DEF,0,1,0,0,16,21,2,3,1,3,3,2,0,3,0,4,0,1,0,0,1,1,0,0,0,0,0,0,Home,72,1,0,Ken Sema,40,DEF,Pafos vs Villarreal,ken sema,40,DEF,0,True,0
+Mislav Oršić,78,MID,0,0,0,0,24,32,0,3,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,Home,78,1,0,Mislav Oršić,18,MID,Pafos vs Villarreal,mislav oršić,17,MID,1,True,1
+Ivan Šunjić,90,MID,0,0,0,0,26,31,0,0,1,1,0,2,0,1,1,3,0,1,0,0,2,0,0,0,0,0,0,0,Home,90,1,0,Ivan Šunjić,27,MID,Pafos vs Villarreal,ivan šunjić,30,MID,-3,True,3
+Domingos Quina,87,MID,0,0,0,1,20,28,0,0,1,4,0,1,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Home,87,1,0,Domingos Quina,23,MID,Pafos vs Villarreal,domingos quina,23,MID,0,True,0
+Vlad Dragomir,90,FWD,0,0,0,0,7,11,0,0,0,1,3,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Home,90,1,0,Vlad Dragomir,7,FWD,Pafos vs Villarreal,vlad dragomir,7,FWD,0,True,0
+Kostas Pileas,18,DEF,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Home,18,0,0,Kostas Pileas,15,DEF,Pafos vs Villarreal,kostas pileas,15,DEF,0,True,0
+Jajá,12,MID,0,0,0,0,2,2,0,0,1,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Home,12,0,0,Jajá,10,MID,Pafos vs Villarreal,jajá,10,MID,0,True,0
+Bruno Langa,10,DEF,0,0,0,0,2,2,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,3,0,0,Bruno Langa,12,DEF,Pafos vs Villarreal,bruno langa,12,DEF,0,True,0
+Santiago Mouriño,90,DEF,0,0,0,0,70,78,1,1,0,0,0,0,0,5,2,3,0,1,0,0,1,0,0,0,0,0,0,0,Away,90,0,1,Santiago Mouriño,43,DEF,Pafos vs Villarreal,santiago mouriño,46,DEF,-3,True,3
+Juan Foyth,90,DEF,0,0,0,0,77,83,0,0,0,0,1,1,0,2,1,2,0,0,0,0,2,1,0,0,0,0,0,0,Away,90,0,1,Juan Foyth,29,DEF,Pafos vs Villarreal,juan foyth,30,DEF,-1,True,1
+Renato Veiga,90,DEF,0,0,0,0,73,83,0,1,0,0,0,1,0,1,2,4,0,1,0,0,4,3,0,0,0,0,0,0,Away,90,0,1,Renato Veiga,31,DEF,Pafos vs Villarreal,renato veiga,33,DEF,-2,True,2
+Sergi Cardona,63,DEF,0,0,0,0,19,21,1,5,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,Away,63,0,1,Sergi Cardona,24,DEF,Pafos vs Villarreal,sergi cardona,26,DEF,-2,True,2
+Nicolas Pépé,90,MID,0,0,0,0,35,41,2,4,2,7,2,1,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,90,0,1,Nicolas Pépé,28,MID,Pafos vs Villarreal,nicolas pépé,28,MID,0,True,0
+Pape Gueye,90,MID,0,0,0,1,51,62,0,0,0,2,0,2,0,2,2,0,3,1,0,0,1,1,0,0,0,0,0,0,Away,90,0,1,Pape Gueye,24,MID,Pafos vs Villarreal,pape gueye,24,MID,0,True,0
+Alberto Moleiro,56,MID,0,0,0,0,11,15,2,0,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,56,0,1,Alberto Moleiro,14,MID,Pafos vs Villarreal,alberto moleiro,14,MID,0,True,0
+Ayoze Pérez,63,FWD,0,0,0,1,10,13,0,0,1,3,0,2,0,0,0,0,0,0,0,0,3,1,0,0,0,0,0,0,Away,63,0,1,Ayoze Pérez,15,FWD,Pafos vs Villarreal,ayoze pérez,15,FWD,0,True,0
+Georges Mikautadze,56,FWD,0,0,0,0,11,13,0,0,2,3,0,1,0,1,0,0,0,0,0,0,0,3,0,0,0,0,0,0,Away,56,0,1,Georges Mikautadze,14,FWD,Pafos vs Villarreal,georges mikautadze,15,FWD,-1,True,1
+Manor Solomon,34,MID,0,0,0,1,11,12,1,2,1,1,1,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,34,0,0,Manor Solomon,25,MID,Pafos vs Villarreal,manor solomon,24,MID,1,True,1
+Tani Oluwaseyi,34,FWD,0,0,0,1,2,4,1,0,1,1,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,Away,34,0,0,Tani Oluwaseyi,17,FWD,Pafos vs Villarreal,tani oluwaseyi,17,FWD,0,True,0
+Alfonso Pedraza,27,DEF,0,0,0,0,11,12,2,7,1,1,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,Away,27,0,0,Alfonso Pedraza,30,DEF,Pafos vs Villarreal,alfonso pedraza,29,DEF,1,True,1
+Santi Comesaña,27,MID,0,0,0,1,21,26,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,27,0,0,Santi Comesaña,17,MID,Pafos vs Villarreal,santi comesaña,17,MID,0,True,0
+Gerard Moreno,27,FWD,0,0,0,0,14,15,0,3,3,4,0,1,0,0,0,0,0,1,0,0,1,2,0,0,0,0,0,0,Away,27,0,0,Gerard Moreno,19,FWD,Pafos vs Villarreal,gerard moreno,15,FWD,4,True,4
+Matheus Silva,90,DEF,0,0,0,0,22,29,0,0,1,2,1,1,0,5,2,6,0,2,0,0,2,0,0,0,0,0,0,0,Home,90,2,2,Matheus Silva,33,DEF,Qarabag vs Chelsea,matheus silva,33,DEF,0,True,0
+Kevin Medina,90,DEF,0,0,0,0,24,30,0,1,0,0,1,0,0,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Home,90,2,2,Kevin Medina,26,DEF,Qarabag vs Chelsea,kevin medina,28,DEF,-2,True,2
+Pedro Bicalho,90,MID,0,0,0,0,26,36,0,0,0,1,0,2,0,2,3,4,0,1,0,0,0,2,0,0,0,0,0,0,Home,90,2,2,Pedro Bicalho,22,MID,Qarabag vs Chelsea,pedro bicalho,24,MID,-2,True,2
+Marko Janković,90,MID,1,0,0,1,25,33,0,1,0,0,2,3,0,4,2,3,0,1,0,0,0,1,0,0,0,0,0,0,Home,90,2,2,Marko Janković,36,MID,Qarabag vs Chelsea,marko janković,34,MID,2,True,2
+Kady Borges,31,FWD,0,0,0,0,4,6,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Home,31,1,1,Kady Borges,8,FWD,Qarabag vs Chelsea,kady borges,8,FWD,0,True,0
+Leandro Andrade,61,FWD,1,0,0,1,6,9,1,2,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,61,2,2,Leandro Andrade,36,FWD,Qarabag vs Chelsea,leandro andrade,32,FWD,4,True,4
+Abdellah Zoubir,75,MID,0,0,0,0,25,29,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,75,2,2,Abdellah Zoubir,12,MID,Qarabag vs Chelsea,abdellah zoubir,11,MID,1,True,1
+Emmanuel Addai,59,FWD,0,0,0,0,19,21,1,0,3,6,2,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Home,59,1,1,Emmanuel Addai,22,FWD,Qarabag vs Chelsea,emmanuel addai,19,FWD,3,True,3
+Toral Bayramov,29,DEF,0,0,0,0,7,7,1,1,0,0,0,0,0,0,0,3,0,2,0,0,0,2,0,0,0,0,0,0,Home,29,0,0,Toral Bayramov,11,DEF,Qarabag vs Chelsea,toral bayramov,10,DEF,1,True,1
+Dani Bolt,15,FWD,0,0,0,0,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Home,15,0,0,Dani Bolt,7,FWD,Qarabag vs Chelsea,dani bolt,7,FWD,0,True,0
+Reece James,90,DEF,0,0,0,0,50,60,1,5,0,0,0,1,0,2,2,0,0,2,0,0,0,0,0,0,0,0,0,0,Away,90,2,2,Reece James,25,DEF,Qarabag vs Chelsea,reece james,26,DEF,-1,True,1
+Tosin Adarabioyo,90,DEF,0,0,0,0,70,77,1,0,0,0,0,1,0,3,0,3,0,0,0,0,2,2,0,0,0,0,0,0,Away,90,2,2,Tosin Adarabioyo,26,DEF,Qarabag vs Chelsea,tosin adarabioyo,29,DEF,-3,True,3
+Jorrel Hato,90,DEF,0,0,0,0,65,70,0,0,1,1,0,1,0,1,1,2,0,0,0,0,1,1,0,1,0,0,0,0,Away,90,2,2,Jorrel Hato,17,DEF,Qarabag vs Chelsea,jorrel hato,10,DEF,7,True,7
+Marc Cucurella,90,DEF,0,0,0,0,31,34,1,1,0,0,0,6,0,2,1,3,0,2,0,0,3,2,0,0,0,0,0,0,Away,90,2,2,Marc Cucurella,20,DEF,Qarabag vs Chelsea,marc cucurella,23,DEF,-3,True,3
+Andrey Santos,45,MID,0,1,0,0,19,21,1,0,0,0,1,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,46,1,2,Andrey Santos,26,MID,Qarabag vs Chelsea,andrey santos,26,MID,0,True,0
+Roméo Lavia,8,MID,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,8,0,0,Roméo Lavia,8,MID,Qarabag vs Chelsea,roméo lavia,8,MID,0,True,0
+João Pedro,71,MID,0,0,0,0,25,30,1,0,0,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,71,2,2,João Pedro,11,MID,Qarabag vs Chelsea,joão pedro,11,MID,0,True,0
+Jamie Gittens,45,FWD,0,0,0,0,9,11,0,1,2,4,2,3,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Away,46,1,2,Jamie Gittens,16,FWD,Qarabag vs Chelsea,jamie gittens,13,FWD,3,True,3
+Tyrique George,45,FWD,0,0,0,0,6,7,1,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Away,46,1,2,Tyrique George,12,FWD,Qarabag vs Chelsea,tyrique george,11,FWD,1,True,1
+Moisés Caicedo,82,MID,0,0,0,0,52,54,0,0,1,1,1,3,0,1,0,3,0,2,0,0,0,0,0,0,0,0,0,0,Away,82,2,2,Moisés Caicedo,20,MID,Qarabag vs Chelsea,moisés caicedo,24,MID,-4,True,4
+Enzo Fernández,45,MID,0,0,0,1,27,34,1,3,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,Away,44,1,0,Enzo Fernández,23,MID,Qarabag vs Chelsea,enzo fernández,22,MID,1,True,1
+Liam Delap,45,FWD,0,0,0,0,4,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,44,1,0,Liam Delap,13,FWD,Qarabag vs Chelsea,liam delap,12,FWD,1,True,1
+Alejandro Garnacho,45,FWD,1,0,0,2,14,19,1,0,1,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,44,1,0,Alejandro Garnacho,32,FWD,Qarabag vs Chelsea,alejandro garnacho,30,FWD,2,True,2
+Facundo Buonanotte,19,MID,0,0,0,0,7,10,0,0,1,2,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,Away,19,0,0,Facundo Buonanotte,12,MID,Qarabag vs Chelsea,facundo buonanotte,14,MID,-2,True,2
+Anton Gaaei,90,DEF,0,0,0,0,28,36,0,4,0,2,0,2,0,3,0,3,0,2,0,0,1,2,0,0,0,0,0,0,Home,90,0,3,Anton Gaaei,11,DEF,Ajax vs Galatasaray,anton gaaei,23,DEF,-12,True,12
+Josip Šutalo,90,DEF,0,0,0,0,68,72,0,0,3,3,0,0,0,0,2,6,0,1,0,0,1,2,0,0,0,0,0,0,Home,90,0,3,Josip Šutalo,24,DEF,Ajax vs Galatasaray,josip šutalo,26,DEF,-2,True,2
+Youri Baas,90,DEF,0,0,0,0,60,62,0,0,1,1,0,2,0,1,1,4,0,0,0,0,2,4,0,1,0,0,0,0,Home,90,0,3,Youri Baas,11,DEF,Ajax vs Galatasaray,youri baas,17,DEF,-6,True,6
+Owen Wijndal,45,DEF,0,0,0,0,20,23,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,Home,46,0,0,Owen Wijndal,15,DEF,Ajax vs Galatasaray,owen wijndal,16,DEF,-1,True,1
+Davy Klaassen,90,MID,0,0,0,0,42,47,2,0,0,0,0,1,0,3,2,1,0,2,0,0,1,1,0,0,0,0,0,0,Home,90,0,3,Davy Klaassen,25,MID,Ajax vs Galatasaray,davy klaassen,26,MID,-1,True,1
+Jorthy Mokio,78,MID,0,0,0,1,54,59,0,0,0,0,1,1,0,2,1,1,0,0,0,0,0,1,0,0,0,0,0,0,Home,78,0,3,Jorthy Mokio,18,MID,Ajax vs Galatasaray,jorthy mokio,18,MID,0,True,0
+Youri Regeer,71,FWD,0,0,0,0,17,19,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,3,0,0,0,0,0,0,Home,71,0,2,Youri Regeer,9,FWD,Ajax vs Galatasaray,youri regeer,8,FWD,1,True,1
+Oscar Gloukh,90,MID,0,0,0,0,37,44,2,3,3,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Home,90,0,3,Oscar Gloukh,22,MID,Ajax vs Galatasaray,oscar gloukh,18,MID,4,True,4
+Mika Godts,71,FWD,0,0,0,0,14,16,0,1,2,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,71,0,2,Mika Godts,17,FWD,Ajax vs Galatasaray,mika godts,18,FWD,-1,True,1
+Wout Weghorst,90,FWD,0,0,0,0,9,11,0,1,0,1,0,3,0,1,0,2,1,0,0,0,0,2,0,0,0,0,0,0,Home,90,0,3,Wout Weghorst,12,FWD,Ajax vs Galatasaray,wout weghorst,14,FWD,-2,True,2
+Gerald Alders,45,DEF,0,0,0,0,20,22,0,0,0,1,0,1,0,0,2,0,0,1,0,0,1,1,0,1,0,0,0,0,Home,44,0,3,Gerald Alders,-1,DEF,Ajax vs Galatasaray,gerald alders,1,DEF,-2,True,2
+Kian Fitz-Jim,19,FWD,0,0,0,0,9,9,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,19,0,1,Kian Fitz-Jim,13,FWD,Ajax vs Galatasaray,kian fitz-jim,11,FWD,2,True,2
+Rayane Bounida,19,FWD,0,0,0,1,6,6,0,1,3,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Home,19,0,1,Rayane Bounida,18,FWD,Ajax vs Galatasaray,rayane bounida,19,FWD,-1,True,1
+James McConnell,12,MID,0,0,0,0,8,8,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,12,0,0,James McConnell,9,MID,Ajax vs Galatasaray,james mcconnell,9,MID,0,True,0
+Wilfried Singo,90,DEF,0,0,0,0,47,51,1,5,2,2,0,2,0,3,3,1,0,1,0,0,0,0,0,0,0,0,0,0,Away,90,3,0,Wilfried Singo,48,DEF,Ajax vs Galatasaray,wilfried singo,48,DEF,0,True,0
+Davinson Sánchez,90,DEF,0,0,0,0,82,84,0,0,0,0,0,1,0,0,1,4,0,2,0,0,2,0,0,0,0,0,0,0,Away,90,3,0,Davinson Sánchez,32,DEF,Ajax vs Galatasaray,davinson sánchez,32,DEF,0,True,0
+Abdülkerim Bardakcı,90,DEF,0,0,0,0,66,72,0,0,0,0,1,2,0,1,0,4,0,2,0,0,2,0,0,0,0,0,0,0,Away,90,3,0,Abdülkerim Bardakcı,27,DEF,Ajax vs Galatasaray,abdülkerim bardakcı,27,DEF,0,True,0
+Ismail Jakobs,86,DEF,0,0,0,0,37,41,1,6,0,0,0,0,0,2,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Away,86,3,0,Ismail Jakobs,35,DEF,Ajax vs Galatasaray,ismail jakobs,34,DEF,1,True,1
+Lucas Torreira,89,MID,0,0,0,0,50,54,1,0,0,0,0,2,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Away,89,3,0,Lucas Torreira,27,MID,Ajax vs Galatasaray,lucas torreira,31,MID,-4,True,4
+Mario Lemina,86,MID,0,0,0,0,47,50,1,0,1,2,0,2,0,1,0,1,0,2,0,0,1,0,0,0,0,0,0,0,Away,86,3,0,Mario Lemina,28,MID,Ajax vs Galatasaray,mario lemina,28,MID,0,True,0
+Leroy Sané,90,FWD,0,1,0,1,28,31,1,1,2,5,2,2,0,1,0,0,2,1,0,0,2,1,0,0,0,0,0,0,Away,90,3,0,Leroy Sané,41,FWD,Ajax vs Galatasaray,leroy sané,37,FWD,4,True,4
+Gabriel Sara,45,MID,0,0,0,0,13,14,1,3,0,0,2,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,Away,46,0,0,Gabriel Sara,19,MID,Ajax vs Galatasaray,gabriel sara,18,MID,1,True,1
+Roland Sallai,90,FWD,0,0,0,1,19,27,1,4,0,0,2,1,0,0,0,0,1,1,0,0,3,1,0,0,0,0,0,0,Away,90,3,0,Roland Sallai,30,FWD,Ajax vs Galatasaray,roland sallai,28,FWD,2,True,2
+Victor Osimhen,81,FWD,3,0,0,5,5,9,0,0,2,2,0,1,0,0,0,0,0,0,0,0,4,2,0,0,0,0,0,0,Away,81,3,0,Victor Osimhen,71,FWD,Ajax vs Galatasaray,victor osimhen,59,FWD,12,True,12
+Barış Alper Yılmaz,45,FWD,0,0,0,0,11,14,1,1,1,1,2,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,Away,44,3,0,Barış Alper Yılmaz,23,FWD,Ajax vs Galatasaray,barış alper yılmaz,23,FWD,0,True,0
+Mauro Icardi,9,FWD,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,Away,9,0,0,Mauro Icardi,6,FWD,Ajax vs Galatasaray,mauro icardi,4,FWD,2,True,2
+Eren Elmalı,10,DEF,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Away,4,0,0,Eren Elmalı,10,DEF,Ajax vs Galatasaray,eren elmalı,11,DEF,-1,True,1
+Kaan Ayhan,10,MID,0,0,0,0,4,4,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Away,4,0,0,Kaan Ayhan,9,MID,Ajax vs Galatasaray,kaan ayhan,9,MID,0,True,0
+Berkan Kutlu,1,MID,0,0,0,0,3,3,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,1,0,0,Berkan Kutlu,9,MID,Ajax vs Galatasaray,berkan kutlu,9,MID,0,True,0
+Fredrik Aursnes,90,DEF,0,0,0,0,46,56,1,6,0,2,0,0,0,3,2,1,0,3,0,0,1,0,0,0,0,0,0,0,Home,90,0,1,Fredrik Aursnes,34,DEF,Benfica vs Leverkusen,fredrik aursnes,31,DEF,3,True,3
+Tomás Araújo,90,DEF,0,0,0,0,53,61,1,1,0,1,0,0,0,3,4,3,0,0,0,0,2,1,0,0,0,0,0,0,Home,90,0,1,Tomás Araújo,43,DEF,Benfica vs Leverkusen,tomás araújo,41,DEF,2,True,2
+Nicolás Otamendi,90,DEF,0,0,0,1,79,83,1,0,0,0,0,4,0,1,4,1,0,0,0,0,4,3,0,0,0,0,0,0,Home,90,0,1,Nicolás Otamendi,39,DEF,Benfica vs Leverkusen,nicolás otamendi,42,DEF,-3,True,3
+Samuel Dahl,69,DEF,0,0,0,0,27,29,0,0,0,0,0,0,0,5,0,2,0,0,0,0,0,2,0,0,0,0,0,0,Home,69,0,1,Samuel Dahl,26,DEF,Benfica vs Leverkusen,samuel dahl,22,DEF,4,True,4
+Enzo Barrenechea,90,MID,0,0,0,0,72,75,0,0,2,3,0,0,0,1,1,0,0,1,0,0,2,0,0,0,0,0,0,0,Home,90,0,1,Enzo Barrenechea,30,MID,Benfica vs Leverkusen,enzo barrenechea,23,MID,7,True,7
+Richard Ríos,90,MID,0,0,0,1,51,57,5,2,2,3,2,0,0,1,3,0,1,1,0,0,2,1,0,0,0,0,0,0,Home,90,0,1,Richard Ríos,45,MID,Benfica vs Leverkusen,richard ríos,47,MID,-2,True,2
+Dodi Lukebakio,90,FWD,0,0,0,3,32,38,3,3,2,3,1,1,0,0,0,0,2,1,0,0,1,0,0,0,0,0,0,0,Home,90,0,1,Dodi Lukebakio,37,FWD,Benfica vs Leverkusen,dodi lukebakio,38,FWD,-1,True,1
+Vangelis Pavlidis,90,FWD,0,0,0,1,14,19,1,0,0,2,1,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,Home,90,0,1,Vangelis Pavlidis,11,FWD,Benfica vs Leverkusen,vangelis pavlidis,9,FWD,2,True,2
+Amar Dedić,21,DEF,0,0,0,0,12,13,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,Home,21,0,0,Amar Dedić,12,DEF,Benfica vs Leverkusen,amar dedić,11,DEF,1,True,1
+Gianluca Prestianni,21,MID,0,0,0,0,7,9,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,21,0,0,Gianluca Prestianni,12,MID,Benfica vs Leverkusen,gianluca prestianni,12,MID,0,True,0
+Andreas Schjelderup,21,FWD,0,0,0,0,14,14,1,4,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Home,21,0,0,Andreas Schjelderup,17,FWD,Benfica vs Leverkusen,andreas schjelderup,16,FWD,1,True,1
+Jarell Quansah,90,DEF,0,0,0,0,50,52,0,0,2,2,0,0,0,0,0,5,0,1,0,0,0,1,0,0,0,0,0,0,Away,90,1,0,Jarell Quansah,29,DEF,Benfica vs Leverkusen,jarell quansah,29,DEF,0,True,0
+Edmond Tapsoba,90,DEF,0,0,0,0,58,66,0,0,0,0,0,2,0,3,1,6,0,2,0,0,2,1,0,0,0,0,0,0,Away,90,1,0,Edmond Tapsoba,36,DEF,Benfica vs Leverkusen,edmond tapsoba,39,DEF,-3,True,3
+Arthur,90,DEF,0,0,0,0,14,18,0,1,0,3,1,1,0,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,Away,90,1,0,Arthur,21,DEF,Benfica vs Leverkusen,arthur,22,DEF,-1,True,1
+Ibrahim Maza,90,MID,0,0,0,0,31,34,1,0,1,2,2,4,0,3,1,2,1,2,0,0,0,1,0,0,0,0,0,0,Away,90,1,0,Ibrahim Maza,25,MID,Benfica vs Leverkusen,ibrahim maza,26,MID,-1,True,1
+Aleix García,90,MID,0,0,0,0,51,60,0,0,0,0,1,0,0,1,1,3,0,1,0,0,1,0,0,0,0,0,0,0,Away,90,1,0,Aleix García,25,MID,Benfica vs Leverkusen,aleix garcía,19,MID,6,True,6
+Claudio Echeverri,57,MID,0,0,0,0,25,28,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,57,0,0,Claudio Echeverri,10,MID,Benfica vs Leverkusen,claudio echeverri,10,MID,0,True,0
+Ernest Poku,88,MID,0,0,0,0,15,19,1,0,2,4,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,Away,88,1,0,Ernest Poku,18,MID,Benfica vs Leverkusen,ernest poku,22,MID,-4,True,4
+Christian Kofane,57,FWD,0,0,0,1,8,8,0,0,0,0,4,1,0,0,0,0,0,1,0,0,1,2,0,0,0,0,0,0,Away,57,0,0,Christian Kofane,6,FWD,Benfica vs Leverkusen,christian kofane,8,FWD,-2,True,2
+Malik Tillman,33,MID,0,0,0,0,9,9,1,0,0,0,2,1,0,3,0,1,0,0,0,0,0,2,0,0,0,0,0,0,Away,33,1,0,Malik Tillman,17,MID,Benfica vs Leverkusen,malik tillman,18,MID,-1,True,1
+Patrik Schick,33,FWD,1,0,0,2,6,10,0,0,1,1,0,0,0,0,1,0,0,0,0,0,3,1,0,0,0,0,0,0,Away,33,1,0,Patrik Schick,34,FWD,Benfica vs Leverkusen,patrik schick,33,FWD,1,True,1
+Eliesse Ben Seghir,9,MID,0,0,0,0,3,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Away,2,0,0,Eliesse Ben Seghir,8,MID,Benfica vs Leverkusen,eliesse ben seghir,8,MID,0,True,0
+Kyriani Sabbe,90,DEF,0,0,0,0,13,17,0,1,3,4,0,0,0,2,1,4,0,0,0,0,0,0,0,0,0,0,0,0,Home,90,4,2,Kyriani Sabbe,27,DEF,Club Brugge vs Barcelona,kyriani sabbe,27,DEF,0,True,0
+Joel Ordóñez,90,DEF,0,0,0,0,10,13,0,0,0,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Home,90,4,2,Joel Ordóñez,16,DEF,Club Brugge vs Barcelona,joel ordóñez,17,DEF,-1,True,1
+Brandon Mechele,90,DEF,0,0,0,0,10,12,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Home,90,4,2,Brandon Mechele,17,DEF,Club Brugge vs Barcelona,brandon mechele,19,DEF,-2,True,2
+Joaquin Seys,90,DEF,0,0,0,1,18,23,1,0,1,1,0,1,0,5,2,2,0,3,0,0,0,0,0,0,0,0,0,0,Home,90,4,2,Joaquin Seys,30,DEF,Club Brugge vs Barcelona,joaquin seys,31,DEF,-1,True,1
+Aleksandar Stanković,90,MID,0,0,0,0,15,23,1,0,0,0,0,1,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,Home,90,4,2,Aleksandar Stanković,21,MID,Club Brugge vs Barcelona,aleksandar stanković,19,MID,2,True,2
+Raphael Onyedika,84,MID,0,0,0,0,15,15,1,0,0,0,2,2,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Home,84,4,2,Raphael Onyedika,18,MID,Club Brugge vs Barcelona,raphael onyedika,16,MID,2,True,2
+Carlos Forbs,78,FWD,2,1,0,2,9,10,1,0,0,2,1,1,0,2,1,0,0,0,0,0,0,1,0,0,0,0,0,0,Home,78,4,2,Carlos Forbs,61,FWD,Club Brugge vs Barcelona,carlos forbs,58,FWD,3,True,3
+Hans Vanaken,90,MID,0,1,0,0,34,44,4,0,3,4,1,1,0,2,2,3,0,1,0,0,2,5,0,0,0,0,0,0,Home,90,4,2,Hans Vanaken,48,MID,Club Brugge vs Barcelona,hans vanaken,48,MID,0,True,0
+Christos Tzolis,90,FWD,0,1,0,2,16,23,2,3,0,0,1,0,0,3,0,4,1,1,0,1,1,0,0,0,0,0,0,0,Home,90,4,2,Christos Tzolis,52,FWD,Club Brugge vs Barcelona,christos tzolis,48,FWD,4,True,4
+Mamadou Diakhon,12,FWD,0,0,0,0,4,5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,12,0,0,Mamadou Diakhon,5,FWD,Club Brugge vs Barcelona,mamadou diakhon,1,FWD,4,True,4
+Romeo Vermant,12,FWD,0,0,0,0,1,1,0,0,0,1,1,3,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,Home,12,0,0,Romeo Vermant,1,FWD,Club Brugge vs Barcelona,romeo vermant,2,FWD,-1,True,1
+Lynnt Audoor,3,MID,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,3,0,0,Lynnt Audoor,7,MID,Club Brugge vs Barcelona,lynnt audoor,7,MID,0,True,0
+Hugo Vetlesen,12,MID,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,3,0,0,Hugo Vetlesen,7,MID,Club Brugge vs Barcelona,hugo vetlesen,7,MID,0,True,0
+Jules Koundé,90,DEF,0,0,0,0,65,68,1,1,0,0,2,1,0,1,1,3,0,0,0,0,1,2,0,0,0,0,0,0,Away,90,2,4,Jules Koundé,11,DEF,Club Brugge vs Barcelona,jules koundé,18,DEF,-7,True,7
+Ronald Araújo,90,DEF,0,0,0,0,78,87,0,0,0,0,1,1,0,1,1,5,0,0,0,0,5,2,0,0,0,0,0,0,Away,90,2,4,Ronald Araújo,18,DEF,Club Brugge vs Barcelona,ronald araújo,23,DEF,-5,True,5
+Eric García,89,DEF,0,0,0,0,100,102,0,0,0,0,0,1,0,1,2,0,0,0,0,0,1,1,0,0,0,0,0,0,Away,90,2,4,Eric García,15,DEF,Club Brugge vs Barcelona,eric garcía,18,DEF,-3,True,3
+Alejandro Balde,89,DEF,0,0,0,0,59,63,4,2,0,2,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,90,2,4,Alejandro Balde,17,DEF,Club Brugge vs Barcelona,alejandro balde,24,DEF,-7,True,7
+Frenkie de Jong,90,MID,0,0,0,0,116,120,2,0,0,0,0,0,0,2,1,0,0,0,0,0,1,0,0,0,0,0,0,0,Away,90,2,4,Frenkie de Jong,37,MID,Club Brugge vs Barcelona,frenkie de jong,39,MID,-2,True,2
+Lamine Yamal,90,FWD,1,0,0,3,51,63,4,8,5,10,1,0,0,0,1,0,1,2,0,0,0,0,0,0,0,0,0,0,Away,90,2,4,Lamine Yamal,69,FWD,Club Brugge vs Barcelona,lamine yamal,66,FWD,3,True,3
+Marcus Rashford,83,FWD,0,0,0,1,44,54,1,3,0,1,1,0,0,1,0,0,1,2,0,0,0,0,0,0,0,0,0,0,Away,83,2,4,Marcus Rashford,28,FWD,Club Brugge vs Barcelona,marcus rashford,29,FWD,-1,True,1
+Dani Olmo,32,MID,0,0,0,0,20,21,0,0,2,2,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Away,32,1,2,Dani Olmo,15,MID,Club Brugge vs Barcelona,dani olmo,20,MID,-5,True,5
+Robert Lewandowski,32,FWD,0,0,0,0,1,4,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,Away,32,1,2,Robert Lewandowski,10,FWD,Club Brugge vs Barcelona,robert lewandowski,9,FWD,1,True,1
+Roony Bardghji,16,FWD,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Away,7,0,0,Roony Bardghji,8,FWD,Club Brugge vs Barcelona,roony bardghji,7,FWD,1,True,1
+Pau Cubarsí,1,DEF,0,0,0,0,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Away,0,0,0,Pau Cubarsí,11,DEF,Club Brugge vs Barcelona,pau cubarsí,11,DEF,0,True,0
+Gerard Martín,1,DEF,0,0,0,0,4,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,0,0,0,Gerard Martín,13,DEF,Club Brugge vs Barcelona,gerard martín,14,DEF,-1,True,1
+Stefan de Vrij,90,DEF,0,0,0,0,62,68,0,0,2,2,0,1,0,0,0,9,0,1,0,0,6,3,0,0,0,0,0,0,Home,90,2,1,Stefan de Vrij,36,DEF,Kairat vs Inter,stefan de vrij,44,DEF,-8,True,8
+Carlos Augusto,90,DEF,1,0,0,1,81,85,0,0,0,0,2,1,0,3,1,2,0,0,0,0,1,0,0,0,0,0,0,0,Home,90,2,1,Carlos Augusto,43,DEF,Kairat vs Inter,carlos augusto,45,DEF,-2,True,2
+Denzel Dumfries,90,DEF,0,0,0,0,37,41,1,3,0,1,1,0,0,1,0,0,1,2,0,0,1,4,0,0,0,0,0,0,Home,90,2,1,Denzel Dumfries,15,DEF,Kairat vs Inter,denzel dumfries,18,DEF,-3,True,3
+Davide Frattesi,63,MID,0,0,0,0,12,16,1,0,1,2,1,1,0,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Home,63,1,1,Davide Frattesi,21,MID,Kairat vs Inter,davide frattesi,21,MID,0,True,0
+Nicolò Barella,71,MID,0,0,0,0,46,58,1,7,0,0,1,2,0,3,1,0,0,1,0,0,1,0,0,0,0,0,0,0,Home,71,2,1,Nicolò Barella,34,MID,Kairat vs Inter,nicolò barella,32,MID,2,True,2
+Piotr Zieliński,90,MID,0,0,0,0,51,58,2,2,0,0,0,0,0,2,0,1,0,1,0,0,2,0,0,0,0,0,0,0,Home,90,2,1,Piotr Zieliński,33,MID,Kairat vs Inter,piotr zieliński,33,MID,0,True,0
+Federico Dimarco,90,DEF,0,0,0,1,51,62,5,13,0,1,2,0,0,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Home,90,2,1,Federico Dimarco,53,DEF,Kairat vs Inter,federico dimarco,50,DEF,3,True,3
+Lautaro Martínez,45,FWD,1,0,0,3,7,9,1,0,1,2,2,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,Home,46,1,0,Lautaro Martínez,33,FWD,Kairat vs Inter,lautaro martínez,29,FWD,4,True,4
+Ange-Yoan Bonny,45,FWD,0,0,0,0,22,26,2,0,2,5,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Home,44,1,1,Ange-Yoan Bonny,24,FWD,Kairat vs Inter,ange-yoan bonny,24,FWD,0,True,0
+Hakan Çalhanoğlu,19,MID,0,0,0,0,22,22,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Home,19,0,0,Hakan Çalhanoğlu,15,MID,Kairat vs Inter,hakan çalhanoğlu,15,MID,0,True,0
+Marcus Thuram,19,FWD,0,0,0,1,8,8,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Home,19,0,0,Marcus Thuram,14,FWD,Kairat vs Inter,marcus thuram,16,FWD,-2,True,2
+Manuel Akanji,9,DEF,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,Home,9,0,0,Manuel Akanji,13,DEF,Kairat vs Inter,manuel akanji,14,DEF,-1,True,1
+Aleksandr Shirobokov,90,DEF,0,1,0,0,30,43,1,0,0,0,0,1,0,3,4,2,0,1,0,0,1,3,0,0,0,0,0,0,Away,90,1,2,Aleksandr Shirobokov,33,DEF,Kairat vs Inter,aleksandr shirobokov,35,DEF,-2,True,2
+Luís Mata,90,DEF,0,0,0,0,25,34,0,3,0,1,0,2,0,2,0,3,0,1,0,0,1,0,0,0,0,0,0,0,Away,90,1,2,Luís Mata,17,DEF,Kairat vs Inter,luís mata,22,DEF,-5,True,5
+Damir Kasabulat,76,MID,0,0,0,0,14,19,0,0,0,0,0,1,0,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Away,76,1,2,Damir Kasabulat,16,MID,Kairat vs Inter,damir kasabulat,18,MID,-2,True,2
+Ofri Arad,71,MID,1,0,0,1,21,27,0,0,0,0,3,1,0,1,2,1,0,2,0,0,0,1,0,0,0,0,0,0,Away,71,1,2,Ofri Arad,22,MID,Kairat vs Inter,ofri arad,20,MID,2,True,2
+Valeriy Gromyko,45,FWD,0,0,0,0,9,15,3,2,1,1,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Away,46,0,1,Valeriy Gromyko,21,FWD,Kairat vs Inter,valeriy gromyko,21,FWD,0,True,0
+Erkin Tapalov,45,DEF,0,0,0,0,11,17,0,0,0,0,0,0,0,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,Away,44,1,1,Erkin Tapalov,17,DEF,Kairat vs Inter,erkin tapalov,14,DEF,3,True,3
+Olzhas Baibek,19,MID,0,0,0,0,8,9,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,19,0,0,Olzhas Baibek,11,MID,Kairat vs Inter,olzhas baibek,11,MID,0,True,0
+Ricardinho,19,FWD,0,0,0,0,1,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Away,19,0,0,Ricardinho,6,FWD,Kairat vs Inter,ricardinho,6,FWD,0,True,0
+Adilet Sadybekov,14,MID,0,0,0,0,8,12,0,0,0,0,2,2,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,Away,14,0,0,Adilet Sadybekov,3,MID,Kairat vs Inter,adilet sadybekov,5,MID,-2,True,2
+Giorgi Zaria,14,FWD,0,0,0,0,6,7,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,14,0,0,Giorgi Zaria,7,FWD,Kairat vs Inter,giorgi zaria,7,FWD,0,True,0
+Matheus Nunes,90,DEF,0,0,0,0,50,58,0,0,0,1,0,0,0,0,0,3,0,1,0,0,0,2,0,0,0,0,0,0,Home,90,4,1,Matheus Nunes,13,DEF,Man City vs Dortmund,matheus nunes,14,DEF,-1,True,1
+John Stones,90,DEF,0,0,0,0,45,47,0,0,0,0,0,0,0,0,2,1,0,0,0,0,1,0,0,0,0,0,0,0,Home,90,4,1,John Stones,24,DEF,Man City vs Dortmund,john stones,22,DEF,2,True,2
+Joško Gvardiol,90,DEF,0,0,0,0,55,62,0,1,0,0,0,5,0,1,3,5,0,0,0,0,3,2,0,0,0,0,0,0,Home,90,4,1,Joško Gvardiol,33,DEF,Man City vs Dortmund,joško gvardiol,35,DEF,-2,True,2
+Tijjani Reijnders,79,MID,0,2,0,1,28,32,3,1,1,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Home,79,3,1,Tijjani Reijnders,46,MID,Man City vs Dortmund,tijjani reijnders,42,MID,4,True,4
+Phil Foden,90,MID,2,0,0,4,47,52,3,6,2,2,2,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,Home,90,4,1,Phil Foden,65,MID,Man City vs Dortmund,phil foden,64,MID,1,True,1
+Erling Haaland,86,FWD,1,0,0,3,13,16,1,0,1,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Home,86,3,1,Erling Haaland,44,FWD,Man City vs Dortmund,erling haaland,45,FWD,-1,True,1
+Rúben Dias,11,DEF,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Home,11,1,0,Rúben Dias,10,DEF,Man City vs Dortmund,rúben dias,10,DEF,0,True,0
+Rayan Cherki,11,MID,1,0,0,1,4,6,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,11,1,0,Rayan Cherki,24,MID,Man City vs Dortmund,rayan cherki,25,MID,-1,True,1
+Bernardo Silva,11,MID,0,0,0,0,10,12,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Home,11,1,0,Bernardo Silva,15,MID,Man City vs Dortmund,bernardo silva,14,MID,1,True,1
+Rayan Aït-Nouri,9,DEF,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,4,1,0,Rayan Aït-Nouri,8,DEF,Man City vs Dortmund,rayan aït-nouri,7,DEF,1,True,1
+Omar Marmoush,9,FWD,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,4,1,0,Omar Marmoush,8,FWD,Man City vs Dortmund,omar marmoush,8,FWD,0,True,0
+Waldemar Anton,90,DEF,1,0,0,2,72,81,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,Away,90,1,4,Waldemar Anton,19,DEF,Man City vs Dortmund,waldemar anton,20,DEF,-1,True,1
+Nico Schlotterbeck,90,DEF,0,0,0,0,63,68,0,0,0,0,0,0,0,1,1,4,0,1,0,0,1,2,0,0,0,0,0,0,Away,90,1,4,Nico Schlotterbeck,9,DEF,Man City vs Dortmund,nico schlotterbeck,10,DEF,-1,True,1
+Ramy Bensebaini,67,DEF,0,0,0,0,28,28,0,0,0,0,0,4,0,2,0,2,0,1,0,0,1,0,0,0,0,0,0,0,Away,67,0,3,Ramy Bensebaini,9,DEF,Man City vs Dortmund,ramy bensebaini,9,DEF,0,True,0
+Julian Ryerson,90,DEF,0,1,0,0,26,30,3,8,0,0,2,3,0,2,0,4,0,3,0,0,0,2,0,0,0,0,0,0,Away,90,1,4,Julian Ryerson,21,DEF,Man City vs Dortmund,julian ryerson,21,DEF,0,True,0
+Marcel Sabitzer,67,MID,0,0,0,0,19,25,0,3,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,67,0,3,Marcel Sabitzer,13,MID,Man City vs Dortmund,marcel sabitzer,12,MID,1,True,1
+Felix Nmecha,90,MID,0,0,0,0,45,51,2,0,2,2,0,1,0,1,2,0,0,1,0,0,1,0,0,0,0,0,0,0,Away,90,1,4,Felix Nmecha,27,MID,Man City vs Dortmund,felix nmecha,29,MID,-2,True,2
+Daniel Svensson,90,DEF,0,0,0,0,26,30,0,3,0,0,0,1,0,4,0,1,0,3,0,0,0,1,0,0,0,0,0,0,Away,90,1,4,Daniel Svensson,7,DEF,Man City vs Dortmund,daniel svensson,4,DEF,3,True,3
+Karim Adeyemi,81,MID,0,0,0,1,12,15,1,3,2,4,4,1,0,2,0,0,2,1,0,0,0,0,0,0,0,0,0,0,Away,81,1,3,Karim Adeyemi,20,MID,Man City vs Dortmund,karim adeyemi,16,MID,4,True,4
+Maximilian Beier,67,MID,0,0,0,0,16,20,1,3,1,1,0,0,0,0,1,2,0,1,0,0,1,1,0,0,0,0,0,0,Away,67,0,3,Maximilian Beier,17,MID,Man City vs Dortmund,maximilian beier,16,MID,1,True,1
+Serhou Guirassy,67,FWD,0,0,0,1,18,21,0,0,0,1,0,1,0,0,0,1,1,0,0,0,2,3,0,0,0,0,0,0,Away,67,0,3,Serhou Guirassy,14,FWD,Man City vs Dortmund,serhou guirassy,14,FWD,0,True,0
+Emre Can,23,DEF,0,0,0,0,29,29,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Away,23,1,1,Emre Can,13,DEF,Man City vs Dortmund,emre can,13,DEF,0,True,0
+Jobe Bellingham,23,MID,0,0,0,0,17,17,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,23,1,1,Jobe Bellingham,8,MID,Man City vs Dortmund,jobe bellingham,8,MID,0,True,0
+Carney Chukwuemeka,23,MID,0,0,0,0,12,13,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Away,23,1,1,Carney Chukwuemeka,10,MID,Man City vs Dortmund,carney chukwuemeka,10,MID,0,True,0
+Pascal Groß,23,MID,0,0,0,0,13,16,1,1,0,0,0,2,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Away,23,1,1,Pascal Groß,12,MID,Man City vs Dortmund,pascal groß,14,MID,-2,True,2
+Fábio Silva,9,FWD,0,0,0,0,2,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Away,9,0,1,Fábio Silva,4,FWD,Man City vs Dortmund,fábio silva,-1,FWD,5,True,5
+Kieran Trippier,90,DEF,0,1,0,0,35,52,1,4,0,1,0,1,0,4,0,3,0,2,0,0,1,1,0,0,0,0,0,0,Home,90,2,0,Kieran Trippier,41,DEF,Newcastle vs Athletic,kieran trippier,43,DEF,-2,True,2
+Malick Thiaw,90,DEF,0,0,0,0,68,77,0,0,1,1,0,0,0,1,1,5,0,0,0,0,8,2,0,0,0,0,0,0,Home,90,2,0,Malick Thiaw,47,DEF,Newcastle vs Athletic,malick thiaw,50,DEF,-3,True,3
+Sven Botman,90,DEF,0,0,0,1,69,74,0,0,0,0,0,0,0,1,1,2,0,1,0,0,2,0,0,0,0,0,0,0,Home,90,2,0,Sven Botman,34,DEF,Newcastle vs Athletic,sven botman,36,DEF,-2,True,2
+Dan Burn,65,DEF,1,0,0,1,39,49,1,0,0,0,0,0,0,2,2,2,0,0,0,0,4,1,0,0,0,0,0,0,Home,65,2,0,Dan Burn,51,DEF,Newcastle vs Athletic,dan burn,52,DEF,-1,True,1
+Bruno Guimarães,66,MID,0,0,0,0,31,33,1,0,1,1,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,66,2,0,Bruno Guimarães,24,MID,Newcastle vs Athletic,bruno guimarães,24,MID,0,True,0
+Sandro Tonali,90,MID,0,0,0,0,49,62,0,2,0,0,1,1,0,1,1,1,0,1,0,0,2,0,0,0,0,0,0,0,Home,90,2,0,Sandro Tonali,26,MID,Newcastle vs Athletic,sandro tonali,26,MID,0,True,0
+Joelinton,90,MID,1,0,0,2,33,41,0,0,0,0,2,2,0,3,3,1,0,1,0,0,1,0,0,0,0,0,0,0,Home,90,2,0,Joelinton,44,MID,Newcastle vs Athletic,joelinton,43,MID,1,True,1
+Harvey Barnes,66,FWD,0,1,0,0,13,17,1,2,1,2,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Home,66,2,0,Harvey Barnes,30,FWD,Newcastle vs Athletic,harvey barnes,29,FWD,1,True,1
+Nick Woltemade,83,FWD,0,0,0,0,9,12,0,0,2,3,4,1,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,Home,83,2,0,Nick Woltemade,20,FWD,Newcastle vs Athletic,nick woltemade,20,FWD,0,True,0
+Anthony Gordon,41,FWD,0,0,0,0,5,8,0,0,0,3,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Home,41,1,0,Anthony Gordon,5,FWD,Newcastle vs Athletic,anthony gordon,6,FWD,-1,True,1
+Jacob Murphy,49,FWD,0,0,0,0,6,13,2,2,0,0,2,1,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Home,49,1,0,Jacob Murphy,20,FWD,Newcastle vs Athletic,jacob murphy,20,FWD,0,True,0
+Lewis Hall,25,DEF,0,0,0,0,15,17,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,25,0,0,Lewis Hall,12,DEF,Newcastle vs Athletic,lewis hall,15,DEF,-3,True,3
+Anthony Elanga,24,FWD,0,0,0,0,8,11,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,Home,24,0,0,Anthony Elanga,6,FWD,Newcastle vs Athletic,anthony elanga,6,FWD,0,True,0
+Lewis Miley,24,MID,0,0,0,0,10,13,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Home,24,0,0,Lewis Miley,9,MID,Newcastle vs Athletic,lewis miley,9,MID,0,True,0
+Jacob Ramsey,13,MID,0,0,0,0,1,1,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,7,0,0,Jacob Ramsey,13,MID,Newcastle vs Athletic,jacob ramsey,13,MID,0,True,0
+Jesús Areso,78,DEF,0,0,0,0,11,17,1,1,0,0,1,1,0,7,2,1,0,1,0,0,1,2,0,0,0,0,0,0,Away,78,0,2,Jesús Areso,30,DEF,Newcastle vs Athletic,jesús areso,30,DEF,0,True,0
+Daniel Vivian,90,DEF,0,0,0,0,39,45,0,0,1,1,0,0,0,1,1,5,0,0,0,0,0,0,0,0,0,0,0,0,Away,90,0,2,Daniel Vivian,22,DEF,Newcastle vs Athletic,daniel vivian,23,DEF,-1,True,1
+Aitor Paredes,90,DEF,0,0,0,0,42,51,1,0,0,0,0,2,0,2,2,4,0,0,0,0,0,2,0,0,0,0,0,0,Away,90,0,2,Aitor Paredes,22,DEF,Newcastle vs Athletic,aitor paredes,22,DEF,0,True,0
+Adama Boiro,90,DEF,0,0,0,0,28,30,1,0,1,1,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,Away,90,0,2,Adama Boiro,22,DEF,Newcastle vs Athletic,adama boiro,23,DEF,-1,True,1
+Alejandro Rego,80,MID,0,0,0,0,14,23,1,0,0,1,0,2,0,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,Away,80,0,2,Alejandro Rego,17,MID,Newcastle vs Athletic,alejandro rego,19,MID,-2,True,2
+Mikel Jauregizar,69,MID,0,0,0,0,15,22,1,1,0,2,0,2,0,1,2,0,0,3,0,0,0,0,0,0,0,0,0,0,Away,69,0,2,Mikel Jauregizar,10,MID,Newcastle vs Athletic,mikel jauregizar,9,MID,1,True,1
+Mikel Vesga,90,MID,0,0,0,0,20,32,2,0,0,2,0,2,0,1,1,0,0,1,0,0,2,4,0,0,0,0,0,0,Away,90,0,2,Mikel Vesga,9,MID,Newcastle vs Athletic,mikel vesga,9,MID,0,True,0
+Álex Berenguer,90,FWD,0,0,0,0,26,32,1,10,3,9,0,0,0,1,0,0,0,1,0,0,2,3,0,0,0,0,0,0,Away,90,0,2,Álex Berenguer,32,FWD,Newcastle vs Athletic,álex berenguer,32,FWD,0,True,0
+Unai Gómez,78,FWD,0,0,0,1,5,6,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,5,0,0,0,0,0,0,Away,78,0,2,Unai Gómez,8,FWD,Newcastle vs Athletic,unai gómez,9,FWD,-1,True,1
+Andoni Gorosabel,12,DEF,0,0,0,0,7,7,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,12,0,0,Andoni Gorosabel,14,DEF,Newcastle vs Athletic,andoni gorosabel,14,DEF,0,True,0
+Asier Hierro,12,FWD,0,0,0,0,5,7,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,0,0,Away,12,0,0,Asier Hierro,6,FWD,Newcastle vs Athletic,asier hierro,6,FWD,0,True,0
+Iñigo Ruiz de Galarreta,10,MID,0,0,0,0,13,16,0,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Away,10,0,0,Iñigo Ruiz de Galarreta,8,MID,Newcastle vs Athletic,iñigo ruiz de galarreta,9,MID,-1,True,1
+Benjamin Pavard,90,DEF,0,0,0,0,41,47,0,0,0,0,0,1,0,1,1,4,0,0,0,0,5,2,0,0,0,0,0,0,Home,90,0,1,Benjamin Pavard,30,DEF,Atalanta vs Marseille,benjamin pavard,32,DEF,-2,True,2
+Nayef Aguerd,90,DEF,0,0,0,0,56,64,0,0,0,0,0,1,0,3,2,1,1,0,0,0,2,1,0,0,0,0,0,0,Home,90,0,1,Nayef Aguerd,33,DEF,Atalanta vs Marseille,nayef aguerd,32,DEF,1,True,1
+Ulisses Garcia,89,DEF,0,0,0,0,17,24,1,2,0,0,0,0,0,3,2,0,0,0,0,0,1,1,0,0,0,0,0,0,Home,90,0,1,Ulisses Garcia,30,DEF,Atalanta vs Marseille,ulisses garcia,31,DEF,-1,True,1
+Mason Greenwood,90,MID,0,0,0,2,33,43,3,9,3,5,1,1,0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,Home,90,0,1,Mason Greenwood,45,MID,Atalanta vs Marseille,mason greenwood,43,MID,2,True,2
+Matt O'Riley,90,MID,0,0,0,0,51,57,1,0,0,0,1,5,0,3,1,0,1,1,0,0,0,0,0,0,0,0,0,0,Home,90,0,1,Matt O'Riley,22,MID,Atalanta vs Marseille,matt o'riley,23,MID,-1,True,1
+Igor Paixão,71,MID,0,0,0,0,15,19,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,Home,71,0,0,Igor Paixão,13,MID,Atalanta vs Marseille,igor paixão,12,MID,1,True,1
+Pierre-Emerick Aubameyang,90,FWD,0,0,0,1,15,24,1,2,0,0,0,0,0,1,1,0,0,0,0,0,2,2,0,0,0,0,0,0,Home,90,0,1,Pierre-Emerick Aubameyang,24,FWD,Atalanta vs Marseille,pierre-emerick aubameyang,24,FWD,0,True,0
+Robinio Vaz,19,MID,0,0,0,0,7,10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Home,19,0,1,Robinio Vaz,5,MID,Atalanta vs Marseille,robinio vaz,4,MID,1,True,1
+Angel Gomes,11,DEF,0,0,0,0,10,11,1,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,11,0,1,Angel Gomes,17,DEF,Atalanta vs Marseille,angel gomes,15,DEF,2,True,2
+Tadjidine Mmadi,1,MID,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Home,0,0,0,Tadjidine Mmadi,8,MID,Atalanta vs Marseille,tadjidine mmadi,8,MID,0,True,0
+Odilon Kossounou,55,DEF,0,0,0,0,44,47,0,0,0,0,0,2,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,Away,55,0,0,Odilon Kossounou,24,DEF,Atalanta vs Marseille,odilon kossounou,25,DEF,-1,True,1
+Berat Djimsiti,90,DEF,0,0,0,0,50,56,0,0,0,0,0,1,0,1,2,7,0,1,0,0,3,2,0,0,0,0,0,0,Away,90,1,0,Berat Djimsiti,37,DEF,Atalanta vs Marseille,berat djimsiti,37,DEF,0,True,0
+Honest Ahanor,90,DEF,0,0,0,0,38,41,0,0,0,0,1,2,0,1,1,4,0,0,0,0,0,0,0,0,0,0,0,0,Away,90,1,0,Honest Ahanor,27,DEF,Atalanta vs Marseille,honest ahanor,29,DEF,-2,True,2
+Raoul Bellanova,90,MID,0,0,0,0,19,23,0,2,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,Away,90,1,0,Raoul Bellanova,18,MID,Atalanta vs Marseille,raoul bellanova,20,MID,-2,True,2
+Éderson,90,MID,0,1,0,0,26,35,1,0,0,1,0,3,0,1,0,3,0,0,0,0,1,0,0,0,0,0,0,0,Away,90,1,0,Éderson,29,MID,Atalanta vs Marseille,éderson,29,MID,0,True,0
+Marten de Roon,45,MID,0,0,0,0,31,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Away,46,0,0,Marten de Roon,11,MID,Atalanta vs Marseille,marten de roon,11,MID,0,True,0
+Davide Zappacosta,90,MID,0,0,0,0,35,38,1,1,0,0,1,2,0,2,0,0,0,2,0,0,0,1,0,0,0,0,0,0,Away,90,1,0,Davide Zappacosta,19,MID,Atalanta vs Marseille,davide zappacosta,19,MID,0,True,0
+Charles De Ketelaere,85,FWD,0,0,0,2,23,28,1,1,0,1,4,1,0,3,1,1,0,0,0,0,1,2,0,0,0,0,0,0,Away,85,0,0,Charles De Ketelaere,27,FWD,Atalanta vs Marseille,charles de ketelaere,19,FWD,8,True,8
+Nikola Krstović,85,FWD,0,0,0,0,14,20,0,0,0,1,5,1,0,0,0,2,0,0,0,0,4,4,1,0,0,0,0,0,Away,85,0,0,Nikola Krstović,15,FWD,Atalanta vs Marseille,nikola krstović,16,FWD,-1,True,1
+Ademola Lookman,75,FWD,0,0,0,0,10,16,0,2,0,1,2,1,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,Away,75,0,0,Ademola Lookman,11,FWD,Atalanta vs Marseille,ademola lookman,9,FWD,2,True,2
+Mario Pašalić,45,MID,0,0,0,0,17,19,1,0,0,0,2,2,0,0,0,3,0,0,0,0,0,1,0,0,0,0,0,0,Away,44,1,0,Mario Pašalić,13,MID,Atalanta vs Marseille,mario pašalić,13,MID,0,True,0
+Isak Hien,35,DEF,0,0,0,0,9,11,1,0,0,0,0,2,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,Away,35,1,0,Isak Hien,13,DEF,Atalanta vs Marseille,isak hien,14,DEF,-1,True,1
+Yunus Musah,15,MID,0,0,0,0,5,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Away,15,1,0,Yunus Musah,14,MID,Atalanta vs Marseille,yunus musah,14,MID,0,True,0
+Gianluca Scamacca,13,FWD,0,0,0,0,2,4,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Away,5,1,0,Gianluca Scamacca,11,FWD,Atalanta vs Marseille,gianluca scamacca,11,FWD,0,True,0

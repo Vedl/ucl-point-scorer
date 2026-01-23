@@ -1,0 +1,171 @@
+name,score_calc,pos_calc,match,name_lower,score_excel,pos_excel,pos_match,diff,abs_diff
+José María Giménez,33,DEF,AC Sparta Praha vs Atlético Madrid,josé maría giménez,43,DEF,True,-10,10
+Giuliano Simeone,49,MID,AC Sparta Praha vs Atlético Madrid,giuliano simeone,39,MID,True,10,10
+Pablo Barrios,46,MID,AC Sparta Praha vs Atlético Madrid,pablo barrios,25,MID,True,21,21
+Conor Gallagher,49,MID,AC Sparta Praha vs Atlético Madrid,conor gallagher,11,MID,True,38,38
+Alexander Sørloth,30,FWD,AC Sparta Praha vs Atlético Madrid,alexander sørloth,9,FWD,True,21,21
+Antoine Griezmann,37,FWD,AC Sparta Praha vs Atlético Madrid,antoine griezmann,32,FWD,True,5,5
+Koke,18,MID,AC Sparta Praha vs Atlético Madrid,koke,16,MID,True,2,2
+Tijjani Reijnders,31,MID,ŠK Slovan Bratislava vs Milan,tijjani reijnders,35,MID,True,-4,4
+Yunus Musah,8,MID,ŠK Slovan Bratislava vs Milan,yunus musah,15,MID,True,-7,7
+Malick Thiaw,3,DEF,ŠK Slovan Bratislava vs Milan,malick thiaw,27,DEF,True,-24,24
+Jules Koundé,26,DEF,Barcelona vs Stade Brestois,jules koundé,32,DEF,True,-6,6
+Pau Cubarsí,37,DEF,Barcelona vs Stade Brestois,pau cubarsí,32,DEF,True,5,5
+Gerard Martín,47,DEF,Barcelona vs Stade Brestois,gerard martín,17,DEF,True,30,30
+Raphinha,49,MID,Barcelona vs Stade Brestois,raphinha,19,FWD,False,30,30
+Dani Olmo,45,MID,Barcelona vs Stade Brestois,dani olmo,8,FWD,False,37,37
+Robert Lewandowski,60,FWD,Barcelona vs Stade Brestois,robert lewandowski,14,FWD,True,46,46
+Alejandro Balde,25,DEF,Barcelona vs Stade Brestois,alejandro balde,13,DEF,True,12,12
+Frenkie de Jong,11,MID,Barcelona vs Stade Brestois,frenkie de jong,18,MID,True,-7,7
+Eric García,8,DEF,Barcelona vs Stade Brestois,eric garcía,16,DEF,True,-8,8
+Jonathan Tah,38,DEF,Bayer 04 Leverkusen vs Red Bull Salzburg,jonathan tah,23,DEF,True,15,15
+Patrik Schick,49,FWD,Bayer 04 Leverkusen vs Red Bull Salzburg,patrik schick,30,FWD,True,19,19
+Nathan Tella,24,MID,Bayer 04 Leverkusen vs Red Bull Salzburg,nathan tella,7,MID,True,17,17
+Aleix García,26,MID,Bayer 04 Leverkusen vs Red Bull Salzburg,aleix garcía,35,MID,True,-9,9
+Amar Dedić,10,DEF,Bayer 04 Leverkusen vs Red Bull Salzburg,amar dedić,42,DEF,True,-32,32
+Oscar Gloukh,13,MID,Bayer 04 Leverkusen vs Red Bull Salzburg,oscar gloukh,11,MID,True,2,2
+Konrad Laimer,23,DEF,FC Bayern München vs Paris Saint-Germain,konrad laimer,13,DEF,True,10,10
+Dayot Upamecano,37,DEF,FC Bayern München vs Paris Saint-Germain,dayot upamecano,11,DEF,True,26,26
+Joshua Kimmich,32,MID,FC Bayern München vs Paris Saint-Germain,joshua kimmich,10,MID,True,22,22
+Leon Goretzka,30,MID,FC Bayern München vs Paris Saint-Germain,leon goretzka,9,MID,True,21,21
+Leroy Sané,33,FWD,FC Bayern München vs Paris Saint-Germain,leroy sané,40,FWD,True,-7,7
+Harry Kane,27,FWD,FC Bayern München vs Paris Saint-Germain,harry kane,15,FWD,True,12,12
+Serge Gnabry,4,MID,FC Bayern München vs Paris Saint-Germain,serge gnabry,27,FWD,False,-23,23
+Michael Olise,12,FWD,FC Bayern München vs Paris Saint-Germain,michael olise,35,FWD,True,-23,23
+Raphaël Guerreiro,8,DEF,FC Bayern München vs Paris Saint-Germain,raphaël guerreiro,8,MID,False,0,0
+Marquinhos,18,DEF,FC Bayern München vs Paris Saint-Germain,marquinhos,18,DEF,True,0,0
+Willian Pacho,36,DEF,FC Bayern München vs Paris Saint-Germain,willian pacho,29,DEF,True,7,7
+Nuno Mendes,49,DEF,FC Bayern München vs Paris Saint-Germain,nuno mendes,13,DEF,True,36,36
+Warren Zaïre-Emery,8,MID,FC Bayern München vs Paris Saint-Germain,warren zaïre-emery,13,DEF,False,-5,5
+Vitinha,33,MID,FC Bayern München vs Paris Saint-Germain,vitinha,61,MID,True,-28,28
+João Neves,25,MID,FC Bayern München vs Paris Saint-Germain,joão neves,46,MID,True,-21,21
+Ousmane Dembélé,21,FWD,FC Bayern München vs Paris Saint-Germain,ousmane dembélé,7,FWD,True,14,14
+Bradley Barcola,12,FWD,FC Bayern München vs Paris Saint-Germain,bradley barcola,15,FWD,True,-3,3
+Gonçalo Ramos,5,FWD,FC Bayern München vs Paris Saint-Germain,gonçalo ramos,7,FWD,True,-2,2
+Yoram Zague,8,DEF,FC Bayern München vs Paris Saint-Germain,yoram zague,6,DEF,True,2,2
+Randal Kolo Muani,5,FWD,FC Bayern München vs Paris Saint-Germain,randal kolo muani,59,FWD,True,-54,54
+Benjamin Pavard,15,DEF,Inter vs RB Leipzig,benjamin pavard,30,DEF,True,-15,15
+Alessandro Bastoni,25,DEF,Inter vs RB Leipzig,alessandro bastoni,44,DEF,True,-19,19
+Hakan Çalhanoğlu,28,MID,Inter vs RB Leipzig,hakan çalhanoğlu,29,MID,True,-1,1
+Nicolò Barella,21,MID,Inter vs RB Leipzig,nicolò barella,34,MID,True,-13,13
+Piotr Zieliński,29,MID,Inter vs RB Leipzig,piotr zieliński,27,MID,True,2,2
+Federico Dimarco,34,DEF,Inter vs RB Leipzig,federico dimarco,31,DEF,True,3,3
+Lautaro Martínez,13,FWD,Inter vs RB Leipzig,lautaro martínez,24,FWD,True,-11,11
+Mehdi Taremi,11,FWD,Inter vs RB Leipzig,mehdi taremi,23,MID,False,-12,12
+Carlos Augusto,21,DEF,Inter vs RB Leipzig,carlos augusto,9,DEF,True,12,12
+Marcus Thuram,10,FWD,Inter vs RB Leipzig,marcus thuram,15,FWD,True,-5,5
+Tajon Buchanan,5,MID,Inter vs RB Leipzig,tajon buchanan,12,MID,True,-7,7
+Loïs Openda,16,FWD,Inter vs RB Leipzig,loïs openda,42,FWD,True,-26,26
+Arthur Vermeeren,9,MID,Inter vs RB Leipzig,arthur vermeeren,29,MID,True,-20,20
+Rico Lewis,15,DEF,Manchester City vs Feyenoord,rico lewis,12,MID,False,3,3
+Manuel Akanji,15,DEF,Manchester City vs Feyenoord,manuel akanji,37,DEF,True,-22,22
+Nathan Aké,26,DEF,Manchester City vs Feyenoord,nathan aké,33,DEF,True,-7,7
+İlkay Gündoğan,41,MID,Manchester City vs Feyenoord,i̇lkay gündoğan,18,MID,True,23,23
+Phil Foden,49,MID,Manchester City vs Feyenoord,phil foden,10,MID,True,39,39
+Erling Haaland,62,FWD,Manchester City vs Feyenoord,erling haaland,14,FWD,True,48,48
+Dávid Hancko,29,DEF,Manchester City vs Feyenoord,dávid hancko,29,DEF,True,0,0
+Igor Paixão,35,MID,Manchester City vs Feyenoord,igor paixão,26,FWD,False,9,9
+Ousmane Diomande,-1,DEF,Sporting CP vs Arsenal,ousmane diomande,36,DEF,True,-37,37
+Gonçalo Inácio,20,DEF,Sporting CP vs Arsenal,gonçalo inácio,19,DEF,True,1,1
+Geovany Quenda,36,FWD,Sporting CP vs Arsenal,geovany quenda,55,FWD,True,-19,19
+Morten Hjulmand,29,MID,Sporting CP vs Arsenal,morten hjulmand,43,MID,True,-14,14
+Hidemasa Morita,27,MID,Sporting CP vs Arsenal,hidemasa morita,12,MID,True,15,15
+Maximiliano Araújo,19,DEF,Sporting CP vs Arsenal,maximiliano araújo,44,DEF,True,-25,25
+Francisco Trincão,35,MID,Sporting CP vs Arsenal,francisco trincão,43,MID,True,-8,8
+Geny Catamo,9,FWD,Sporting CP vs Arsenal,geny catamo,53,FWD,True,-44,44
+Matheus Reis,10,DEF,Sporting CP vs Arsenal,matheus reis,12,DEF,True,-2,2
+João Simões,14,MID,Sporting CP vs Arsenal,joão simões,11,MID,True,3,3
+Iván Fresneda,-12,DEF,Sporting CP vs Arsenal,iván fresneda,32,DEF,True,-44,44
+Jurriën Timber,47,DEF,Sporting CP vs Arsenal,jurriën timber,40,DEF,True,7,7
+William Saliba,35,DEF,Sporting CP vs Arsenal,william saliba,25,DEF,True,10,10
+Riccardo Calafiori,13,DEF,Sporting CP vs Arsenal,riccardo calafiori,32,DEF,True,-19,19
+Martin Ødegaard,41,MID,Sporting CP vs Arsenal,martin ødegaard,7,MID,True,34,34
+Thomas Partey,33,MID,Sporting CP vs Arsenal,thomas partey,12,MID,True,21,21
+Declan Rice,34,MID,Sporting CP vs Arsenal,declan rice,39,MID,True,-5,5
+Bukayo Saka,66,FWD,Sporting CP vs Arsenal,bukayo saka,34,FWD,True,32,32
+Gabriel Martinelli,35,FWD,Sporting CP vs Arsenal,gabriel martinelli,25,FWD,True,10,10
+Mikel Merino,14,FWD,Sporting CP vs Arsenal,mikel merino,26,FWD,True,-12,12
+Leandro Trossard,19,FWD,Sporting CP vs Arsenal,leandro trossard,16,FWD,True,3,3
+Myles Lewis-Skelly,8,DEF,Sporting CP vs Arsenal,myles lewis-skelly,9,DEF,True,-1,1
+Odilon Kossounou,43,DEF,Young Boys vs Atalanta,odilon kossounou,31,DEF,True,12,12
+Isak Hien,31,DEF,Young Boys vs Atalanta,isak hien,29,DEF,True,2,2
+Sead Kolašinac,37,DEF,Young Boys vs Atalanta,sead kolašinac,12,DEF,True,25,25
+Marten de Roon,48,MID,Young Boys vs Atalanta,marten de roon,46,MID,True,2,2
+Matteo Ruggeri,34,DEF,Young Boys vs Atalanta,matteo ruggeri,22,DEF,True,12,12
+Charles De Ketelaere,94,FWD,Young Boys vs Atalanta,charles de ketelaere,74,MID,False,20,20
+Berat Djimsiti,8,DEF,Young Boys vs Atalanta,berat djimsiti,40,DEF,True,-32,32
+Raoul Bellanova,17,MID,Young Boys vs Atalanta,raoul bellanova,42,DEF,False,-25,25
+Ademola Lookman,23,FWD,Young Boys vs Atalanta,ademola lookman,52,MID,False,-29,29
+Mika Biereth,26,FWD,SK Sturm Graz vs Girona FC,mika biereth,7,FWD,True,19,19
+Vanderson,37,DEF,AS Monaco vs Benfica,vanderson,23,DEF,True,14,14
+Thilo Kehrer,20,DEF,AS Monaco vs Benfica,thilo kehrer,9,DEF,True,11,11
+Lamine Camara,23,MID,AS Monaco vs Benfica,lamine camara,30,MID,True,-7,7
+Denis Zakaria,21,MID,AS Monaco vs Benfica,denis zakaria,45,MID,True,-24,24
+Maghnes Akliouche,32,FWD,AS Monaco vs Benfica,maghnes akliouche,51,FWD,True,-19,19
+Aleksandr Golovin,32,MID,AS Monaco vs Benfica,aleksandr golovin,20,FWD,False,12,12
+Mohammed Salisu,18,DEF,AS Monaco vs Benfica,mohammed salisu,39,DEF,True,-21,21
+Folarin Balogun,14,FWD,AS Monaco vs Benfica,folarin balogun,41,FWD,True,-27,27
+Jordan Teze,11,FWD,AS Monaco vs Benfica,jordan teze,28,DEF,False,-17,17
+Takumi Minamino,5,MID,AS Monaco vs Benfica,takumi minamino,31,MID,True,-26,26
+Tomás Araújo,24,DEF,AS Monaco vs Benfica,tomás araújo,9,DEF,True,15,15
+Nicolás Otamendi,36,DEF,AS Monaco vs Benfica,nicolás otamendi,44,DEF,True,-8,8
+Álvaro Carreras,31,DEF,AS Monaco vs Benfica,álvaro carreras,24,DEF,True,7,7
+Fredrik Aursnes,15,DEF,AS Monaco vs Benfica,fredrik aursnes,46,FWD,False,-31,31
+Vangelis Pavlidis,29,FWD,AS Monaco vs Benfica,vangelis pavlidis,19,FWD,True,10,10
+António Silva,3,DEF,AS Monaco vs Benfica,antónio silva,37,DEF,True,-34,34
+Pierre Kalulu,27,DEF,Aston Villa vs Juventus,pierre kalulu,25,DEF,True,2,2
+Andrea Cambiaso,29,DEF,Aston Villa vs Juventus,andrea cambiaso,14,DEF,True,15,15
+Manuel Locatelli,32,MID,Aston Villa vs Juventus,manuel locatelli,32,MID,True,0,0
+Khéphren Thuram,14,MID,Aston Villa vs Juventus,khéphren thuram,13,MID,True,1,1
+Francisco Conceição,45,MID,Aston Villa vs Juventus,francisco conceição,49,MID,True,-4,4
+Teun Koopmeiners,31,DEF,Aston Villa vs Juventus,teun koopmeiners,23,DEF,True,8,8
+Kenan Yıldız,42,MID,Aston Villa vs Juventus,kenan yıldız,47,MID,True,-5,5
+Timothy Weah,15,MID,Aston Villa vs Juventus,timothy weah,53,DEF,False,-38,38
+Sam Beukema,24,DEF,Bologna vs Lille,sam beukema,24,DEF,True,0,0
+Jonathan David,27,FWD,Bologna vs Lille,jonathan david,26,FWD,True,1,1
+Edon Zhegrova,7,MID,Bologna vs Lille,edon zhegrova,13,MID,True,-6,6
+Joaquin Seys,22,DEF,Celtic vs Club Brugge KV,joaquin seys,15,DEF,True,7,7
+Joel Ordóñez,12,DEF,Celtic vs Club Brugge KV,joel ordóñez,18,DEF,True,-6,6
+Brandon Mechele,15,DEF,Celtic vs Club Brugge KV,brandon mechele,21,DEF,True,-6,6
+Raphael Onyedika,23,MID,Celtic vs Club Brugge KV,raphael onyedika,21,MID,True,2,2
+Hans Vanaken,22,MID,Celtic vs Club Brugge KV,hans vanaken,21,MID,True,1,1
+Christos Tzolis,35,FWD,Celtic vs Club Brugge KV,christos tzolis,21,FWD,True,14,14
+Romeo Vermant,8,FWD,Celtic vs Club Brugge KV,romeo vermant,13,FWD,True,-5,5
+Jorne Spileers,3,DEF,Celtic vs Club Brugge KV,jorne spileers,13,DEF,True,-10,10
+Zaid Romero,3,DEF,Celtic vs Club Brugge KV,zaid romero,10,DEF,True,-7,7
+Hugo Vetlesen,3,MID,Celtic vs Club Brugge KV,hugo vetlesen,12,MID,True,-9,9
+Pascal Groß,46,MID,GNK Dinamo Zagreb vs Borussia Dortmund,pascal groß,25,MID,True,21,21
+Waldemar Anton,42,DEF,GNK Dinamo Zagreb vs Borussia Dortmund,waldemar anton,38,DEF,True,4,4
+Nico Schlotterbeck,37,DEF,GNK Dinamo Zagreb vs Borussia Dortmund,nico schlotterbeck,42,DEF,True,-5,5
+Marcel Sabitzer,22,MID,GNK Dinamo Zagreb vs Borussia Dortmund,marcel sabitzer,26,MID,True,-4,4
+Felix Nmecha,45,MID,GNK Dinamo Zagreb vs Borussia Dortmund,felix nmecha,31,MID,True,14,14
+Julian Brandt,39,MID,GNK Dinamo Zagreb vs Borussia Dortmund,julian brandt,35,MID,True,4,4
+Jamie Gittens,55,FWD,GNK Dinamo Zagreb vs Borussia Dortmund,jamie gittens,5,FWD,True,50,50
+Serhou Guirassy,22,FWD,GNK Dinamo Zagreb vs Borussia Dortmund,serhou guirassy,41,FWD,True,-19,19
+Yan Couto,11,DEF,GNK Dinamo Zagreb vs Borussia Dortmund,yan couto,45,DEF,True,-34,34
+Emre Can,8,DEF,GNK Dinamo Zagreb vs Borussia Dortmund,emre can,9,DEF,True,-1,1
+Ibrahima Konaté,31,DEF,Liverpool vs Real Madrid,ibrahima konaté,9,DEF,True,22,22
+Virgil van Dijk,39,DEF,Liverpool vs Real Madrid,virgil van dijk,14,DEF,True,25,25
+Curtis Jones,44,MID,Liverpool vs Real Madrid,curtis jones,7,DEF,False,37,37
+Ryan Gravenberch,28,MID,Liverpool vs Real Madrid,ryan gravenberch,24,MID,True,4,4
+Alexis Mac Allister,44,MID,Liverpool vs Real Madrid,alexis mac allister,27,MID,True,17,17
+Mohamed Salah,33,FWD,Liverpool vs Real Madrid,mohamed salah,41,FWD,True,-8,8
+Cody Gakpo,32,FWD,Liverpool vs Real Madrid,cody gakpo,47,FWD,True,-15,15
+Dominik Szoboszlai,8,MID,Liverpool vs Real Madrid,dominik szoboszlai,58,MID,True,-50,50
+Trent Alexander-Arnold,8,DEF,Liverpool vs Real Madrid,trent alexander-arnold,18,DEF,True,-10,10
+Jarell Quansah,8,DEF,Liverpool vs Real Madrid,jarell quansah,32,DEF,True,-24,24
+Federico Valverde,31,DEF,Liverpool vs Real Madrid,federico valverde,36,FWD,False,-5,5
+Raúl Asencio,18,DEF,Liverpool vs Real Madrid,raúl asencio,17,DEF,True,1,1
+Ferland Mendy,13,DEF,Liverpool vs Real Madrid,ferland mendy,18,DEF,True,-5,5
+Eduardo Camavinga,33,MID,Liverpool vs Real Madrid,eduardo camavinga,41,MID,True,-8,8
+Arda Güler,8,MID,Liverpool vs Real Madrid,arda güler,27,MID,True,-19,19
+Jude Bellingham,19,MID,Liverpool vs Real Madrid,jude bellingham,10,MID,True,9,9
+Brahim Díaz,22,MID,Liverpool vs Real Madrid,brahim díaz,3,FWD,False,19,19
+Kylian Mbappé,23,FWD,Liverpool vs Real Madrid,kylian mbappé,79,FWD,True,-56,56
+Dani Ceballos,12,MID,Liverpool vs Real Madrid,dani ceballos,9,MID,True,3,3
+Ismael Saibari,35,MID,PSV Eindhoven vs Shakhtar Donetsk,ismael saibari,33,FWD,False,2,2
+Mauro Júnior,48,MID,PSV Eindhoven vs Shakhtar Donetsk,mauro júnior,36,MID,True,12,12
+Malik Tillman,78,MID,PSV Eindhoven vs Shakhtar Donetsk,malik tillman,24,MID,True,54,54
+Noa Lang,29,FWD,PSV Eindhoven vs Shakhtar Donetsk,noa lang,25,MID,False,4,4
+Ricardo Pepi,47,FWD,PSV Eindhoven vs Shakhtar Donetsk,ricardo pepi,26,FWD,True,21,21
+Guus Til,23,FWD,PSV Eindhoven vs Shakhtar Donetsk,guus til,31,FWD,True,-8,8
