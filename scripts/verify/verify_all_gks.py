@@ -10,6 +10,8 @@ def verify_all():
          [("Alisson", 45), ("Rulli", 17)]),
         ("Sporting vs PSG", "https://www.sofascore.com/football/match/sporting-paris-saint-germain/UHsbkb#id:14566854",
          [("Chevalier", 23)]),
+        ("Bayern vs Union SG", "https://www.sofascore.com/football/match/royale-union-saint-gilloise-fc-bayern-munchen/xdbskXb#id:14566573",
+         [("Neuer", 35)]),
     ]
     
     all_passed = True

@@ -77,47 +77,56 @@ def fwd_score_calc (df, team_score,team_conc):
 
 def gk_score_calc(df, team_score, team_conc):
     # Goalkeeper Formula (Reverse-Engineered from Official Points)
-    # Optimized using scipy to match:
+    # Optimized using scipy to match 4 data points:
     # - Alisson (Liverpool vs Marseille): 45 pts
-    # - Rulli (Marseille vs Liverpool): 17 pts (includes OG penalty!)
+    # - Rulli (Marseille vs Liverpool): 17 pts (OG!)
     # - Chevalier (PSG vs Sporting): 23 pts
+    # - Neuer (Bayern vs Union SG): 35 pts
     
-    # Coefficients (optimized v2 - with OG data):
-    # - Base (Clean Sheet): +10.54
-    # - Saves: +5.52 (most impactful)
-    # - High Claims: +2.40
-    # - Sweeper/Runs Out: +3.53
-    # - Recoveries: +0.29
-    # - Passes: -0.24 (PENALIZED - distribution errors)
-    # - Clearances: +1.36
-    # - Own Goals: -3.28
+    # Coefficients (optimized v5 - with rating):
+    # - Base: -3.87
+    # - Saves: +3.12
+    # - High Claims: +4.09
+    # - Sweeper/Runs Out: +3.83
+    # - Recoveries: -1.0
+    # - Passes: +0.29
+    # - Clearances: -1.71
+    # - Own Goals: -7.12
+    # - Punches: +0.50
+    # - Rating: +3.23 (key factor!)
     # - Minutes Bonus: +3 (90/30)
     
-    # Goals Conceded: -5 per goal (10.54, 5.54, 0.54, -4.46 pattern)
-    conceded_points = 10.54 - (5 * df['Performance_GK_GoalsConceded'])
+    # Goals Conceded: -5 per goal (applied through base adjustment)
+    conceded_penalty = 5 * df['Performance_GK_GoalsConceded']
     
     score = (
-        # GK Specific Actions (Primary scoring drivers)
-        + 5.52 * df['Performance_Saves']
-        + 2.40 * df['Performance_HighClaims']
-        + 3.53 * df['Performance_RunsOut']
-        + 0.29 * df['Performance_Rec']  # Ball Recoveries
-        + 1.36 * df['Unnamed: 20_level_0_Clr']  # Clearances
+        # Base
+        - 3.87
         
-        # Distribution (PENALIZED - too many passes hurts)
-        - 0.24 * df['Passes_Cmp']
+        # SofaScore Rating (major factor)
+        + 3.23 * df['Performance_Rating']
         
-        # Goals Conceded / Clean Sheet
-        + conceded_points
+        # GK Specific Actions
+        + 3.12 * df['Performance_Saves']
+        + 4.09 * df['Performance_HighClaims']
+        + 3.83 * df['Performance_RunsOut']
+        - 1.0 * df['Performance_Rec']  # Ball Recoveries (negative!)
+        - 1.71 * df['Unnamed: 20_level_0_Clr']  # Clearances (negative!)
         
-        # Punches (minor impact)
-        + 0.5 * df['Performance_Punches']
+        # Distribution (rewarded now!)
+        + 0.29 * df['Passes_Cmp']
+        
+        # Goals Conceded penalty
+        - conceded_penalty
+        
+        # Punches
+        + 0.50 * df['Performance_Punches']
         
         # Big Moments
         + 7.0 * df['Performance_PKSaved']
         
         # Mistakes
-        - (3.28 * df['Performance_OG'])  # Own Goals
+        - (7.12 * df['Performance_OG'])  # Own Goals
         - (5 * df['Unnamed: 21_level_0_Err'])
         
         # Attacking (Rare)

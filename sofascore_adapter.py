@@ -259,6 +259,7 @@ def map_player_stats(player_data):
     
     # Misc
     mapped['Hit_Woodwork'] = get('hitWoodwork')
+    mapped['Performance_Rating'] = get('rating')  # SofaScore match rating
     
     # Metadata
     mapped['is_sub'] = player_data.get('substitute', False)
