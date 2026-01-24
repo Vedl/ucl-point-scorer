@@ -85,29 +85,56 @@ def load_gk_model():
         return GK_ML_MODEL
         
     try:
-        import joblib
+        import json
         import os
-        # Look for model in scripts/verify/ or current dir or parent
+        import pandas as pd
+        from sklearn.ensemble import GradientBoostingRegressor
+        
+        # Look for training data JSON
         paths = [
-            "scripts/verify/gk_gbm_model.pkl",
-            "gk_gbm_model.pkl",
-            "../gk_gbm_model.pkl"
+            "scripts/verify/gk_training_data.json",
+            "gk_training_data.json",
+            "../gk_training_data.json"
         ]
         
-        model_path = None
+        json_path = None
         for p in paths:
             if os.path.exists(p):
-                model_path = p
+                json_path = p
                 break
                 
-        if model_path:
-            GK_ML_MODEL = joblib.load(model_path)
-            print(f"Loaded GK ML Model from {model_path}")
+        if json_path:
+            with open(json_path, 'r') as f:
+                training_data = json.load(f)
+            
+            if training_data:
+                # Convert to DataFrame
+                df_train = pd.DataFrame(training_data)
+                
+                # Features columns matching exact order
+                feature_cols = ["saves", "claims", "sweep", "rec", "clears", "acc_pass", 
+                                "fail_pass", "og", "punch", "sv_inside", "poss_lost", 
+                                "pk_save", "pk_faced", "gp", "ksv"]
+                
+                X = df_train[feature_cols]
+                y = df_train['target']
+                
+                # Train Model On-The-Fly (Fast & Robust)
+                # Parameters optimized from local training
+                model = GradientBoostingRegressor(n_estimators=500, random_state=42, learning_rate=0.05)
+                model.fit(X, y)
+                
+                GK_ML_MODEL = model
+                print(f"Successfully trained GK ML Model from {json_path} (n={len(training_data)})")
+            else:
+                print("Training data JSON found but empty.")
         else:
-            print("GK ML Model not found, using v11 formula fallback.")
+            print("GK Training Data JSON not found, using v11 formula fallback.")
             
     except Exception as e:
-        print(f"Failed to load GK ML Model: {e}")
+        print(f"Failed to initialize GK ML Model: {e}")
+        import traceback
+        traceback.print_exc()
         
     MODEL_LOADED = True
     return GK_ML_MODEL
@@ -121,9 +148,6 @@ def gk_score_calc(df, team_score, team_conc):
         # saves, claims, sweep, rec, clears, acc_pass, fail_pass, og, punch, sv_inside, poss_lost, pk_save, pk_faced, gp, ksv
         
         failed_passes = df['Passes_Att'] - df['Passes_Cmp']
-        # Discipline calculated separately? 
-        # Wait, the training data 'target' was ADJ_TARGET (Target - Discipline).
-        # So model predicts performance points. We must add discipline manually.
         
         # Extract features
         features = [
