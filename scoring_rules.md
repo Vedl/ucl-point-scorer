@@ -37,18 +37,17 @@ The following statistics are scraped from SofaScore/WhoScored and used in the sc
 - **Penalty Conceded**: -5 points
 - **Penalty Missed**: -5 points
 
-## 5. Goalkeeper Specifics (New Formula)
-- **Saves**: +1.5 points
-- **High Claims**: +1.0 points
-- **Punches**: +0.5 points
-- **Runs Out (Sweeper)**: +1.5 points
-- **Ball Recoveries**: +0.5 points
+## 5. Goalkeeper Specifics (Reverse-Engineered Formula)
+- **Saves**: +5.52 points (most impactful)
+- **High Claims**: +2.40 points
+- **Runs Out (Sweeper)**: +3.53 points
+- **Ball Recoveries**: +0.29 points
+- **Clearances**: +1.36 points
+- **Distribution (Passes)**: -0.24 per pass (PENALIZED)
 - **Penalty Save**: +7.0 points
-- **Distribution**: +0.1 per completed pass
-- **Clean Sheet / Conceded**:
-  - Base: +10 points (0 conceded)
-  - Conceded Penalty: -5 points per goal conceded (Linear)
-  - Example: 0 goals = +10, 1 goal = +5, 2 goals = 0, 3 goals = -5
+- **Own Goals**: -3.28 points
+- **Clean Sheet Base**: +10.54 points
+- **Goals Conceded**: -5.0 per goal
 
 ## 5. Contextual Stats (impact score)
 - **Minutes Played**: (must be >0 for points)

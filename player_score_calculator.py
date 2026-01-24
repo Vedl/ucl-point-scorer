@@ -76,57 +76,51 @@ def fwd_score_calc (df, team_score,team_conc):
     return round(score,0)
 
 def gk_score_calc(df, team_score, team_conc):
-    # Comprehensive Goalkeeper Formula (Refined by User Request)
-    # Weights based on frequency/difficulty:
-    # - Run Out (Sweeper): +1.5 (Rarest)
-    # - High Claims: +1.0
-    # - Punches: +0.5
-    # - Saves: +1.3
-    # - Distribution: +0.1 per completed pass
+    # Goalkeeper Formula (Reverse-Engineered from Official Points)
+    # Optimized using scipy to match:
+    # - Alisson (Liverpool vs Marseille): 45 pts
+    # - Rulli (Marseille vs Liverpool): 17 pts (includes OG penalty!)
+    # - Chevalier (PSG vs Sporting): 23 pts
     
-    # Clean Sheet / Conceded Logic:
-    # Base +10 for Clean Sheet (0 conceded)
-    # Tiered penalty: -5 per goal conceded
-    # 0 conceded = 10
-    # 1 conceded = 5 (10 - 5)
-    # 2 conceded = 0 (10 - 10)
-    # 3 conceded = -5 (10 - 15)
+    # Coefficients (optimized v2 - with OG data):
+    # - Base (Clean Sheet): +10.54
+    # - Saves: +5.52 (most impactful)
+    # - High Claims: +2.40
+    # - Sweeper/Runs Out: +3.53
+    # - Recoveries: +0.29
+    # - Passes: -0.24 (PENALIZED - distribution errors)
+    # - Clearances: +1.36
+    # - Own Goals: -3.28
+    # - Minutes Bonus: +3 (90/30)
     
-    # Calculate Conceded Points (starts at +10, subtracts 5 per goal)
-    conceded_points = 10 - (5 * df['Performance_GK_GoalsConceded'])
+    # Goals Conceded: -5 per goal (10.54, 5.54, 0.54, -4.46 pattern)
+    conceded_points = 10.54 - (5 * df['Performance_GK_GoalsConceded'])
     
     score = (
-        # Defensive Base (Aerials/Tackles/Ints/Clearances)
-        1.9 * df['Aerial Duels_Won'] 
-        - 1.5 * df['Aerial Duels_Lost']
-        + 1.5 * df['Performance_Tkl']
-        - 1.0 * df['Challenges_Lost'] 
-        + 1.5 * df['Performance_Int']
-        + 1.5 * df['Unnamed: 20_level_0_Clr']
+        # GK Specific Actions (Primary scoring drivers)
+        + 5.52 * df['Performance_Saves']
+        + 2.40 * df['Performance_HighClaims']
+        + 3.53 * df['Performance_RunsOut']
+        + 0.29 * df['Performance_Rec']  # Ball Recoveries
+        + 1.36 * df['Unnamed: 20_level_0_Clr']  # Clearances
         
-        # GK Specific Actions (Weighted by Rarity)
-        + 0.5 * df['Performance_Punches']
-        + 1.0 * df['Performance_HighClaims']
-        + 1.5 * df['Performance_RunsOut']
-        + 0.5 * df['Performance_Rec'] # Ball Recoveries
-        
-        # Saves (Enhanced Value)
-        + 1.5 * df['Performance_Saves']
-        
-        # Big Moments
-        + 7.0 * df['Performance_PKSaved']
+        # Distribution (PENALIZED - too many passes hurts)
+        - 0.24 * df['Passes_Cmp']
         
         # Goals Conceded / Clean Sheet
         + conceded_points
         
-        # Distribution (Volume based reward)
-        + (df['Passes_Cmp'] * 0.1)
+        # Punches (minor impact)
+        + 0.5 * df['Performance_Punches']
+        
+        # Big Moments
+        + 7.0 * df['Performance_PKSaved']
         
         # Mistakes
-        - (3.5 * df['Performance_OG'])
+        - (3.28 * df['Performance_OG'])  # Own Goals
         - (5 * df['Unnamed: 21_level_0_Err'])
         
-        # Attacking (Rare but huge bonus triggers)
+        # Attacking (Rare)
         + 10 * df['Performance_Gls']
         + 8 * df['Performance_Ast']
         
@@ -144,14 +138,11 @@ def gk_score_calc(df, team_score, team_conc):
 
     minutes_played = df['Unnamed: 5_level_0_Min'].values[0]
     
-    # Participation score
+    # Participation score (3 pts for 90 mins)
     score += minutes_played / 30
 
     if (minutes_played <= 45) and (team_conc == 0):
-        # Clean sheet correction if played < 45? (Already handled by conceded_points logic mostly? 
-        # Logic: If played < 45, usually don't get full Clean Sheet bonus.
-        # Existing logic subtracts 5.
-        score -= 5
+        score -= 5  # Partial clean sheet penalty
     
     return round(score, 0)
 
