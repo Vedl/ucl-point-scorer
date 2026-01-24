@@ -257,6 +257,13 @@ def map_player_stats(player_data):
     mapped['Performance_PKSaved'] = get('penaltySave')
     mapped['Performance_GK_GoalsConceded'] = get('goalsConceded')
     
+    # New GK stats (v9 formula)
+    mapped['Performance_SavedInsideBox'] = get('savedShotsFromInsideTheBox')
+    mapped['Performance_PossLost'] = get('possessionLostCtrl')
+    mapped['Performance_PKFaced'] = get('penaltyFaced')
+    mapped['Performance_GoalsPrevented'] = get('goalsPrevented')
+    mapped['Performance_KeeperSaveValue'] = get('keeperSaveValue')
+    
     # Misc
     mapped['Hit_Woodwork'] = get('hitWoodwork')
     mapped['Performance_Rating'] = get('rating')  # SofaScore match rating

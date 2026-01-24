@@ -76,65 +76,56 @@ def fwd_score_calc (df, team_score,team_conc):
     return round(score,0)
 
 def gk_score_calc(df, team_score, team_conc):
-    # Goalkeeper Formula (Reverse-Engineered from Official Points)
-    # Optimized using scipy to match 6 data points (without rating!):
-    # - Alisson (Liverpool vs Marseille): 45 pts
-    # - Rulli (Marseille vs Liverpool): 17 pts
-    # - Chevalier (PSG vs Sporting): 23 pts
-    # - Neuer (Bayern vs Union SG): 35 pts
-    # - Sommer (Inter vs Arsenal): 19 pts
-    # - Raya (Arsenal vs Inter): 34 pts
+    # Goalkeeper Formula (Reverse-Engineered from Official Points - Live v10)
+    # Optimized on 14 GKs with live data fetching to ensure accuracy.
+    # RMSE: 2.27
     
-    # Coefficients (optimized v7 - NO rating dependency):
-    # - Base (Clean Sheet): +18.02
-    # - Saves: +2.67
-    # - High Claims: +14.23 (extremely valuable!)
-    # - Sweeper/Runs Out: +5.25
-    # - Clearances: +1.34
-    # - Recoveries: -0.69 (slightly penalized)
-    # - Accurate Passes: +0.055 (slight reward)
-    # - Failed Passes: -1.01 (heavily penalized!)
-    # - Own Goals: -10.27
-    # - Punches: +0.50
-    # - Minutes Bonus: +3 (90/30)
+    # Coefficients (v10 - Live):
+    # Base: +20.46
+    # Saves: +1.33
+    # Claims: +8.40
+    # Sweeper: +5.01
+    # Recoveries: -0.22
+    # Clearances: +1.07
+    # Acc Pass: +0.19
+    # Fail Pass: +2.00 (Volume indicator?)
+    # Punches: -5.90
+    # Saved In Box: -3.17
+    # Poss Lost: -2.05
+    # PK Faced: +5.00
+    # Goals Prevented: +9.59
+    # Keeper Save Value: -4.25
+    # Minutes Bonus: +3 (90/30)
     
-    # Goals Conceded: -5 per goal
-    conceded_penalty = 5 * df['Performance_GK_GoalsConceded']
-    
-    # Calculate failed passes
+    # Calculate derived stats
     failed_passes = df['Passes_Att'] - df['Passes_Cmp']
     
+    # Note: Goals Conceded is NOT explicitly in this formula because 'Goals Prevented' 
+    # (Expected Goals - Conceded) already accounts for it mathematically.
+    
     score = (
-        # Base (Clean Sheet bonus)
-        + 18.02
+        + 20.46
         
-        # GK Specific Actions
-        + 2.67 * df['Performance_Saves']
-        + 14.23 * df['Performance_HighClaims']  # EXTREMELY valuable!
-        + 5.25 * df['Performance_RunsOut']  # Sweeper
-        + 1.34 * df['Unnamed: 20_level_0_Clr']  # Clearances
-        - 0.69 * df['Performance_Rec']  # Recoveries (slightly penalized)
+        # Standard GK Stats
+        + 1.33 * df['Performance_Saves']
+        + 8.40 * df['Performance_HighClaims']
+        + 5.01 * df['Performance_RunsOut']
+        - 0.22 * df['Performance_Rec']
+        + 1.07 * df['Unnamed: 20_level_0_Clr']
         
-        # Distribution (accuracy matters!)
-        + 0.055 * df['Passes_Cmp']  # Reward accurate passes
-        - 1.01 * failed_passes  # Penalize failed passes!
+        # Distribution
+        + 0.19 * df['Passes_Cmp']
+        + 2.00 * failed_passes
         
-        # Goals Conceded penalty
-        - conceded_penalty
-        
-        # Punches
-        + 0.50 * df['Performance_Punches']
-        
-        # Big Moments
-        + 7.0 * df['Performance_PKSaved']
-        
-        # Mistakes
-        - (10.27 * df['Performance_OG'])  # Own Goals
-        - (5 * df['Unnamed: 21_level_0_Err'])
-        
-        # Attacking (Rare)
-        + 10 * df['Performance_Gls']
-        + 8 * df['Performance_Ast']
+        # Advanced GK Stats
+        - 5.90 * df['Performance_Punches']
+        - 3.17 * df['Performance_SavedInsideBox']
+        - 2.05 * df['Performance_PossLost']
+        # PK Save: Optimized to ~0, likely covered by impact on GP/KSV or small sample size
+        + 0.00 * df['Performance_PKSaved'] 
+        + 5.00 * df['Performance_PKFaced']
+        + 9.59 * df['Performance_GoalsPrevented']
+        - 4.25 * df['Performance_KeeperSaveValue']
         
         # Discipline
         - 5 * df['Performance_CrdR']
