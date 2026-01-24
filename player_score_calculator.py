@@ -108,9 +108,10 @@ def gk_score_calc(df, team_score, team_conc):
         + 0.5 * df['Performance_Punches']
         + 1.0 * df['Performance_HighClaims']
         + 1.5 * df['Performance_RunsOut']
+        + 0.5 * df['Performance_Rec'] # Ball Recoveries
         
         # Saves (Enhanced Value)
-        + 1.3 * df['Performance_Saves']
+        + 1.5 * df['Performance_Saves']
         
         # Big Moments
         + 7.0 * df['Performance_PKSaved']

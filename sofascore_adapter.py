@@ -232,6 +232,7 @@ def map_player_stats(player_data):
     mapped['Challenges_Lost'] = get('challengeLost') # Dribbled Past
     mapped['Unnamed: 21_level_0_Err'] = get('errorLeadToGoal') # Best proxy for Err
     mapped['Performance_OG'] = get('ownGoals')
+    mapped['Performance_Rec'] = get('ballRecovery')
     
     # Aerial
     mapped['Aerial Duels_Won'] = get('aerialWon') 

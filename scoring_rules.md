@@ -38,10 +38,11 @@ The following statistics are scraped from SofaScore/WhoScored and used in the sc
 - **Penalty Missed**: -5 points
 
 ## 5. Goalkeeper Specifics (New Formula)
-- **Saves**: +1.3 points
+- **Saves**: +1.5 points
 - **High Claims**: +1.0 points
 - **Punches**: +0.5 points
 - **Runs Out (Sweeper)**: +1.5 points
+- **Ball Recoveries**: +0.5 points
 - **Penalty Save**: +7.0 points
 - **Distribution**: +0.1 per completed pass
 - **Clean Sheet / Conceded**:
