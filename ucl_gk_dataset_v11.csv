@@ -1,0 +1,257 @@
+Match_ID,Round,Match,Team,Player,Calculated_Score,Saves,Claims,Sweeper,Goals_Prevented,Minutes
+14566909,Round 1,athletic-club-arsenal,Athletic Club,Unai Simón,22,4,0,2,-0.8863,90
+14566909,Round 1,athletic-club-arsenal,Arsenal,David Raya,40,2,1,2,0.173,90
+14566894,Round 1,royale-union-saint-gilloise-psv-eindhoven,PSV Eindhoven,Matěj Kovář,31,4,1,0,0.3444,90
+14566894,Round 1,royale-union-saint-gilloise-psv-eindhoven,Royale Union Saint-Gilloise,Kjell Scherpen,41,2,2,2,0.2882,90
+14566738,Round 1,qarabag-benfica,Benfica,Anatoliy Trubin,22,2,0,1,-0.2692,90
+14566738,Round 1,qarabag-benfica,Qarabağ FK,Mateusz Kochalski,34,1,1,1,-0.6343,90
+14566764,Round 1,juventus-borussia-dortmund,Juventus,Michele Di Gregorio,9,1,0,0,-1.8017,90
+14566764,Round 1,juventus-borussia-dortmund,Borussia Dortmund,Gregor Kobel,31,3,1,1,-1.2199,90
+14566597,Round 1,real-madrid-olympique-de-marseille,Real Madrid,Thibaut Courtois,33,4,0,2,-0.5257,90
+14566597,Round 1,real-madrid-olympique-de-marseille,Olympique de Marseille,Gerónimo Rulli,40,13,1,0,1.6811,90
+14566827,Round 1,villarreal-tottenham-hotspur,Tottenham Hotspur,Guglielmo Vicario,38,0,1,1,0.0,90
+14566827,Round 1,villarreal-tottenham-hotspur,Villarreal,Luiz Júnior,29,2,1,2,-0.8417,90
+14566868,Round 1,pafos-fc-olympiacos-fc,Olympiacos FC,Alexandros Paschalakis,30,1,0,1,0.1233,90
+14566868,Round 1,pafos-fc-olympiacos-fc,Pafos FC,Neofytos Michael,25,3,0,0,0.3061,90
+14566884,Round 1,sk-slavia-praha-bodoglimt,SK Slavia Praha,Jindřich Staněk,28,8,0,1,0.6381,90
+14566884,Round 1,sk-slavia-praha-bodoglimt,Bodø/Glimt,Nikita Haikin,38,8,1,0,2.1919,90
+14566873,Round 1,afc-ajax-inter,AFC Ajax,Vítězslav Jaroš,23,3,0,0,-0.2935,90
+14566873,Round 1,afc-ajax-inter,Inter,Yann Sommer,38,2,2,0,0.7491,90
+14566570,Round 1,fc-bayern-munchen-chelsea,FC Bayern München,Manuel Neuer,36,2,1,0,0.0189,90
+14566570,Round 1,fc-bayern-munchen-chelsea,Chelsea,Robert Sánchez,24,3,1,0,-0.634,90
+14566637,Round 1,atletico-madrid-liverpool,Liverpool,Alisson,41,2,2,1,-0.1944,90
+14566637,Round 1,atletico-madrid-liverpool,Atlético Madrid,Jan Oblak,4,3,0,0,-1.0789,90
+14566657,Round 1,atalanta-paris-saint-germain,Paris Saint-Germain,Lucas Chevalier,24,2,0,0,0.2538,90
+14566657,Round 1,atalanta-paris-saint-germain,Atalanta,Marco Carnesecchi,11,9,0,0,0.1525,90
+14566748,Round 1,club-brugge-kv-as-monaco,Club Brugge KV,Simon Mignolet,30,1,0,0,0.719,19
+14566748,Round 1,club-brugge-kv-as-monaco,Club Brugge KV,Nordin Jackers,16,3,0,1,-0.3948,71
+14566748,Round 1,club-brugge-kv-as-monaco,AS Monaco,Philipp Köhn,16,6,0,0,0.2409,90
+14566972,Round 1,bayer-04-leverkusen-fc-kobenhavn,FC København,Dominik Kotarski,7,3,0,0,-0.73,90
+14566972,Round 1,bayer-04-leverkusen-fc-kobenhavn,Bayer 04 Leverkusen,Mark Flekken,40,5,1,0,0.6761,90
+14566757,Round 1,galatasaray-eintracht-frankfurt,Eintracht Frankfurt,Michael Zetterer,29,4,0,1,0.4517,90
+14566757,Round 1,galatasaray-eintracht-frankfurt,Galatasaray,Uğurcan Çakır,9,3,1,2,-3.4522,90
+14566664,Round 1,napoli-manchester-city,Manchester City,Gianluigi Donnarumma,35,1,1,0,0.7295,90
+14566664,Round 1,napoli-manchester-city,Napoli,Vanja Milinković-Savić,36,6,2,0,1.1185,90
+14566955,Round 1,barcelona-newcastle-united,Newcastle United,Nick Pope,11,3,0,0,-0.6527,90
+14566955,Round 1,barcelona-newcastle-united,Barcelona,Joan García,44,5,2,0,0.979,90
+14566857,Round 1,kairat-almaty-sporting,Sporting CP,João Virgínia,34,3,1,1,-0.4531,90
+14566857,Round 1,kairat-almaty-sporting,Kairat Almaty,Sherkhan Kalmurza,33,4,0,1,0.7619,90
+14566727,Round 2,club-brugge-kv-atalanta,Atalanta,Marco Carnesecchi,35,1,0,2,-0.2578,90
+14566727,Round 2,club-brugge-kv-atalanta,Club Brugge KV,Nordin Jackers,23,1,0,0,-0.668,90
+14566983,Round 2,kairat-almaty-real-madrid,Kairat Almaty,Sherkhan Kalmurza,22,7,1,1,-1.5089,90
+14566983,Round 2,kairat-almaty-real-madrid,Real Madrid,Thibaut Courtois,33,4,0,2,0.3087,90
+14566775,Round 2,atletico-madrid-eintracht-frankfurt,Atlético Madrid,Jan Oblak,27,1,0,0,0.1114,90
+14566775,Round 2,atletico-madrid-eintracht-frankfurt,Eintracht Frankfurt,Kauã Santos,29,7,0,0,1.0796,90
+14566843,Round 2,bodoglimt-tottenham-hotspur,Bodø/Glimt,Nikita Haikin,13,2,0,0,-0.8307,90
+14566843,Round 2,bodoglimt-tottenham-hotspur,Tottenham Hotspur,Guglielmo Vicario,25,2,0,0,-0.7908,90
+14566581,Round 2,benfica-chelsea,Chelsea,Robert Sánchez,26,3,0,0,0.5627,90
+14566581,Round 2,benfica-chelsea,Benfica,Anatoliy Trubin,25,3,0,0,0.1736,90
+14566934,Round 2,galatasaray-liverpool,Galatasaray,Uğurcan Çakır,23,4,0,0,0.7854,90
+14566934,Round 2,galatasaray-liverpool,Liverpool,Alisson,36,3,1,0,0.0085,56
+14566934,Round 2,galatasaray-liverpool,Liverpool,Giorgi Mamardashvili,30,0,0,1,0.0,34
+14566613,Round 2,inter-sk-slavia-praha,Inter,Yann Sommer,35,1,1,0,0.0546,90
+14566613,Round 2,inter-sk-slavia-praha,SK Slavia Praha,Jindřich Staněk,29,2,0,1,0.0981,90
+14566823,Round 2,afc-ajax-olympique-de-marseille,Olympique de Marseille,Gerónimo Rulli,46,2,1,1,0.9096,90
+14566823,Round 2,afc-ajax-olympique-de-marseille,AFC Ajax,Vítězslav Jaroš,6,2,0,0,-1.8108,90
+14566965,Round 2,pafos-fc-fc-bayern-munchen,Pafos FC,Neofytos Michael,10,10,0,0,-0.0113,90
+14566965,Round 2,pafos-fc-fc-bayern-munchen,FC Bayern München,Manuel Neuer,41,1,0,3,-0.2114,90
+14566922,Round 2,qarabag-fc-kobenhavn,Qarabağ FK,Mateusz Kochalski,31,4,0,1,0.1401,90
+14566922,Round 2,qarabag-fc-kobenhavn,FC København,Dominik Kotarski,33,4,0,1,0.5853,90
+14566952,Round 2,royale-union-saint-gilloise-newcastle-united,Royale Union Saint-Gilloise,Kjell Scherpen,17,2,1,0,-0.805,90
+14566952,Round 2,royale-union-saint-gilloise-newcastle-united,Newcastle United,Nick Pope,31,6,0,0,0.7225,90
+14566719,Round 2,olympiacos-fc-arsenal,Arsenal,David Raya,39,3,1,1,0.6127,90
+14566719,Round 2,olympiacos-fc-arsenal,Olympiacos FC,Konstantinos Tzolakis,28,2,2,0,-0.1133,90
+14566925,Round 2,as-monaco-manchester-city,AS Monaco,Philipp Köhn,21,5,0,0,-0.4079,90
+14566925,Round 2,as-monaco-manchester-city,Manchester City,Gianluigi Donnarumma,26,1,1,1,-0.7731,90
+14566650,Round 2,barcelona-paris-saint-germain,Barcelona,Wojciech Szczęsny,24,5,0,1,-0.5094,90
+14566650,Round 2,barcelona-paris-saint-germain,Paris Saint-Germain,Lucas Chevalier,34,0,1,2,-0.3925,90
+14566706,Round 2,psv-eindhoven-bayer-04-leverkusen,Bayer 04 Leverkusen,Mark Flekken,30,0,1,0,-0.1516,90
+14566706,Round 2,psv-eindhoven-bayer-04-leverkusen,PSV Eindhoven,Matěj Kovář,37,3,1,1,0.6307,90
+14566622,Round 2,athletic-club-borussia-dortmund,Borussia Dortmund,Gregor Kobel,27,2,0,0,0.217,90
+14566622,Round 2,athletic-club-borussia-dortmund,Athletic Club,Unai Simón,14,4,1,0,-1.9257,90
+14566901,Round 2,sporting-napoli,Napoli,Vanja Milinković-Savić,34,3,0,0,0.6576,90
+14566901,Round 2,sporting-napoli,Sporting CP,Rui Silva,21,1,1,0,-0.9659,90
+14566782,Round 2,villarreal-juventus,Villarreal,Arnau Tenas,3,2,0,0,-1.4626,90
+14566782,Round 2,villarreal-juventus,Juventus,Mattia Perin,17,4,0,0,-0.1382,90
+14566652,Round 3,olympiacos-fc-barcelona,Barcelona,Wojciech Szczęsny,36,1,1,0,-0.0521,90
+14566652,Round 3,olympiacos-fc-barcelona,Olympiacos FC,Konstantinos Tzolakis,25,1,2,1,-1.6499,90
+14566986,Round 3,pafos-fc-kairat-almaty,Kairat Almaty,Temirlan Anarbekov,42,5,0,1,2.3401,90
+14566986,Round 3,pafos-fc-kairat-almaty,Pafos FC,Neofytos Michael,63,2,1,6,0.5727,90
+14566718,Round 3,atletico-madrid-arsenal,Arsenal,David Raya,45,1,2,1,0.1143,90
+14566718,Round 3,atletico-madrid-arsenal,Atlético Madrid,Jan Oblak,15,4,0,0,-0.9159,90
+14566704,Round 3,bayer-04-leverkusen-paris-saint-germain,Bayer 04 Leverkusen,Mark Flekken,-7,1,0,0,-2.7884,90
+14566704,Round 3,bayer-04-leverkusen-paris-saint-germain,Paris Saint-Germain,Lucas Chevalier,29,1,0,0,-0.6866,90
+14566971,Round 3,borussia-dortmund-fc-kobenhavn,FC København,Dominik Kotarski,4,1,0,1,-2.6029,90
+14566971,Round 3,borussia-dortmund-fc-kobenhavn,Borussia Dortmund,Gregor Kobel,19,3,0,0,-0.3502,90
+14566956,Round 3,benfica-newcastle-united,Newcastle United,Nick Pope,17,2,1,0,0.1974,90
+14566956,Round 3,benfica-newcastle-united,Benfica,Anatoliy Trubin,26,7,1,0,0.1642,90
+14566893,Round 3,psv-eindhoven-napoli,PSV Eindhoven,Matěj Kovář,8,0,0,1,-0.7399,90
+14566893,Round 3,psv-eindhoven-napoli,Napoli,Vanja Milinković-Savić,2,3,1,1,-2.982,90
+14566949,Round 3,royale-union-saint-gilloise-inter,Royale Union Saint-Gilloise,Kjell Scherpen,15,3,0,0,-1.402,90
+14566949,Round 3,royale-union-saint-gilloise-inter,Inter,Yann Sommer,35,5,0,0,1.6063,90
+14566781,Round 3,villarreal-manchester-city,Villarreal,Luiz Júnior,54,5,3,2,0.5795,90
+14566781,Round 3,villarreal-manchester-city,Manchester City,Gianluigi Donnarumma,30,2,0,0,0.4352,90
+14566911,Round 3,qarabag-athletic-club,Athletic Club,Unai Simón,44,2,1,5,-0.4402,90
+14566911,Round 3,qarabag-athletic-club,Qarabağ FK,Mateusz Kochalski,12,2,0,1,-1.4038,90
+14566936,Round 3,galatasaray-bodoglimt,Galatasaray,Uğurcan Çakır,39,1,1,0,0.1975,90
+14566936,Round 3,galatasaray-bodoglimt,Bodø/Glimt,Nikita Haikin,36,8,2,0,1.2326,90
+14566927,Round 3,as-monaco-tottenham-hotspur,AS Monaco,Philipp Köhn,40,2,3,0,0.5277,90
+14566927,Round 3,as-monaco-tottenham-hotspur,Tottenham Hotspur,Guglielmo Vicario,51,8,1,1,2.6824,90
+14566728,Round 3,atalanta-sk-slavia-praha,Atalanta,Marco Carnesecchi,42,4,1,0,0.7578,90
+14566728,Round 3,atalanta-sk-slavia-praha,SK Slavia Praha,Jakub Markovič,45,5,1,0,2.4567,90
+14566582,Round 3,afc-ajax-chelsea,Chelsea,Filip Jørgensen,35,0,0,2,-0.342,90
+14566582,Round 3,afc-ajax-chelsea,AFC Ajax,Remko Pasveer,15,5,0,1,-1.6185,90
+14566754,Round 3,eintracht-frankfurt-liverpool,Eintracht Frankfurt,Michael Zetterer,-6,9,0,0,-1.3965,90
+14566754,Round 3,eintracht-frankfurt-liverpool,Liverpool,Giorgi Mamardashvili,19,0,0,0,-0.6261,90
+14566571,Round 3,club-brugge-kv-fc-bayern-munchen,FC Bayern München,Manuel Neuer,50,2,0,4,0.2029,90
+14566571,Round 3,club-brugge-kv-fc-bayern-munchen,Club Brugge KV,Nordin Jackers,35,7,4,0,-1.3784,90
+14566596,Round 3,real-madrid-juventus,Real Madrid,Thibaut Courtois,44,4,2,0,0.285,90
+14566596,Round 3,real-madrid-juventus,Juventus,Michele Di Gregorio,33,8,0,0,1.3246,90
+14566856,Round 3,sporting-olympique-de-marseille,Sporting CP,Rui Silva,39,2,1,1,0.2179,90
+14566856,Round 3,sporting-olympique-de-marseille,Olympique de Marseille,Gerónimo Rulli,34,5,3,0,-0.2665,90
+14566900,Round 4,napoli-eintracht-frankfurt,Napoli,Vanja Milinković-Savić,33,4,0,1,0.2039,90
+14566900,Round 4,napoli-eintracht-frankfurt,Eintracht Frankfurt,Michael Zetterer,13,2,0,0,0.2424,90
+14566883,Round 4,sk-slavia-praha-arsenal,SK Slavia Praha,Jakub Markovič,21,5,0,1,-0.4773,90
+14566883,Round 4,sk-slavia-praha-arsenal,Arsenal,David Raya,36,1,1,0,0.1209,90
+14566777,Round 4,royale-union-saint-gilloise-atletico-madrid,Atlético Madrid,Jan Oblak,56,2,3,2,0.1811,90
+14566777,Round 4,royale-union-saint-gilloise-atletico-madrid,Royale Union Saint-Gilloise,Kjell Scherpen,29,3,1,0,0.6575,90
+14566844,Round 4,as-monaco-bodoglimt,Bodø/Glimt,Nikita Haikin,26,1,1,0,-0.3036,90
+14566844,Round 4,as-monaco-bodoglimt,AS Monaco,Philipp Köhn,37,4,0,1,1.0973,90
+14566766,Round 4,sporting-juventus,Juventus,Michele Di Gregorio,14,0,0,0,-0.7332,90
+14566766,Round 4,sporting-juventus,Sporting CP,Rui Silva,28,8,0,0,0.3436,90
+14566636,Round 4,real-madrid-liverpool,Liverpool,Giorgi Mamardashvili,26,2,0,0,0.2202,90
+14566636,Round 4,real-madrid-liverpool,Real Madrid,Thibaut Courtois,45,8,0,3,0.7591,90
+14566867,Round 4,olympiacos-fc-psv-eindhoven,Olympiacos FC,Konstantinos Tzolakis,30,1,1,2,-0.7108,90
+14566867,Round 4,olympiacos-fc-psv-eindhoven,PSV Eindhoven,Matěj Kovář,29,3,1,0,-0.2062,90
+14566656,Round 4,fc-bayern-munchen-paris-saint-germain,Paris Saint-Germain,Lucas Chevalier,22,3,0,1,-0.0679,90
+14566656,Round 4,fc-bayern-munchen-paris-saint-germain,FC Bayern München,Manuel Neuer,50,8,1,2,0.8646,90
+14566829,Round 4,fc-kobenhavn-tottenham-hotspur,Tottenham Hotspur,Guglielmo Vicario,50,4,2,1,0.8673,90
+14566829,Round 4,fc-kobenhavn-tottenham-hotspur,FC København,Dominik Kotarski,23,2,0,2,-1.1871,90
+14566966,Round 4,pafos-fc-villarreal,Pafos FC,Neofytos Michael,17,5,0,0,0.6685,90
+14566966,Round 4,pafos-fc-villarreal,Villarreal,Luiz Júnior,41,1,1,2,-0.1977,90
+14566919,Round 4,qarabag-chelsea,Qarabağ FK,Mateusz Kochalski,7,2,0,0,-0.2814,90
+14566919,Round 4,qarabag-chelsea,Chelsea,Robert Sánchez,37,1,1,0,-0.2414,90
+14566876,Round 4,galatasaray-afc-ajax,AFC Ajax,Remko Pasveer,44,5,0,0,1.3027,90
+14566876,Round 4,galatasaray-afc-ajax,Galatasaray,Uğurcan Çakır,32,3,0,1,0.0786,90
+14566736,Round 4,benfica-bayer-04-leverkusen,Benfica,Anatoliy Trubin,16,2,0,0,-0.6253,90
+14566736,Round 4,benfica-bayer-04-leverkusen,Bayer 04 Leverkusen,Mark Flekken,28,5,0,0,0.7107,90
+14566745,Round 4,club-brugge-kv-barcelona,Club Brugge KV,Nordin Jackers,15,4,1,0,-0.8874,90
+14566745,Round 4,club-brugge-kv-barcelona,Barcelona,Wojciech Szczęsny,9,3,0,0,-0.7548,90
+14566614,Round 4,kairat-almaty-inter,Inter,Yann Sommer,24,2,0,1,-0.701,90
+14566614,Round 4,kairat-almaty-inter,Kairat Almaty,Temirlan Anarbekov,28,6,0,1,1.4521,90
+14566662,Round 4,borussia-dortmund-manchester-city,Manchester City,Gianluigi Donnarumma,23,3,1,2,0.0148,90
+14566662,Round 4,borussia-dortmund-manchester-city,Borussia Dortmund,Gregor Kobel,19,8,0,1,-0.6054,90
+14566958,Round 4,athletic-club-newcastle-united,Newcastle United,Nick Pope,56,5,2,3,1.0364,90
+14566958,Round 4,athletic-club-newcastle-united,Athletic Club,Unai Simón,25,2,2,0,-1.0946,90
+14566822,Round 4,atalanta-olympique-de-marseille,Olympique de Marseille,Gerónimo Rulli,31,2,0,1,0.4373,90
+14566822,Round 4,atalanta-olympique-de-marseille,Atalanta,Marco Carnesecchi,47,4,2,1,0.6288,90
+14566874,Round 5,benfica-afc-ajax,AFC Ajax,Vítězslav Jaroš,23,2,0,0,-0.1192,90
+14566874,Round 5,benfica-afc-ajax,Benfica,Anatoliy Trubin,48,4,3,0,0.4114,90
+14566937,Round 5,royale-union-saint-gilloise-galatasaray,Galatasaray,Uğurcan Çakır,24,4,0,0,0.3527,90
+14566937,Round 5,royale-union-saint-gilloise-galatasaray,Royale Union Saint-Gilloise,Kjell Scherpen,31,2,1,0,0.3095,90
+14566842,Round 5,juventus-bodoglimt,Bodø/Glimt,Nikita Haikin,31,12,1,1,1.8101,90
+14566842,Round 5,juventus-bodoglimt,Juventus,Mattia Perin,37,4,1,0,-0.087,90
+14566620,Round 5,villarreal-borussia-dortmund,Borussia Dortmund,Gregor Kobel,34,1,0,1,0.0134,90
+14566620,Round 5,villarreal-borussia-dortmund,Villarreal,Luiz Júnior,48,3,2,0,0.2838,90
+14566580,Round 5,barcelona-chelsea,Chelsea,Robert Sánchez,41,2,0,2,0.5901,90
+14566580,Round 5,barcelona-chelsea,Barcelona,Joan García,23,3,0,3,-1.4913,90
+14566663,Round 5,bayer-04-leverkusen-manchester-city,Manchester City,James Trafford,21,0,0,1,-0.7962,90
+14566663,Round 5,bayer-04-leverkusen-manchester-city,Bayer 04 Leverkusen,Mark Flekken,54,9,1,1,2.1893,90
+14566902,Round 5,qarabag-napoli,Napoli,Vanja Milinković-Savić,40,3,1,1,0.1079,90
+14566902,Round 5,qarabag-napoli,Qarabağ FK,Mateusz Kochalski,33,8,0,0,1.9506,90
+14566835,Round 5,olympique-de-marseille-newcastle-united,Olympique de Marseille,Gerónimo Rulli,18,7,0,1,0.1244,90
+14566835,Round 5,olympique-de-marseille-newcastle-united,Newcastle United,Nick Pope,33,5,1,2,0.2678,90
+14566885,Round 5,athletic-club-sk-slavia-praha,SK Slavia Praha,Jindřich Staněk,36,4,0,0,1.7402,90
+14566885,Round 5,athletic-club-sk-slavia-praha,Athletic Club,Unai Simón,70,3,5,1,0.5251,90
+14566974,Round 5,kairat-almaty-fc-kobenhavn,FC København,Dominik Kotarski,22,2,0,0,0.1025,90
+14566974,Round 5,kairat-almaty-fc-kobenhavn,Kairat Almaty,Temirlan Anarbekov,35,6,0,1,1.0318,90
+14566968,Round 5,pafos-fc-as-monaco,Pafos FC,Neofytos Michael,22,4,1,0,0.0235,90
+14566968,Round 5,pafos-fc-as-monaco,AS Monaco,Lukáš Hrádecký,12,3,1,0,-0.4513,90
+14566717,Round 5,fc-bayern-munchen-arsenal,Arsenal,David Raya,27,1,1,0,-0.5277,90
+14566717,Round 5,fc-bayern-munchen-arsenal,FC Bayern München,Manuel Neuer,35,5,0,3,0.3767,90
+14566774,Round 5,atletico-madrid-inter,Atlético Madrid,Juan Musso,29,5,0,1,-0.0014999999999999,90
+14566774,Round 5,atletico-madrid-inter,Inter,Yann Sommer,38,4,1,1,-0.1943,90
+14566755,Round 5,atalanta-eintracht-frankfurt,Eintracht Frankfurt,Michael Zetterer,6,3,1,0,-1.4101,90
+14566755,Round 5,atalanta-eintracht-frankfurt,Atalanta,Marco Carnesecchi,44,3,2,2,0.5931,90
+14566638,Round 5,psv-eindhoven-liverpool,Liverpool,Giorgi Mamardashvili,24,2,0,0,-0.4682,90
+14566638,Round 5,psv-eindhoven-liverpool,PSV Eindhoven,Matěj Kovář,40,8,2,0,0.5999,90
+14566865,Round 5,olympiacos-fc-real-madrid,Olympiacos FC,Konstantinos Tzolakis,38,3,2,3,-1.7234,90
+14566865,Round 5,olympiacos-fc-real-madrid,Real Madrid,Andriy Lunin,22,5,0,1,-0.3555,90
+14566658,Round 5,paris-saint-germain-tottenham-hotspur,Paris Saint-Germain,Lucas Chevalier,16,1,0,0,-0.3489,90
+14566658,Round 5,paris-saint-germain-tottenham-hotspur,Tottenham Hotspur,Guglielmo Vicario,11,1,0,1,-2.332,90
+14566855,Round 5,sporting-club-brugge-kv,Sporting CP,Rui Silva,36,1,1,0,0.0086,90
+14566855,Round 5,sporting-club-brugge-kv,Club Brugge KV,Nordin Jackers,23,6,0,0,-0.1638,90
+14566985,Round 6,kairat-almaty-olympiacos-fc,Kairat Almaty,Temirlan Anarbekov,40,8,1,1,1.0288,90
+14566985,Round 6,kairat-almaty-olympiacos-fc,Olympiacos FC,Konstantinos Tzolakis,48,1,3,1,0.1485,90
+14566572,Round 6,sporting-fc-bayern-munchen,FC Bayern München,Manuel Neuer,33,1,1,0,0.0,90
+14566572,Round 6,sporting-fc-bayern-munchen,Sporting CP,Rui Silva,32,7,1,0,0.7892,90
+14566928,Round 6,galatasaray-as-monaco,AS Monaco,Lukáš Hrádecký,32,2,1,1,0.0523,90
+14566928,Round 6,galatasaray-as-monaco,Galatasaray,Uğurcan Çakır,40,4,0,0,1.7842,68
+14566928,Round 6,galatasaray-as-monaco,Galatasaray,Günay Güvenç,24,0,0,0,-0.1192,22
+14566726,Round 6,atalanta-chelsea,Atalanta,Marco Carnesecchi,38,4,1,2,-0.0246,90
+14566726,Round 6,atalanta-chelsea,Chelsea,Robert Sánchez,30,2,1,0,-0.2729,90
+14566651,Round 6,barcelona-eintracht-frankfurt,Barcelona,Joan García,43,3,2,1,0.0643,90
+14566651,Round 6,barcelona-eintracht-frankfurt,Eintracht Frankfurt,Michael Zetterer,19,5,1,1,-0.4558,90
+14566611,Round 6,inter-liverpool,Inter,Yann Sommer,59,4,2,1,0.182,90
+14566611,Round 6,inter-liverpool,Liverpool,Alisson,40,2,3,0,0.0946,90
+14566892,Round 6,psv-eindhoven-atletico-madrid,PSV Eindhoven,Matěj Kovář,22,6,0,0,-0.3768,90
+14566892,Round 6,psv-eindhoven-atletico-madrid,Atlético Madrid,Jan Oblak,39,1,1,1,0.0872,90
+14566951,Round 6,royale-union-saint-gilloise-olympique-de-marseille,Royale Union Saint-Gilloise,Kjell Scherpen,12,2,0,0,-0.6976,90
+14566951,Round 6,royale-union-saint-gilloise-olympique-de-marseille,Olympique de Marseille,Gerónimo Rulli,20,4,0,1,-0.9335,90
+14566828,Round 6,sk-slavia-praha-tottenham-hotspur,Tottenham Hotspur,Guglielmo Vicario,38,5,1,0,1.2361,90
+14566828,Round 6,sk-slavia-praha-tottenham-hotspur,SK Slavia Praha,Jindřich Staněk,49,8,4,1,-0.2055,90
+14566921,Round 6,qarabag-afc-ajax,Qarabağ FK,Mateusz Kochalski,8,4,0,1,-1.1568,90
+14566921,Round 6,qarabag-afc-ajax,AFC Ajax,Vítězslav Jaroš,24,4,0,2,-1.165,90
+14566784,Round 6,villarreal-fc-kobenhavn,Villarreal,Luiz Júnior,26,1,1,1,-0.7994,90
+14566784,Round 6,villarreal-fc-kobenhavn,FC København,Dominik Kotarski,19,3,0,0,0.3379,90
+14566908,Round 6,athletic-club-paris-saint-germain,Athletic Club,Unai Simón,37,4,0,0,1.7659,90
+14566908,Round 6,athletic-club-paris-saint-germain,Paris Saint-Germain,Matvey Safonov,50,1,1,2,0.7728,90
+14566707,Round 6,bayer-04-leverkusen-newcastle-united,Bayer 04 Leverkusen,Mark Flekken,23,4,0,0,0.4453,90
+14566707,Round 6,bayer-04-leverkusen-newcastle-united,Newcastle United,Aaron Ramsdale,28,6,1,0,0.3558,90
+14566737,Round 6,benfica-napoli,Benfica,Anatoliy Trubin,27,2,1,0,0.1799,90
+14566737,Round 6,benfica-napoli,Napoli,Vanja Milinković-Savić,25,3,0,0,0.2408,90
+14566621,Round 6,borussia-dortmund-bodoglimt,Borussia Dortmund,Gregor Kobel,18,2,0,0,-0.9255,90
+14566621,Round 6,borussia-dortmund-bodoglimt,Bodø/Glimt,Nikita Haikin,36,7,1,1,0.3077,90
+14566746,Round 6,club-brugge-kv-arsenal,Club Brugge KV,Dani van den Heuvel,23,7,1,0,0.9586,90
+14566746,Round 6,club-brugge-kv-arsenal,Arsenal,David Raya,29,7,0,0,1.1498,90
+14566767,Round 6,pafos-fc-juventus,Juventus,Michele Di Gregorio,52,4,3,0,0.2798,90
+14566767,Round 6,pafos-fc-juventus,Pafos FC,Neofytos Michael,23,3,1,0,-0.5443,90
+14566595,Round 6,real-madrid-manchester-city,Real Madrid,Thibaut Courtois,36,6,0,1,1.0293,90
+14566595,Round 6,real-madrid-manchester-city,Manchester City,Gianluigi Donnarumma,18,0,0,0,-0.8704,90
+14566984,Round 7,kairat-almaty-club-brugge-kv,Kairat Almaty,Temirlan Anarbekov,18,2,0,2,-0.7778,90
+14566984,Round 7,kairat-almaty-club-brugge-kv,Club Brugge KV,Nordin Jackers,12,1,1,0,-0.9325,90
+14566841,Round 7,bodoglimt-manchester-city,Bodø/Glimt,Nikita Haikin,16,4,0,0,-0.4111,90
+14566841,Round 7,bodoglimt-manchester-city,Manchester City,Gianluigi Donnarumma,18,2,0,0,-0.4886,90
+14566973,Round 7,napoli-fc-kobenhavn,FC København,Dominik Kotarski,26,4,0,1,0.2018,90
+14566973,Round 7,napoli-fc-kobenhavn,Napoli,Vanja Milinković-Savić,44,3,0,2,1.0697,90
+14566612,Round 7,inter-arsenal,Inter,Yann Sommer,24,3,0,0,0.233,90
+14566612,Round 7,inter-arsenal,Arsenal,David Raya,36,3,2,0,-0.0305,90
+14566866,Round 7,olympiacos-fc-bayer-04-leverkusen,Olympiacos FC,Konstantinos Tzolakis,45,6,2,0,2.2049,90
+14566866,Round 7,olympiacos-fc-bayer-04-leverkusen,Bayer 04 Leverkusen,Janis Blaswich,17,0,0,0,-0.8996,90
+14566598,Round 7,real-madrid-as-monaco,Real Madrid,Thibaut Courtois,33,5,0,1,0.7761,90
+14566598,Round 7,real-madrid-as-monaco,AS Monaco,Philipp Köhn,20,1,2,0,-2.3368,90
+14566854,Round 7,sporting-paris-saint-germain,Sporting CP,Rui Silva,24,5,0,0,-0.0545,90
+14566854,Round 7,sporting-paris-saint-germain,Paris Saint-Germain,Lucas Chevalier,23,2,0,0,-0.5717,90
+14566826,Round 7,borussia-dortmund-tottenham-hotspur,Tottenham Hotspur,Guglielmo Vicario,32,1,1,0,0.0722,90
+14566826,Round 7,borussia-dortmund-tottenham-hotspur,Borussia Dortmund,Gregor Kobel,37,3,1,1,0.3832,90
+14566783,Round 7,afc-ajax-villarreal,Villarreal,Arnau Tenas,25,3,0,1,-0.6359,90
+14566783,Round 7,afc-ajax-villarreal,AFC Ajax,Vítězslav Jaroš,32,6,0,1,0.668,90
+14566935,Round 7,galatasaray-atletico-madrid,Galatasaray,Uğurcan Çakır,11,3,0,0,-0.2635,90
+14566935,Round 7,galatasaray-atletico-madrid,Atlético Madrid,Jan Oblak,28,2,1,1,-0.9002,90
+14566920,Round 7,qarabag-eintracht-frankfurt,Qarabağ FK,Mateusz Kochalski,29,3,0,1,-0.4747,90
+14566920,Round 7,qarabag-eintracht-frankfurt,Eintracht Frankfurt,Kauã Santos,26,3,1,0,-0.7629,90
+14566729,Round 7,athletic-club-atalanta,Atalanta,Marco Carnesecchi,22,0,1,0,-0.9988,90
+14566729,Round 7,athletic-club-atalanta,Athletic Club,Unai Simón,31,2,1,1,-0.034,90
+14566583,Round 7,pafos-fc-chelsea,Chelsea,Filip Jørgensen,31,0,0,1,0.0,45
+14566583,Round 7,pafos-fc-chelsea,Chelsea,Robert Sánchez,20,2,0,0,0.0517,45
+14566583,Round 7,pafos-fc-chelsea,Pafos FC,Jay Gorter,19,6,0,0,0.8011,90
+14566573,Round 7,royale-union-saint-gilloise-fc-bayern-munchen,FC Bayern München,Manuel Neuer,35,1,1,0,0.044,90
+14566573,Round 7,royale-union-saint-gilloise-fc-bayern-munchen,Royale Union Saint-Gilloise,Kjell Scherpen,47,2,3,0,0.2802,90
+14566765,Round 7,benfica-juventus,Juventus,Michele Di Gregorio,36,3,1,0,0.2647,90
+14566765,Round 7,benfica-juventus,Benfica,Anatoliy Trubin,32,3,0,1,0.088,90
+14566957,Round 7,psv-eindhoven-newcastle-united,Newcastle United,Nick Pope,31,1,1,0,0.1259,90
+14566957,Round 7,psv-eindhoven-newcastle-united,PSV Eindhoven,Matěj Kovář,5,1,0,0,-1.2596,90
+14566821,Round 7,olympique-de-marseille-liverpool,Olympique de Marseille,Gerónimo Rulli,17,1,0,1,-1.9043,90
+14566821,Round 7,olympique-de-marseille-liverpool,Liverpool,Alisson,48,4,1,2,0.838,90
+14566882,Round 7,barcelona-sk-slavia-praha,SK Slavia Praha,Jindřich Staněk,17,8,0,1,-0.2706,90
+14566882,Round 7,barcelona-sk-slavia-praha,Barcelona,Joan García,23,1,1,1,-0.933,90

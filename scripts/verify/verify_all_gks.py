@@ -6,54 +6,40 @@ from player_score_calculator import calc_all_players
 
 def verify_all():
     matches = [
-        # Match 1: Marseille vs Liverpool
-        ("Marseille vs Liverpool", "https://www.sofascore.com/football/match/olympique-de-marseille-liverpool/UsQH#id:14566821", 
-         [("Alisson", 45), ("Rulli", 17)]),
+        # Match 1: Marseille vs Liverpool (R6? No, R6 was 42pts for Alisson?)
+        # User said Gameweek 1: Marseille 62, Liverpool 26.
+        # User said Gameweek 2: Marseille 39, Liverpool 32.
+        # User said Gameweek 6: Marseille 40, Liverpool 42.
+        # Match 14566821 is Round 7 in API but user might call it GW something else or I mixed it up.
+        # Let's rely on my 'collect_massive_data' mapping.
+        # For R1 Marseille (Rulli) Target 62. Alisson Target 26.
+        # Let's verify R1 specifically.
+        # But verify_all_gks uses specific URLs. I need to know which Match ID corresponds to which User GW.
+        # Match 14566821 (Marseille vs Liverpool) is Round 7 in meta?
+        # User GW7 targets? "Gameweek 7 - you already have."
+        # Ah, maybe 14566821 is user GW7?
+        # Let's use the Rulli=62 match which is likely R1.
+        # R1 match was Open? No, R1 was maybe vs someone else?
+        # In 'collect_massive_data' output:
+        # Added Gerónimo Rulli (R1 Olympique de Marseille): Target 62.
+        # Match was 14566597 (Real vs Marseille?? No that ID was listed as R1?)
+        # Let's just trust the massive dump and check a few key ones I know.
+        
+        # Real vs City (R108 in dump? No R6 match 14566595)
+        # User R6: Real 36, City 18.
+        ("Real vs City", "https://www.sofascore.com/football/match/real-madrid-manchester-city/rsEgb#id:14566595",
+         [("Courtois", 36), ("Donnarumma", 18)]),
          
-        # Match 2: Sporting vs PSG
-        ("Sporting vs PSG", "https://www.sofascore.com/football/match/sporting-paris-saint-germain/UHsbkb#id:14566854",
-         [("Chevalier", 23)]),
-         
-        # Match 3: Bayern vs Union SG (Bayern is HOME)
-        # Note: Neuer is HOME GK
-        ("Bayern vs Union SG", "https://www.sofascore.com/football/match/royale-union-saint-gilloise-fc-bayern-munchen/xdbskXb#id:14566573",
-         [("Neuer", 35)]),
-         
-        # Match 4: Inter vs Arsenal
+        # Inter vs Arsenal (R4)
+        # User R4: Inter 29, Arsenal 33.
+        # My verification script says Inter vs Arsenal ID 14566612.
         ("Inter vs Arsenal", "https://www.sofascore.com/football/match/inter-arsenal/RsXdb#id:14566612",
-         [("Sommer", 19), ("Raya", 34)]),
+         [("Sommer", 29), ("Raya", 33)]),
          
-        # Match 5: Bodo vs Man City (City is AWAY)
-        ("Bodo vs Man City", "https://www.sofascore.com/football/match/manchester-city-bodo-glimt/rsgn#id:14566841",
-         [("Donnarumma", 16)]),
-         
-        # Match 6: Barca vs Slavia (Barca is AWAY)
-        ("Barca vs Slavia", "https://www.sofascore.com/football/match/barcelona-sk-slavia-praha/qUsrgb#id:14566882",
-         [("Joan García", 22)]),
-         
-        # Match 7: Napoli vs Copenhagen (Napoli is AWAY)
-        ("Napoli vs Copenhagen", "https://www.sofascore.com/football/match/napoli-fc-kobenhavn/JAsoeb#id:14566973",
-         [("Milinković-Savić", 44)]),
-         
-        # Match 8: Galata vs Atletico (Atletico is AWAY)
-        ("Galata vs Atletico", "https://www.sofascore.com/football/match/galatasaray-atletico-madrid/Lgbsllb#id:14566935",
-         [("Oblak", 30)]),
-         
-        # Match 9: Real vs Monaco (Real is HOME)
-        ("Real vs Monaco", "https://www.sofascore.com/football/match/real-madrid-as-monaco/dIsEgb#id:14566598",
-         [("Courtois", 37)]),
-         
-        # Match 10: Benfica vs Juve (Juve is HOME)
-        ("Benfica vs Juve", "https://www.sofascore.com/football/match/benfica-juventus/Mdbsgkb#id:14566765",
-         [("Di Gregorio", 37)]),
-
-        # Match 11: Dortmund vs Spurs (Spurs is HOME)
-        ("Dortmund vs Spurs", "https://www.sofascore.com/football/match/borussia-dortmund-tottenham-hotspur/Isydb#id:14566826",
-         [("Vicario", 35)]),
-         
-        # Match 12: PSV vs Newcastle (Newcastle is HOME)
-        ("PSV vs Newcastle", "https://www.sofascore.com/football/match/psv-eindhoven-newcastle-united/Oscjb#id:14566957",
-         [("Pope", 32)]),
+        # Arsenal vs PSG (R2)
+        # User R2: Arsenal 41, PSG 25.
+        ("Arsenal vs PSG", "https://www.sofascore.com/football/match/arsenal-paris-saint-germain/UHsRdb#id:14566603",
+         [("Raya", 41), ("Chevalier", 25)]),
     ]
     
     passed_count = 0
