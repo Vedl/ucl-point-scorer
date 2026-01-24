@@ -6,3 +6,5 @@ beautifulsoup4
 lxml
 duckduckgo-search
 googlesearch-python
+scikit-learn
+joblib
