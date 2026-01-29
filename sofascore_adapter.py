@@ -194,10 +194,20 @@ def map_player_stats(player_data):
         general_pos = player_data.get('player', {}).get('position')
         match_pos = player_data.get('position', 'M')
         
-        if general_pos in pos_map:
-            raw_pos = general_pos
+        # DEBUG: Print position info for Rodinei
+        if 'rodinei' in player_name.lower():
+            print(f"DEBUG: Rodinei Positions - General: {general_pos}, Match: {match_pos}")
+            
+        # Priority Logic Fix: Use Match Position if available and valid (F, M, D, G)
+        # SofaScore sometimes puts 'M' as default if unknown, but usually lineup has correct role.
+        # General position is their "career" position.
+        
+        if match_pos in pos_map:
+             raw_pos = match_pos
+        elif general_pos in pos_map:
+             raw_pos = general_pos
         else:
-            raw_pos = match_pos
+             raw_pos = 'M' # default
             
         mapped['Pos'] = pos_map.get(raw_pos, 'MID')
     

@@ -1,0 +1,1010 @@
+[
+  {
+    "id": 14566909,
+    "slug": "athletic-club-arsenal",
+    "home": "Athletic Club",
+    "away": "Arsenal",
+    "round": 1
+  },
+  {
+    "id": 14566894,
+    "slug": "royale-union-saint-gilloise-psv-eindhoven",
+    "home": "PSV Eindhoven",
+    "away": "Royale Union Saint-Gilloise",
+    "round": 1
+  },
+  {
+    "id": 14566738,
+    "slug": "qarabag-benfica",
+    "home": "Benfica",
+    "away": "Qaraba\u011f FK",
+    "round": 1
+  },
+  {
+    "id": 14566764,
+    "slug": "juventus-borussia-dortmund",
+    "home": "Juventus",
+    "away": "Borussia Dortmund",
+    "round": 1
+  },
+  {
+    "id": 14566597,
+    "slug": "real-madrid-olympique-de-marseille",
+    "home": "Real Madrid",
+    "away": "Olympique de Marseille",
+    "round": 1
+  },
+  {
+    "id": 14566827,
+    "slug": "villarreal-tottenham-hotspur",
+    "home": "Tottenham Hotspur",
+    "away": "Villarreal",
+    "round": 1
+  },
+  {
+    "id": 14566868,
+    "slug": "pafos-fc-olympiacos-fc",
+    "home": "Olympiacos FC",
+    "away": "Pafos FC",
+    "round": 1
+  },
+  {
+    "id": 14566884,
+    "slug": "sk-slavia-praha-bodoglimt",
+    "home": "SK Slavia Praha",
+    "away": "Bod\u00f8/Glimt",
+    "round": 1
+  },
+  {
+    "id": 14566873,
+    "slug": "afc-ajax-inter",
+    "home": "AFC Ajax",
+    "away": "Inter",
+    "round": 1
+  },
+  {
+    "id": 14566570,
+    "slug": "fc-bayern-munchen-chelsea",
+    "home": "FC Bayern M\u00fcnchen",
+    "away": "Chelsea",
+    "round": 1
+  },
+  {
+    "id": 14566637,
+    "slug": "atletico-madrid-liverpool",
+    "home": "Liverpool",
+    "away": "Atl\u00e9tico Madrid",
+    "round": 1
+  },
+  {
+    "id": 14566657,
+    "slug": "atalanta-paris-saint-germain",
+    "home": "Paris Saint-Germain",
+    "away": "Atalanta",
+    "round": 1
+  },
+  {
+    "id": 14566748,
+    "slug": "club-brugge-kv-as-monaco",
+    "home": "Club Brugge KV",
+    "away": "AS Monaco",
+    "round": 1
+  },
+  {
+    "id": 14566972,
+    "slug": "bayer-04-leverkusen-fc-kobenhavn",
+    "home": "FC K\u00f8benhavn",
+    "away": "Bayer 04 Leverkusen",
+    "round": 1
+  },
+  {
+    "id": 14566757,
+    "slug": "galatasaray-eintracht-frankfurt",
+    "home": "Eintracht Frankfurt",
+    "away": "Galatasaray",
+    "round": 1
+  },
+  {
+    "id": 14566664,
+    "slug": "napoli-manchester-city",
+    "home": "Manchester City",
+    "away": "Napoli",
+    "round": 1
+  },
+  {
+    "id": 14566955,
+    "slug": "barcelona-newcastle-united",
+    "home": "Newcastle United",
+    "away": "Barcelona",
+    "round": 1
+  },
+  {
+    "id": 14566857,
+    "slug": "kairat-almaty-sporting",
+    "home": "Sporting CP",
+    "away": "Kairat Almaty",
+    "round": 1
+  },
+  {
+    "id": 14566727,
+    "slug": "club-brugge-kv-atalanta",
+    "home": "Atalanta",
+    "away": "Club Brugge KV",
+    "round": 2
+  },
+  {
+    "id": 14566983,
+    "slug": "kairat-almaty-real-madrid",
+    "home": "Kairat Almaty",
+    "away": "Real Madrid",
+    "round": 2
+  },
+  {
+    "id": 14566775,
+    "slug": "atletico-madrid-eintracht-frankfurt",
+    "home": "Atl\u00e9tico Madrid",
+    "away": "Eintracht Frankfurt",
+    "round": 2
+  },
+  {
+    "id": 14566843,
+    "slug": "bodoglimt-tottenham-hotspur",
+    "home": "Bod\u00f8/Glimt",
+    "away": "Tottenham Hotspur",
+    "round": 2
+  },
+  {
+    "id": 14566581,
+    "slug": "benfica-chelsea",
+    "home": "Chelsea",
+    "away": "Benfica",
+    "round": 2
+  },
+  {
+    "id": 14566934,
+    "slug": "galatasaray-liverpool",
+    "home": "Galatasaray",
+    "away": "Liverpool",
+    "round": 2
+  },
+  {
+    "id": 14566613,
+    "slug": "inter-sk-slavia-praha",
+    "home": "Inter",
+    "away": "SK Slavia Praha",
+    "round": 2
+  },
+  {
+    "id": 14566823,
+    "slug": "afc-ajax-olympique-de-marseille",
+    "home": "Olympique de Marseille",
+    "away": "AFC Ajax",
+    "round": 2
+  },
+  {
+    "id": 14566965,
+    "slug": "pafos-fc-fc-bayern-munchen",
+    "home": "Pafos FC",
+    "away": "FC Bayern M\u00fcnchen",
+    "round": 2
+  },
+  {
+    "id": 14566922,
+    "slug": "qarabag-fc-kobenhavn",
+    "home": "Qaraba\u011f FK",
+    "away": "FC K\u00f8benhavn",
+    "round": 2
+  },
+  {
+    "id": 14566952,
+    "slug": "royale-union-saint-gilloise-newcastle-united",
+    "home": "Royale Union Saint-Gilloise",
+    "away": "Newcastle United",
+    "round": 2
+  },
+  {
+    "id": 14566719,
+    "slug": "olympiacos-fc-arsenal",
+    "home": "Arsenal",
+    "away": "Olympiacos FC",
+    "round": 2
+  },
+  {
+    "id": 14566925,
+    "slug": "as-monaco-manchester-city",
+    "home": "AS Monaco",
+    "away": "Manchester City",
+    "round": 2
+  },
+  {
+    "id": 14566650,
+    "slug": "barcelona-paris-saint-germain",
+    "home": "Barcelona",
+    "away": "Paris Saint-Germain",
+    "round": 2
+  },
+  {
+    "id": 14566706,
+    "slug": "psv-eindhoven-bayer-04-leverkusen",
+    "home": "Bayer 04 Leverkusen",
+    "away": "PSV Eindhoven",
+    "round": 2
+  },
+  {
+    "id": 14566622,
+    "slug": "athletic-club-borussia-dortmund",
+    "home": "Borussia Dortmund",
+    "away": "Athletic Club",
+    "round": 2
+  },
+  {
+    "id": 14566901,
+    "slug": "sporting-napoli",
+    "home": "Napoli",
+    "away": "Sporting CP",
+    "round": 2
+  },
+  {
+    "id": 14566782,
+    "slug": "villarreal-juventus",
+    "home": "Villarreal",
+    "away": "Juventus",
+    "round": 2
+  },
+  {
+    "id": 14566652,
+    "slug": "olympiacos-fc-barcelona",
+    "home": "Barcelona",
+    "away": "Olympiacos FC",
+    "round": 3
+  },
+  {
+    "id": 14566986,
+    "slug": "pafos-fc-kairat-almaty",
+    "home": "Kairat Almaty",
+    "away": "Pafos FC",
+    "round": 3
+  },
+  {
+    "id": 14566718,
+    "slug": "atletico-madrid-arsenal",
+    "home": "Arsenal",
+    "away": "Atl\u00e9tico Madrid",
+    "round": 3
+  },
+  {
+    "id": 14566704,
+    "slug": "bayer-04-leverkusen-paris-saint-germain",
+    "home": "Bayer 04 Leverkusen",
+    "away": "Paris Saint-Germain",
+    "round": 3
+  },
+  {
+    "id": 14566971,
+    "slug": "borussia-dortmund-fc-kobenhavn",
+    "home": "FC K\u00f8benhavn",
+    "away": "Borussia Dortmund",
+    "round": 3
+  },
+  {
+    "id": 14566956,
+    "slug": "benfica-newcastle-united",
+    "home": "Newcastle United",
+    "away": "Benfica",
+    "round": 3
+  },
+  {
+    "id": 14566893,
+    "slug": "psv-eindhoven-napoli",
+    "home": "PSV Eindhoven",
+    "away": "Napoli",
+    "round": 3
+  },
+  {
+    "id": 14566949,
+    "slug": "royale-union-saint-gilloise-inter",
+    "home": "Royale Union Saint-Gilloise",
+    "away": "Inter",
+    "round": 3
+  },
+  {
+    "id": 14566781,
+    "slug": "villarreal-manchester-city",
+    "home": "Villarreal",
+    "away": "Manchester City",
+    "round": 3
+  },
+  {
+    "id": 14566911,
+    "slug": "qarabag-athletic-club",
+    "home": "Athletic Club",
+    "away": "Qaraba\u011f FK",
+    "round": 3
+  },
+  {
+    "id": 14566936,
+    "slug": "galatasaray-bodoglimt",
+    "home": "Galatasaray",
+    "away": "Bod\u00f8/Glimt",
+    "round": 3
+  },
+  {
+    "id": 14566927,
+    "slug": "as-monaco-tottenham-hotspur",
+    "home": "AS Monaco",
+    "away": "Tottenham Hotspur",
+    "round": 3
+  },
+  {
+    "id": 14566728,
+    "slug": "atalanta-sk-slavia-praha",
+    "home": "Atalanta",
+    "away": "SK Slavia Praha",
+    "round": 3
+  },
+  {
+    "id": 14566582,
+    "slug": "afc-ajax-chelsea",
+    "home": "Chelsea",
+    "away": "AFC Ajax",
+    "round": 3
+  },
+  {
+    "id": 14566754,
+    "slug": "eintracht-frankfurt-liverpool",
+    "home": "Eintracht Frankfurt",
+    "away": "Liverpool",
+    "round": 3
+  },
+  {
+    "id": 14566571,
+    "slug": "club-brugge-kv-fc-bayern-munchen",
+    "home": "FC Bayern M\u00fcnchen",
+    "away": "Club Brugge KV",
+    "round": 3
+  },
+  {
+    "id": 14566596,
+    "slug": "real-madrid-juventus",
+    "home": "Real Madrid",
+    "away": "Juventus",
+    "round": 3
+  },
+  {
+    "id": 14566856,
+    "slug": "sporting-olympique-de-marseille",
+    "home": "Sporting CP",
+    "away": "Olympique de Marseille",
+    "round": 3
+  },
+  {
+    "id": 14566900,
+    "slug": "napoli-eintracht-frankfurt",
+    "home": "Napoli",
+    "away": "Eintracht Frankfurt",
+    "round": 4
+  },
+  {
+    "id": 14566883,
+    "slug": "sk-slavia-praha-arsenal",
+    "home": "SK Slavia Praha",
+    "away": "Arsenal",
+    "round": 4
+  },
+  {
+    "id": 14566777,
+    "slug": "royale-union-saint-gilloise-atletico-madrid",
+    "home": "Atl\u00e9tico Madrid",
+    "away": "Royale Union Saint-Gilloise",
+    "round": 4
+  },
+  {
+    "id": 14566844,
+    "slug": "as-monaco-bodoglimt",
+    "home": "Bod\u00f8/Glimt",
+    "away": "AS Monaco",
+    "round": 4
+  },
+  {
+    "id": 14566766,
+    "slug": "sporting-juventus",
+    "home": "Juventus",
+    "away": "Sporting CP",
+    "round": 4
+  },
+  {
+    "id": 14566636,
+    "slug": "real-madrid-liverpool",
+    "home": "Liverpool",
+    "away": "Real Madrid",
+    "round": 4
+  },
+  {
+    "id": 14566867,
+    "slug": "olympiacos-fc-psv-eindhoven",
+    "home": "Olympiacos FC",
+    "away": "PSV Eindhoven",
+    "round": 4
+  },
+  {
+    "id": 14566656,
+    "slug": "fc-bayern-munchen-paris-saint-germain",
+    "home": "Paris Saint-Germain",
+    "away": "FC Bayern M\u00fcnchen",
+    "round": 4
+  },
+  {
+    "id": 14566829,
+    "slug": "fc-kobenhavn-tottenham-hotspur",
+    "home": "Tottenham Hotspur",
+    "away": "FC K\u00f8benhavn",
+    "round": 4
+  },
+  {
+    "id": 14566966,
+    "slug": "pafos-fc-villarreal",
+    "home": "Pafos FC",
+    "away": "Villarreal",
+    "round": 4
+  },
+  {
+    "id": 14566919,
+    "slug": "qarabag-chelsea",
+    "home": "Qaraba\u011f FK",
+    "away": "Chelsea",
+    "round": 4
+  },
+  {
+    "id": 14566876,
+    "slug": "galatasaray-afc-ajax",
+    "home": "AFC Ajax",
+    "away": "Galatasaray",
+    "round": 4
+  },
+  {
+    "id": 14566736,
+    "slug": "benfica-bayer-04-leverkusen",
+    "home": "Benfica",
+    "away": "Bayer 04 Leverkusen",
+    "round": 4
+  },
+  {
+    "id": 14566745,
+    "slug": "club-brugge-kv-barcelona",
+    "home": "Club Brugge KV",
+    "away": "Barcelona",
+    "round": 4
+  },
+  {
+    "id": 14566614,
+    "slug": "kairat-almaty-inter",
+    "home": "Inter",
+    "away": "Kairat Almaty",
+    "round": 4
+  },
+  {
+    "id": 14566662,
+    "slug": "borussia-dortmund-manchester-city",
+    "home": "Manchester City",
+    "away": "Borussia Dortmund",
+    "round": 4
+  },
+  {
+    "id": 14566958,
+    "slug": "athletic-club-newcastle-united",
+    "home": "Newcastle United",
+    "away": "Athletic Club",
+    "round": 4
+  },
+  {
+    "id": 14566822,
+    "slug": "atalanta-olympique-de-marseille",
+    "home": "Olympique de Marseille",
+    "away": "Atalanta",
+    "round": 4
+  },
+  {
+    "id": 14566874,
+    "slug": "benfica-afc-ajax",
+    "home": "AFC Ajax",
+    "away": "Benfica",
+    "round": 5
+  },
+  {
+    "id": 14566937,
+    "slug": "royale-union-saint-gilloise-galatasaray",
+    "home": "Galatasaray",
+    "away": "Royale Union Saint-Gilloise",
+    "round": 5
+  },
+  {
+    "id": 14566842,
+    "slug": "juventus-bodoglimt",
+    "home": "Bod\u00f8/Glimt",
+    "away": "Juventus",
+    "round": 5
+  },
+  {
+    "id": 14566620,
+    "slug": "villarreal-borussia-dortmund",
+    "home": "Borussia Dortmund",
+    "away": "Villarreal",
+    "round": 5
+  },
+  {
+    "id": 14566580,
+    "slug": "barcelona-chelsea",
+    "home": "Chelsea",
+    "away": "Barcelona",
+    "round": 5
+  },
+  {
+    "id": 14566663,
+    "slug": "bayer-04-leverkusen-manchester-city",
+    "home": "Manchester City",
+    "away": "Bayer 04 Leverkusen",
+    "round": 5
+  },
+  {
+    "id": 14566902,
+    "slug": "qarabag-napoli",
+    "home": "Napoli",
+    "away": "Qaraba\u011f FK",
+    "round": 5
+  },
+  {
+    "id": 14566835,
+    "slug": "olympique-de-marseille-newcastle-united",
+    "home": "Olympique de Marseille",
+    "away": "Newcastle United",
+    "round": 5
+  },
+  {
+    "id": 14566885,
+    "slug": "athletic-club-sk-slavia-praha",
+    "home": "SK Slavia Praha",
+    "away": "Athletic Club",
+    "round": 5
+  },
+  {
+    "id": 14566974,
+    "slug": "kairat-almaty-fc-kobenhavn",
+    "home": "FC K\u00f8benhavn",
+    "away": "Kairat Almaty",
+    "round": 5
+  },
+  {
+    "id": 14566968,
+    "slug": "pafos-fc-as-monaco",
+    "home": "Pafos FC",
+    "away": "AS Monaco",
+    "round": 5
+  },
+  {
+    "id": 14566717,
+    "slug": "fc-bayern-munchen-arsenal",
+    "home": "Arsenal",
+    "away": "FC Bayern M\u00fcnchen",
+    "round": 5
+  },
+  {
+    "id": 14566774,
+    "slug": "atletico-madrid-inter",
+    "home": "Atl\u00e9tico Madrid",
+    "away": "Inter",
+    "round": 5
+  },
+  {
+    "id": 14566755,
+    "slug": "atalanta-eintracht-frankfurt",
+    "home": "Eintracht Frankfurt",
+    "away": "Atalanta",
+    "round": 5
+  },
+  {
+    "id": 14566638,
+    "slug": "psv-eindhoven-liverpool",
+    "home": "Liverpool",
+    "away": "PSV Eindhoven",
+    "round": 5
+  },
+  {
+    "id": 14566865,
+    "slug": "olympiacos-fc-real-madrid",
+    "home": "Olympiacos FC",
+    "away": "Real Madrid",
+    "round": 5
+  },
+  {
+    "id": 14566658,
+    "slug": "paris-saint-germain-tottenham-hotspur",
+    "home": "Paris Saint-Germain",
+    "away": "Tottenham Hotspur",
+    "round": 5
+  },
+  {
+    "id": 14566855,
+    "slug": "sporting-club-brugge-kv",
+    "home": "Sporting CP",
+    "away": "Club Brugge KV",
+    "round": 5
+  },
+  {
+    "id": 14566985,
+    "slug": "kairat-almaty-olympiacos-fc",
+    "home": "Kairat Almaty",
+    "away": "Olympiacos FC",
+    "round": 6
+  },
+  {
+    "id": 14566572,
+    "slug": "sporting-fc-bayern-munchen",
+    "home": "FC Bayern M\u00fcnchen",
+    "away": "Sporting CP",
+    "round": 6
+  },
+  {
+    "id": 14566928,
+    "slug": "galatasaray-as-monaco",
+    "home": "AS Monaco",
+    "away": "Galatasaray",
+    "round": 6
+  },
+  {
+    "id": 14566726,
+    "slug": "atalanta-chelsea",
+    "home": "Atalanta",
+    "away": "Chelsea",
+    "round": 6
+  },
+  {
+    "id": 14566651,
+    "slug": "barcelona-eintracht-frankfurt",
+    "home": "Barcelona",
+    "away": "Eintracht Frankfurt",
+    "round": 6
+  },
+  {
+    "id": 14566611,
+    "slug": "inter-liverpool",
+    "home": "Inter",
+    "away": "Liverpool",
+    "round": 6
+  },
+  {
+    "id": 14566892,
+    "slug": "psv-eindhoven-atletico-madrid",
+    "home": "PSV Eindhoven",
+    "away": "Atl\u00e9tico Madrid",
+    "round": 6
+  },
+  {
+    "id": 14566951,
+    "slug": "royale-union-saint-gilloise-olympique-de-marseille",
+    "home": "Royale Union Saint-Gilloise",
+    "away": "Olympique de Marseille",
+    "round": 6
+  },
+  {
+    "id": 14566828,
+    "slug": "sk-slavia-praha-tottenham-hotspur",
+    "home": "Tottenham Hotspur",
+    "away": "SK Slavia Praha",
+    "round": 6
+  },
+  {
+    "id": 14566921,
+    "slug": "qarabag-afc-ajax",
+    "home": "Qaraba\u011f FK",
+    "away": "AFC Ajax",
+    "round": 6
+  },
+  {
+    "id": 14566784,
+    "slug": "villarreal-fc-kobenhavn",
+    "home": "Villarreal",
+    "away": "FC K\u00f8benhavn",
+    "round": 6
+  },
+  {
+    "id": 14566908,
+    "slug": "athletic-club-paris-saint-germain",
+    "home": "Athletic Club",
+    "away": "Paris Saint-Germain",
+    "round": 6
+  },
+  {
+    "id": 14566707,
+    "slug": "bayer-04-leverkusen-newcastle-united",
+    "home": "Bayer 04 Leverkusen",
+    "away": "Newcastle United",
+    "round": 6
+  },
+  {
+    "id": 14566737,
+    "slug": "benfica-napoli",
+    "home": "Benfica",
+    "away": "Napoli",
+    "round": 6
+  },
+  {
+    "id": 14566621,
+    "slug": "borussia-dortmund-bodoglimt",
+    "home": "Borussia Dortmund",
+    "away": "Bod\u00f8/Glimt",
+    "round": 6
+  },
+  {
+    "id": 14566746,
+    "slug": "club-brugge-kv-arsenal",
+    "home": "Club Brugge KV",
+    "away": "Arsenal",
+    "round": 6
+  },
+  {
+    "id": 14566767,
+    "slug": "pafos-fc-juventus",
+    "home": "Juventus",
+    "away": "Pafos FC",
+    "round": 6
+  },
+  {
+    "id": 14566595,
+    "slug": "real-madrid-manchester-city",
+    "home": "Real Madrid",
+    "away": "Manchester City",
+    "round": 6
+  },
+  {
+    "id": 14566984,
+    "slug": "kairat-almaty-club-brugge-kv",
+    "home": "Kairat Almaty",
+    "away": "Club Brugge KV",
+    "round": 7
+  },
+  {
+    "id": 14566841,
+    "slug": "bodoglimt-manchester-city",
+    "home": "Bod\u00f8/Glimt",
+    "away": "Manchester City",
+    "round": 7
+  },
+  {
+    "id": 14566973,
+    "slug": "napoli-fc-kobenhavn",
+    "home": "FC K\u00f8benhavn",
+    "away": "Napoli",
+    "round": 7
+  },
+  {
+    "id": 14566612,
+    "slug": "inter-arsenal",
+    "home": "Inter",
+    "away": "Arsenal",
+    "round": 7
+  },
+  {
+    "id": 14566866,
+    "slug": "olympiacos-fc-bayer-04-leverkusen",
+    "home": "Olympiacos FC",
+    "away": "Bayer 04 Leverkusen",
+    "round": 7
+  },
+  {
+    "id": 14566598,
+    "slug": "real-madrid-as-monaco",
+    "home": "Real Madrid",
+    "away": "AS Monaco",
+    "round": 7
+  },
+  {
+    "id": 14566854,
+    "slug": "sporting-paris-saint-germain",
+    "home": "Sporting CP",
+    "away": "Paris Saint-Germain",
+    "round": 7
+  },
+  {
+    "id": 14566826,
+    "slug": "borussia-dortmund-tottenham-hotspur",
+    "home": "Tottenham Hotspur",
+    "away": "Borussia Dortmund",
+    "round": 7
+  },
+  {
+    "id": 14566783,
+    "slug": "afc-ajax-villarreal",
+    "home": "Villarreal",
+    "away": "AFC Ajax",
+    "round": 7
+  },
+  {
+    "id": 14566935,
+    "slug": "galatasaray-atletico-madrid",
+    "home": "Galatasaray",
+    "away": "Atl\u00e9tico Madrid",
+    "round": 7
+  },
+  {
+    "id": 14566920,
+    "slug": "qarabag-eintracht-frankfurt",
+    "home": "Qaraba\u011f FK",
+    "away": "Eintracht Frankfurt",
+    "round": 7
+  },
+  {
+    "id": 14566729,
+    "slug": "athletic-club-atalanta",
+    "home": "Atalanta",
+    "away": "Athletic Club",
+    "round": 7
+  },
+  {
+    "id": 14566583,
+    "slug": "pafos-fc-chelsea",
+    "home": "Chelsea",
+    "away": "Pafos FC",
+    "round": 7
+  },
+  {
+    "id": 14566573,
+    "slug": "royale-union-saint-gilloise-fc-bayern-munchen",
+    "home": "FC Bayern M\u00fcnchen",
+    "away": "Royale Union Saint-Gilloise",
+    "round": 7
+  },
+  {
+    "id": 14566765,
+    "slug": "benfica-juventus",
+    "home": "Juventus",
+    "away": "Benfica",
+    "round": 7
+  },
+  {
+    "id": 14566957,
+    "slug": "psv-eindhoven-newcastle-united",
+    "home": "Newcastle United",
+    "away": "PSV Eindhoven",
+    "round": 7
+  },
+  {
+    "id": 14566821,
+    "slug": "olympique-de-marseille-liverpool",
+    "home": "Olympique de Marseille",
+    "away": "Liverpool",
+    "round": 7
+  },
+  {
+    "id": 14566882,
+    "slug": "barcelona-sk-slavia-praha",
+    "home": "SK Slavia Praha",
+    "away": "Barcelona",
+    "round": 7
+  },
+  {
+    "id": 14566875,
+    "slug": "olympiacos-fc-afc-ajax",
+    "home": "AFC Ajax",
+    "away": "Olympiacos FC",
+    "round": 8
+  },
+  {
+    "id": 14566720,
+    "slug": "kairat-almaty-arsenal",
+    "home": "Arsenal",
+    "away": "Kairat Almaty",
+    "round": 8
+  },
+  {
+    "id": 14566926,
+    "slug": "juventus-as-monaco",
+    "home": "AS Monaco",
+    "away": "Juventus",
+    "round": 8
+  },
+  {
+    "id": 14566910,
+    "slug": "sporting-athletic-club",
+    "home": "Athletic Club",
+    "away": "Sporting CP",
+    "round": 8
+  },
+  {
+    "id": 14566776,
+    "slug": "atletico-madrid-bodoglimt",
+    "home": "Atl\u00e9tico Madrid",
+    "away": "Bod\u00f8/Glimt",
+    "round": 8
+  },
+  {
+    "id": 14566653,
+    "slug": "barcelona-fc-kobenhavn",
+    "home": "Barcelona",
+    "away": "FC K\u00f8benhavn",
+    "round": 8
+  },
+  {
+    "id": 14566705,
+    "slug": "villarreal-bayer-04-leverkusen",
+    "home": "Bayer 04 Leverkusen",
+    "away": "Villarreal",
+    "round": 8
+  },
+  {
+    "id": 14566735,
+    "slug": "benfica-real-madrid",
+    "home": "Benfica",
+    "away": "Real Madrid",
+    "round": 8
+  },
+  {
+    "id": 14566619,
+    "slug": "inter-borussia-dortmund",
+    "home": "Borussia Dortmund",
+    "away": "Inter",
+    "round": 8
+  },
+  {
+    "id": 14566747,
+    "slug": "club-brugge-kv-olympique-de-marseille",
+    "home": "Club Brugge KV",
+    "away": "Olympique de Marseille",
+    "round": 8
+  },
+  {
+    "id": 14566756,
+    "slug": "eintracht-frankfurt-tottenham-hotspur",
+    "home": "Eintracht Frankfurt",
+    "away": "Tottenham Hotspur",
+    "round": 8
+  },
+  {
+    "id": 14566639,
+    "slug": "qarabag-liverpool",
+    "home": "Liverpool",
+    "away": "Qaraba\u011f FK",
+    "round": 8
+  },
+  {
+    "id": 14566665,
+    "slug": "galatasaray-manchester-city",
+    "home": "Manchester City",
+    "away": "Galatasaray",
+    "round": 8
+  },
+  {
+    "id": 14566899,
+    "slug": "napoli-chelsea",
+    "home": "Napoli",
+    "away": "Chelsea",
+    "round": 8
+  },
+  {
+    "id": 14566967,
+    "slug": "pafos-fc-sk-slavia-praha",
+    "home": "Pafos FC",
+    "away": "SK Slavia Praha",
+    "round": 8
+  },
+  {
+    "id": 14566659,
+    "slug": "paris-saint-germain-newcastle-united",
+    "home": "Paris Saint-Germain",
+    "away": "Newcastle United",
+    "round": 8
+  },
+  {
+    "id": 14566891,
+    "slug": "psv-eindhoven-fc-bayern-munchen",
+    "home": "PSV Eindhoven",
+    "away": "FC Bayern M\u00fcnchen",
+    "round": 8
+  },
+  {
+    "id": 14566950,
+    "slug": "royale-union-saint-gilloise-atalanta",
+    "home": "Royale Union Saint-Gilloise",
+    "away": "Atalanta",
+    "round": 8
+  }
+]

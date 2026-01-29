@@ -33,7 +33,8 @@ def def_score_calc (df, team_score,team_conc):
     if (minutes_played <= 45) and (team_conc == 0):
             score -= 5
     
-    return round(score,0)
+    val = score.values[0] if isinstance(score, pd.Series) else score
+    return round(val, 0)
 
 def mid_score_calc (df, team_score,team_conc):
     score =( 1.7*df['Aerial Duels_Won'] - 1.5*df[ 'Aerial Duels_Lost']+ 2.6*df['Performance_Tkl']
@@ -53,7 +54,8 @@ def mid_score_calc (df, team_score,team_conc):
     if (pk_won == 1) and (pk_scored != 1):
         score += 6.4
             
-    return round(score,0)
+    val = score.values[0] if isinstance(score, pd.Series) else score
+    return round(val, 0)
 
 def fwd_score_calc (df, team_score,team_conc):
     score =( 1.4*df['Aerial Duels_Won'] - 0.4*df[ 'Aerial Duels_Lost']+ 2.6*df['Performance_Tkl']
@@ -73,7 +75,8 @@ def fwd_score_calc (df, team_score,team_conc):
     if (pk_won == 1) and (pk_scored != 1):
         score += 6.4
     
-    return round(score,0)
+    val = score.values[0] if isinstance(score, pd.Series) else score
+    return round(val, 0)
 
 # Global model cache to avoid reloading on every player
 GK_ML_MODEL = None
@@ -87,7 +90,6 @@ def load_gk_model():
     try:
         import json
         import os
-        import pandas as pd
         from sklearn.ensemble import GradientBoostingRegressor
         
         # Look for training data JSON
@@ -169,7 +171,6 @@ def gk_score_calc(df, team_score, team_conc):
         ]
         
         # Predict
-        import pandas as pd
         # Predict expects 2D array
         feat_df = pd.DataFrame([features], columns=[
             "saves", "claims", "sweep", "rec", "clears", "acc_pass", "fail_pass", "og", "punch", 
@@ -281,7 +282,8 @@ def gk_score_calc(df, team_score, team_conc):
     if (minutes_played <= 45) and (team_conc == 0):
         score -= 5  # Partial clean sheet penalty
     
-    return round(score, 0)
+    val = score.values[0] if isinstance(score, pd.Series) else score
+    return round(val, 0)
 
 def score_calc_wrapper(pos, df, team_score, team_conc):
     if pos == "FWD":
@@ -516,6 +518,11 @@ def calc_all_players(link, whoscored_url: str = None):
         
         if df.empty:
             continue
+            
+        # Take the first row if duplicates exist (should be unique by name usually)
+        if len(df) > 1:
+            print(f"Warning: Duplicate entries for {name}. Using first one.")
+            df = df.iloc[[0]]
             
         minutes_played = df['minutes_played'].values[0]
         
