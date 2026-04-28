@@ -1,4 +1,11 @@
-from curl_cffi import requests
+try:
+    from curl_cffi import requests as cffi_requests
+    HAS_CURL_CFFI = True
+except ImportError:
+    HAS_CURL_CFFI = False
+    cffi_requests = None
+
+import requests as std_requests  # standard requests library
 import pandas as pd
 import re
 import math
@@ -74,11 +81,15 @@ def get_match_id(url):
         
     raise ValueError("Could not parse match ID from URL")
 
+# Proxy URL for cloud deployments (set via env var or Streamlit secrets)
+# Example: https://sofascore-proxy.your-subdomain.workers.dev
+_PROXY_BASE_URL = os.environ.get("SOFASCORE_PROXY_URL", "").rstrip("/")
+
 # Impersonation targets to try in order (newer first, then fallback options)
 _IMPERSONATE_TARGETS = ["chrome131", "chrome124", "chrome120", "chrome110", "chrome", "safari17_0"]
 
-# Fallback headers when curl_cffi impersonation fails entirely
-_FALLBACK_HEADERS = {
+# Headers for standard requests fallback
+_STD_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
     "Accept": "application/json, text/plain, */*",
     "Accept-Language": "en-US,en;q=0.9",
@@ -87,32 +98,58 @@ _FALLBACK_HEADERS = {
 }
 
 def _sofascore_get(url):
-    """Make a GET request to SofaScore, retrying across impersonation targets."""
+    """Make a GET request to SofaScore with multi-layer fallback:
+    1. Proxy (Cloudflare Worker) if SOFASCORE_PROXY_URL is set
+    2. curl_cffi with browser impersonation
+    3. Standard requests library
+    """
     last_error = None
     
-    for target in _IMPERSONATE_TARGETS:
+    # Phase 0: Try proxy if configured (best for cloud deployments)
+    if _PROXY_BASE_URL:
         try:
-            response = requests.get(url, impersonate=target, timeout=15)
+            # Rewrite URL: https://api.sofascore.com/api/v1/... -> https://proxy/api/v1/...
+            proxy_url = url.replace("https://api.sofascore.com", _PROXY_BASE_URL)
+            print(f"[SofaScore] Trying proxy: {proxy_url[:80]}...")
+            response = std_requests.get(proxy_url, timeout=15)
             if response.status_code == 200:
                 return response
             if response.status_code == 404:
-                return response  # Let caller handle 404
-            last_error = f"HTTP {response.status_code} with impersonate={target}"
+                return response
+            last_error = f"Proxy HTTP {response.status_code}"
             print(f"[SofaScore] {last_error}")
         except Exception as e:
-            last_error = f"impersonate={target} failed: {e}"
+            last_error = f"Proxy failed: {e}"
             print(f"[SofaScore] {last_error}")
     
-    # Fallback: try with raw headers (no impersonation)
+    # Phase 1: Try curl_cffi with various impersonation targets
+    if HAS_CURL_CFFI:
+        for target in _IMPERSONATE_TARGETS:
+            try:
+                response = cffi_requests.get(url, impersonate=target, timeout=15)
+                if response.status_code == 200:
+                    return response
+                if response.status_code == 404:
+                    return response  # Let caller handle 404
+                last_error = f"HTTP {response.status_code} with impersonate={target}"
+                print(f"[SofaScore] {last_error}")
+                break  # If we get a non-200 from SofaScore, other targets won't help
+            except Exception as e:
+                last_error = f"impersonate={target} failed: {e}"
+                print(f"[SofaScore] {last_error}")
+    else:
+        print("[SofaScore] curl_cffi not available, skipping impersonation targets")
+    
+    # Phase 2: Fallback to standard requests library (different TLS stack)
     try:
-        print("[SofaScore] Trying fallback with raw headers...")
-        response = requests.get(url, headers=_FALLBACK_HEADERS, timeout=15)
+        print("[SofaScore] Trying standard requests library...")
+        response = std_requests.get(url, headers=_STD_HEADERS, timeout=15)
         if response.status_code == 200:
             return response
-        last_error = f"Fallback HTTP {response.status_code}"
+        last_error = f"Standard requests HTTP {response.status_code}"
         print(f"[SofaScore] {last_error}")
     except Exception as e:
-        last_error = f"Fallback failed: {e}"
+        last_error = f"Standard requests failed: {e}"
         print(f"[SofaScore] {last_error}")
     
     raise ValueError(f"All SofaScore request attempts failed. Last error: {last_error}")
