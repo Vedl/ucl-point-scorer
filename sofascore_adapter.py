@@ -5,6 +5,13 @@ except ImportError:
     HAS_CURL_CFFI = False
     cffi_requests = None
 
+try:
+    import cloudscraper
+    HAS_CLOUDSCRAPER = True
+except ImportError:
+    HAS_CLOUDSCRAPER = False
+    cloudscraper = None
+
 import requests as std_requests  # standard requests library
 import pandas as pd
 import re
@@ -99,16 +106,16 @@ _STD_HEADERS = {
 
 def _sofascore_get(url):
     """Make a GET request to SofaScore with multi-layer fallback:
-    1. Proxy (Cloudflare Worker) if SOFASCORE_PROXY_URL is set
+    1. Proxy if SOFASCORE_PROXY_URL is set
     2. curl_cffi with browser impersonation
-    3. Standard requests library
+    3. cloudscraper (anti-bot bypass)
+    4. Standard requests library
     """
     last_error = None
     
     # Phase 0: Try proxy if configured (best for cloud deployments)
     if _PROXY_BASE_URL:
         try:
-            # Rewrite URL: https://api.sofascore.com/api/v1/... -> https://proxy/api/v1/...
             proxy_url = url.replace("https://api.sofascore.com", _PROXY_BASE_URL)
             print(f"[SofaScore] Trying proxy: {proxy_url[:80]}...")
             response = std_requests.get(proxy_url, timeout=15)
@@ -122,7 +129,7 @@ def _sofascore_get(url):
             last_error = f"Proxy failed: {e}"
             print(f"[SofaScore] {last_error}")
     
-    # Phase 1: Try curl_cffi with various impersonation targets
+    # Phase 1: Try curl_cffi with browser impersonation
     if HAS_CURL_CFFI:
         for target in _IMPERSONATE_TARGETS:
             try:
@@ -130,17 +137,37 @@ def _sofascore_get(url):
                 if response.status_code == 200:
                     return response
                 if response.status_code == 404:
-                    return response  # Let caller handle 404
+                    return response
                 last_error = f"HTTP {response.status_code} with impersonate={target}"
                 print(f"[SofaScore] {last_error}")
-                break  # If we get a non-200 from SofaScore, other targets won't help
+                break  # If we get a non-200, other targets won't help
             except Exception as e:
                 last_error = f"impersonate={target} failed: {e}"
                 print(f"[SofaScore] {last_error}")
     else:
-        print("[SofaScore] curl_cffi not available, skipping impersonation targets")
+        print("[SofaScore] curl_cffi not available, skipping")
     
-    # Phase 2: Fallback to standard requests library (different TLS stack)
+    # Phase 2: Try cloudscraper (handles anti-bot challenges)
+    if HAS_CLOUDSCRAPER:
+        try:
+            print("[SofaScore] Trying cloudscraper...")
+            scraper = cloudscraper.create_scraper(
+                browser={'browser': 'chrome', 'platform': 'darwin', 'desktop': True}
+            )
+            response = scraper.get(url, timeout=15)
+            if response.status_code == 200:
+                return response
+            if response.status_code == 404:
+                return response
+            last_error = f"cloudscraper HTTP {response.status_code}"
+            print(f"[SofaScore] {last_error}")
+        except Exception as e:
+            last_error = f"cloudscraper failed: {e}"
+            print(f"[SofaScore] {last_error}")
+    else:
+        print("[SofaScore] cloudscraper not available, skipping")
+    
+    # Phase 3: Fallback to standard requests library
     try:
         print("[SofaScore] Trying standard requests library...")
         response = std_requests.get(url, headers=_STD_HEADERS, timeout=15)

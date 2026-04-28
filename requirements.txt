@@ -1,6 +1,7 @@
 streamlit
 pandas
 curl_cffi
+cloudscraper
 requests
 beautifulsoup4
 lxml
