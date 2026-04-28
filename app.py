@@ -353,7 +353,7 @@ if st.button("Calculate Scores", type="primary"):
                 meta = sofascore_adapter.get_match_metadata(match_id)
                 
                 if not meta:
-                    st.error("Could not fetch match metadata from SofaScore.")
+                    st.error(f"Could not fetch match metadata from SofaScore (match ID: {match_id}). The API may be blocking requests from this server. Check the app logs for details.")
                     status.update(label="Failed", state="error")
                     st.stop()
                     

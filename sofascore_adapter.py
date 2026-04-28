@@ -74,15 +74,57 @@ def get_match_id(url):
         
     raise ValueError("Could not parse match ID from URL")
 
+# Impersonation targets to try in order (newer first, then fallback options)
+_IMPERSONATE_TARGETS = ["chrome131", "chrome124", "chrome120", "chrome110", "chrome", "safari17_0"]
+
+# Fallback headers when curl_cffi impersonation fails entirely
+_FALLBACK_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.sofascore.com/",
+    "Origin": "https://www.sofascore.com",
+}
+
+def _sofascore_get(url):
+    """Make a GET request to SofaScore, retrying across impersonation targets."""
+    last_error = None
+    
+    for target in _IMPERSONATE_TARGETS:
+        try:
+            response = requests.get(url, impersonate=target, timeout=15)
+            if response.status_code == 200:
+                return response
+            if response.status_code == 404:
+                return response  # Let caller handle 404
+            last_error = f"HTTP {response.status_code} with impersonate={target}"
+            print(f"[SofaScore] {last_error}")
+        except Exception as e:
+            last_error = f"impersonate={target} failed: {e}"
+            print(f"[SofaScore] {last_error}")
+    
+    # Fallback: try with raw headers (no impersonation)
+    try:
+        print("[SofaScore] Trying fallback with raw headers...")
+        response = requests.get(url, headers=_FALLBACK_HEADERS, timeout=15)
+        if response.status_code == 200:
+            return response
+        last_error = f"Fallback HTTP {response.status_code}"
+        print(f"[SofaScore] {last_error}")
+    except Exception as e:
+        last_error = f"Fallback failed: {e}"
+        print(f"[SofaScore] {last_error}")
+    
+    raise ValueError(f"All SofaScore request attempts failed. Last error: {last_error}")
+
+
 def fetch_sofascore_data(match_id, endpoint="lineups"):
     url = f"https://api.sofascore.com/api/v1/event/{match_id}/{endpoint}"
-    # Impersonate chrome to bypass 403
     try:
-        response = requests.get(url, impersonate="chrome120")
+        response = _sofascore_get(url)
+        if response.status_code == 404:
+            return {}
         if response.status_code != 200:
-            if response.status_code == 404:
-                return {}
-            # If 403, might need retry or newer chrome version
             raise ValueError(f"Failed to fetch SofaScore data ({endpoint}): {response.status_code}")
         return response.json()
     except Exception as e:
@@ -92,11 +134,12 @@ def get_match_metadata(match_id):
     """Fetch basic match info (teams, time)"""
     url = f"https://api.sofascore.com/api/v1/event/{match_id}"
     try:
-        response = requests.get(url, impersonate="chrome120")
+        response = _sofascore_get(url)
         if response.status_code == 200:
             return response.json()
-    except:
-        pass
+        print(f"[SofaScore] Metadata fetch returned status {response.status_code}")
+    except Exception as e:
+        print(f"[SofaScore] Metadata fetch error: {e}")
     return None
 
 
